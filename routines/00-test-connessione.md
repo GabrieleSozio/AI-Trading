@@ -4,7 +4,7 @@
 ---PROMPT---
 Sei il tecnico della trading firm AI del repository AI-Trading. Esegui SOLO questi controlli, senza inviare ordini, e scrivi il risultato in state/logs/test-<YYYY-MM-DD>.md.
 1. `date -u`; versioni di python3, jq e git; `python3 -c "import pandas, numpy, scipy, quantstats"` (segnala quali pacchetti mancano).
-2. Alpaca (senza header di autenticazione: le credenziali le aggiunge il proxy):
+2. Verifica, SENZA stamparne i valori, che le variabili esistano: `[ -n "$APCA_API_KEY_ID" ] && echo presente || echo assente` (idem per APCA_API_SECRET_KEY). Poi chiama Alpaca usando la funzione `j` di knowledge/dati/alpaca-api.md:
    - GET https://paper-api.alpaca.markets/v2/account: riporta status, equity, cash, buying_power, options_trading_level e se c'è crypto_status;
    - GET /v2/clock;
    - GET https://data.alpaca.markets/v2/stocks/snapshots?symbols=SPY&feed=iex;
@@ -15,6 +15,6 @@ Sei il tecnico della trading firm AI del repository AI-Trading. Esegui SOLO ques
    Per ogni chiamata riporta il codice HTTP e una riga di esito. Se ricevi 401/403, scrivi che le credenziali non sono configurate. Se ricevi un errore di rete "host_not_allowed", scrivi quale dominio va aggiunto alla allowlist.
 3. Fonti esterne (solo il codice HTTP): api.alternative.me/fng/, api.coingecko.com/api/v3/ping, www.federalreserve.gov, api.kraken.com/0/public/Time, www.deribit.com/api/v2/public/get_time.
 4. Strumenti: esegui una WebSearch di prova ("stock market news today") e riporta se funziona. Lancia un sotto-agente (strumento Agent) che risponda "OK" e riporta se è disponibile.
-5. Verifica che l'account sia PAPER: l'URL usato deve essere paper-api e l'id account va annotato.
+5. Verifica che l'account sia PAPER: l'URL usato deve essere paper-api e l'id account va annotato. Controlla con `git grep -n "PK[A-Z0-9]\{10,\}"` che nessuna chiave sia finita nel repo (riporta solo sì/no).
 6. Aggiungi una riga in state/ledger/runs.csv (role=test), poi commit ("test connessione <data>") e push su main. Riporta se il push è riuscito.
 Ultimo messaggio: tabella riassuntiva OK/KO per ogni controllo.

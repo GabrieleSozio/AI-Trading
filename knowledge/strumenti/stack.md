@@ -51,7 +51,7 @@ def bs_call(S,K,T,r,iv):
 ```
 
 ## 4. Strumenti valutati e scartati (per ora)
-- **Server MCP di Alpaca:** ufficiale e completo, ma gira solo in locale (stdio) e vuole le chiavi nelle variabili d'ambiente. Nelle routine cloud è più sicuro usare REST con le credenziali iniettate dal proxy. [GitHub](https://github.com/alpacahq/alpaca-mcp-server)
+- **Server MCP di Alpaca:** ufficiale e completo, ma gira solo in locale (stdio) e vuole le chiavi nelle variabili d'ambiente. Nelle routine cloud usiamo REST con curl e la funzione `j` (credenziali dalle variabili d'ambiente, mai stampate). [GitHub](https://github.com/alpacahq/alpaca-mcp-server)
 - **TradingAgents** (framework multi-agente open source): utile come riferimento architetturale, non come dipendenza. [GitHub](https://github.com/tauricresearch/tradingagents)
 - **yfinance:** API non ufficiale e instabile.
 - **Piano dati Alpaca Algo Trader Plus** (99 USD/mese: SIP e OPRA reali): da valutare dopo 3-4 settimane se il feed IEX o indicative si dimostra un limite concreto (documentarlo nella revisione mensile).

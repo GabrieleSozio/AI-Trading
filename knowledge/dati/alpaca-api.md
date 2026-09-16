@@ -1,11 +1,14 @@
 # Alpaca API: guida rapida operativa
 
-Le credenziali le aggiunge il proxy dell'ambiente: **non passare header di autenticazione**. Se una chiamata risponde 401/403, le credenziali non sono configurate: registra l'errore in `runs.csv` e **non** tentare altre strade.
+Le credenziali sono nelle variabili d'ambiente `APCA_API_KEY_ID` e `APCA_API_SECRET_KEY`. Se non ci sono, le aggiunge il proxy (API credentials). La funzione `j` gestisce entrambi i casi. **Non stampare mai le variabili.** Se una chiamata risponde 401/403, le credenziali non sono configurate: registra l'errore in `runs.csv` e **non** tentare altre strade.
 
 ```bash
 T=https://paper-api.alpaca.markets      # trading (SOLO paper)
 D=https://data.alpaca.markets           # dati
-j() { curl -sS --max-time 20 "$@"; }    # usa sempre jq per filtrare
+# usa sempre jq per filtrare; ridefinisci j in ogni comando bash (le shell non condividono le funzioni)
+j() { if [ -n "${APCA_API_KEY_ID:-}" ]; then
+        curl -sS --max-time 20 -H "APCA-API-KEY-ID: $APCA_API_KEY_ID" -H "APCA-API-SECRET-KEY: $APCA_API_SECRET_KEY" "$@"
+      else curl -sS --max-time 20 "$@"; fi; }
 ```
 
 ## Stato del mercato e del conto

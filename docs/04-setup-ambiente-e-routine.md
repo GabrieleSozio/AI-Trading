@@ -30,22 +30,20 @@ Su claude.ai/code apri il selettore dell'ambiente (icona a nuvola), poi crea un 
    www.sec.gov
    ```
    Spunta **"Also include default list of common package managers"** (serve per pip e GitHub).
-3. **Environment variables:** nessuna. Le chiavi non vanno messe qui.
+3. **Environment variables:** le chiavi Alpaca, come spiegato al punto 5.
 4. **Setup script:**
    ```bash
    command -v jq >/dev/null || (apt-get update -qq && apt-get install -y -qq jq)
    pip install --quiet pandas numpy scipy quantstats pandas_market_calendars feedparser || true
    ```
-5. Salva. Poi **riapri l'ambiente in modifica**: la sezione API credentials compare solo sugli ambienti già creati.
-6. In **API credentials** clicca **Add credential**:
-   - **Name:** `Alpaca paper`
-   - **Allowed websites:** `paper-api.alpaca.markets` e `data.alpaca.markets`
-   - **Custom headers:**
-     - riga 1: Name `APCA-API-KEY-ID`, Prefix **vuoto**, Value = Key ID
-     - riga 2: Name `APCA-API-SECRET-KEY`, Prefix **vuoto**, Value = Secret
-   - Clicca **Connect**.
-   - Se il modulo accetta un solo header, crea due credenziali con gli stessi siti, una per ciascun header. Il test del passo 4 dirà se funziona.
-7. ⚠ Usa **solo le chiavi del conto paper**, mai quelle di un conto reale.
+5. Le **API credentials** (chiavi nascoste dal proxy) non risultano disponibili su questo account. Si usano quindi le **Environment variables** (due righe, senza virgolette e senza spazi):
+   ```
+   APCA_API_KEY_ID=<API Key ID del conto paper>
+   APCA_API_SECRET_KEY=<Secret Key del conto paper>
+   ```
+   L'ambiente è personale, quindi le vede solo il tuo account. Le sessioni però possono leggerle: per questo le regole in `CLAUDE.md` vietano di stamparle o scriverle, e il test controlla che non finiscano nel repo.
+6. Salva con **Create environment** (o **Save changes**).
+7. ⚠ Usa **solo le chiavi del conto paper**, mai quelle di un conto reale. Se una chiave finisse per errore in un file o in un log, rigenerala su Alpaca e aggiorna l'ambiente.
 
 ## 3. Creazione delle routine
 **Opzione consigliata (🤖 + 👤):**

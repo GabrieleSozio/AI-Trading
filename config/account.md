@@ -5,7 +5,7 @@
 - Data di partenza: da definire (la scrive il proprietario al primo avvio)
 - Opzioni: livello 3 (default nei conti paper: acquisti, spread, multi-leg)
 - Dati: piano Basic gratuito (azioni IEX in tempo reale, opzioni con feed "indicative", crypto)
-- Credenziali: iniettate dal proxy dell'ambiente cloud (header `APCA-API-KEY-ID` e `APCA-API-SECRET-KEY`) per `paper-api.alpaca.markets` e `data.alpaca.markets`
+- Credenziali: variabili d'ambiente `APCA_API_KEY_ID` e `APCA_API_SECRET_KEY` dell'ambiente cloud `ai-trading` (la sezione API credentials non è disponibile sull'account). Le chiavi sono solo paper.
 
 ## Benchmark di confronto
 - SPY buy & hold, dalla data di partenza
