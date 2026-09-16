@@ -30,7 +30,7 @@ Ogni run scrive quello che le compete, **solo in append**: niente riscritture e 
 - `state/ledger/forecasts.csv`: una riga per ogni previsione probabilistica.
 - `state/ledger/trades.csv`: il Coach aggiunge i trade chiusi.
 - `state/ledger/equity.csv`: il Coach aggiunge una riga al giorno.
-Gli schemi dei campi sono in `state/ledger/SCHEMA.md`. Usa sempre `client_order_id` nel formato `YYYYMMDD-<ruolo>-<setup>-<n>` (ad es. `20260917-trd-orb-1`).
+Gli schemi dei campi sono in `state/ledger/SCHEMA.md`. Se una cartella di `state/` non esiste, creala (`mkdir -p`). Usa sempre `client_order_id` nel formato `YYYYMMDD-<ruolo>-<setup>-<n>` (ad es. `20260917-trd-orb-1`).
 
 ## 5. Budget di token
 - Filtra le risposte JSON con `jq` o python prima di leggerle: niente dump interi.

@@ -17,5 +17,5 @@ Le cron delle routine sono in **UTC**. L'ora di New York (ET) fa fede per il mer
 
 ## Regole per gli agenti
 - Non fidarti dell'orario di avvio: le run possono partire qualche minuto dopo. Usa sempre `GET /v2/clock` e aspetta con `sleep` l'orario utile.
-- Mezze giornate (nel 2026: 27/11, giorno dopo Thanksgiving, e 24/12): chiusura alle 13:00 ET. Il Closer legge `GET /v2/calendar` e anticipa la chiusura.
+- Mezze giornate (nel 2026: 27/11, giorno dopo Thanksgiving, e 24/12): il mercato chiude alle 13:00 ET e la run del Closer (15:45) arriverebbe tardi. Per questo **il Position Manager (11:30) chiude tutte le posizioni intraday** e cancella gli ordini non crypto; il Closer delle 15:45 fa solo il lavoro del Coach. Tutti leggono `GET /v2/calendar` per riconoscere questi giorni.
 - Festivi: `GET /v2/clock` restituisce `is_open=false` e il prossimo `next_open` non è oggi. Le run di borsa escono subito.

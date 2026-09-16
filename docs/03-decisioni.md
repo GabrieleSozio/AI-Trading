@@ -10,11 +10,13 @@
 | 16/09/2026 | Nessuna posizione overnight o nel weekend, **tranne le crypto** | requisito del proprietario |
 | 16/09/2026 | Desk crypto leggero sabato e domenica | gestire le crypto rimaste aperte |
 | 16/09/2026 | Repo GitHub `AI-Trading` come memoria condivisa e storico | le routine cloud non vedono il PC |
+| 16/09/2026 | Mezze giornate: il Position Manager chiude l'intraday | il Closer delle 15:45 arriverebbe dopo la chiusura delle 13:00 |
 | 16/09/2026 | Blocco a −25% dal massimo con riduzioni progressive a −10% e −15% (vedi simulazioni) | distingue un sistema buono da uno cattivo senza fermare quello buono per puro rumore |
 
 ## Da fare prima del primo avvio
 - [ ] Nuovo conto paper Alpaca da 500 USD e chiavi API
 - [ ] Ambiente cloud dedicato: API credentials (header Alpaca) + rete Custom (domini in `knowledge/dati/fonti-dati.md`) + setup script
-- [ ] Prompt delle routine (prossimo passo)
+- [x] Prompt delle routine (`routines/`, 16/09/2026)
+- [x] Guida di setup (`docs/04-setup-ambiente-e-routine.md`)
 - [ ] Creazione delle routine con il repo `AI-Trading` come fonte, modello Opus 5 dove previsto
 - [ ] Prima run manuale di test ("Run now") a mercato chiuso, poi una a mercato aperto
