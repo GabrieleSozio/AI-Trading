@@ -1,0 +1,22 @@
+edge_pos (p=0.35,W=2.2R) EV/trade R = 0.12
+  risk 1%: median final 1.72x | median maxDD 21% | P(DD>=10%)=100% P(DD>=20%)=53% P(DD>=30%)=12% P(DD>=50%)=0%
+  risk 2%: median final 2.64x | median maxDD 38% | P(DD>=10%)=100% P(DD>=20%)=100% P(DD>=30%)=81% P(DD>=50%)=16%
+  risk 3%: median final 3.62x | median maxDD 52% | P(DD>=10%)=100% P(DD>=20%)=100% P(DD>=30%)=99% P(DD>=50%)=58%
+  risk 5%: median final 4.92x | median maxDD 74% | P(DD>=10%)=100% P(DD>=20%)=100% P(DD>=30%)=100% P(DD>=50%)=98%
+  risk 10%: median final 1.74x | median maxDD 97% | P(DD>=10%)=100% P(DD>=20%)=100% P(DD>=30%)=100% P(DD>=50%)=100%
+zero_edge (p=0.33,W=2.0R) EV/trade R = -0.0
+  risk 1%: median final 0.96x | median maxDD 31% | P(DD>=10%)=100% P(DD>=20%)=89% P(DD>=30%)=53% P(DD>=50%)=6%
+  risk 2%: median final 0.84x | median maxDD 54% | P(DD>=10%)=100% P(DD>=20%)=100% P(DD>=30%)=97% P(DD>=50%)=60%
+  risk 3%: median final 0.66x | median maxDD 71% | P(DD>=10%)=100% P(DD>=20%)=100% P(DD>=30%)=100% P(DD>=50%)=91%
+  risk 5%: median final 0.31x | median maxDD 90% | P(DD>=10%)=100% P(DD>=20%)=100% P(DD>=30%)=100% P(DD>=50%)=100%
+  risk 10%: median final 0.01x | median maxDD 100% | P(DD>=10%)=100% P(DD>=20%)=100% P(DD>=30%)=100% P(DD>=50%)=100%
+neg_edge (p=0.30,W=2.0R) + costs EV/trade R = -0.1
+  risk 1%: median final 0.58x | median maxDD 50% | P(DD>=10%)=100% P(DD>=20%)=99% P(DD>=30%)=93% P(DD>=50%)=49%
+  risk 2%: median final 0.30x | median maxDD 76% | P(DD>=10%)=100% P(DD>=20%)=100% P(DD>=30%)=100% P(DD>=50%)=95%
+  risk 3%: median final 0.15x | median maxDD 90% | P(DD>=10%)=100% P(DD>=20%)=100% P(DD>=30%)=100% P(DD>=50%)=100%
+  risk 5%: median final 0.03x | median maxDD 98% | P(DD>=10%)=100% P(DD>=20%)=100% P(DD>=30%)=100% P(DD>=50%)=100%
+  risk 10%: median final 0.00x | median maxDD 100% | P(DD>=10%)=100% P(DD>=20%)=100% P(DD>=30%)=100% P(DD>=50%)=100%
+win rate 35%: P(streak of >= 5 losses in 500 trades) = 100%
+win rate 35%: P(streak of >= 8 losses in 500 trades) = 100%
+win rate 35%: P(streak of >= 10 losses in 500 trades) = 91%
+win rate 35%: P(streak of >= 12 losses in 500 trades) = 63%

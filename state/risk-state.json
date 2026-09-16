@@ -1,0 +1,14 @@
+{
+  "mode": "normal",
+  "hwm": 500.0,
+  "equity": 500.0,
+  "drawdown_pct": 0.0,
+  "last_equity": 500.0,
+  "week_start_equity": 500.0,
+  "week_lock_until": null,
+  "day_stop_date": null,
+  "updated_utc": null,
+  "updated_by": "init",
+  "manual_reset_log": [],
+  "note": "Inizializzato con valori teorici: il primo Coach li allinea all'equity reale del conto paper."
+}

@@ -1,0 +1,11 @@
+# orb-sip — Opening Range Breakout sugli Stocks in Play
+- **stato:** in_prova | **asset:** azioni (anche ETF settoriali) | **finestra:** ingresso 09:35-10:30 ET
+- **evidenza:** Zarattini-Barbon-Aziz 2024 (vedi `knowledge/strategie/azioni-intraday.md` §1). Il vantaggio sta nella selezione dei titoli.
+- **condizioni:** prezzo > 5 USD; ATR a 14 giorni > 0,50; volume medio > 1M; catalizzatore di oggi verificato; RVOL del range ≥ 2 (stesso feed); candela del range non doji; spread < 0,2%.
+- **ingresso:** stop buy 1 tick sopra il massimo del range (OR5 o OR15) se la candela è verde; stop sell sotto il minimo se è rossa (solo con catalizzatore negativo e titolo shortabile).
+- **stop:** 10-25% dell'ATR a 14 giorni dall'ingresso, oppure l'estremo opposto del range se più vicino.
+- **uscita:** target 2R (bracket), oppure trailing sul VWAP gestito dal Position Manager. Comunque flat entro le 15:50 ET.
+- **dimensione:** secondo lo stato del setup e le fasce di `rischio/sizing.md`.
+- **alternative:** titolo troppo costoso → call o debit spread con la stessa tesi (`opt-catalyst`).
+- **da evitare:** SPY sotto VWAP e in discesa (per i long); titoli con utili dopo la chiusura di oggi; target di M&A.
+- **da registrare:** OR (5 o 15), RVOL, gap %, catalizzatore, distanza dello stop in ATR, R, MAE e MFE.

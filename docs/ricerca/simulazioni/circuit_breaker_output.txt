@@ -1,0 +1,33 @@
+base risk 2.0%, tiers -10%->1%, -15%->0.5%, STOP at -20%
+   edge +0.12R : P(stop in 500 trades)=79%  median final equity=1.24x  median trade# of stop=200.0
+   edge 0      : P(stop in 500 trades)=98%  median final equity=0.91x  median trade# of stop=138.0
+   edge -0.10R : P(stop in 500 trades)=100%  median final equity=0.85x  median trade# of stop=94.0
+base risk 2.0%, tiers -10%->1%, -15%->0.5%, STOP at -25%
+   edge +0.12R : P(stop in 500 trades)=21%  median final equity=1.54x  median trade# of stop=300.0
+   edge 0      : P(stop in 500 trades)=67%  median final equity=0.90x  median trade# of stop=261.0
+   edge -0.10R : P(stop in 500 trades)=96%  median final equity=0.80x  median trade# of stop=183.0
+base risk 1.5%, tiers -10%->1%, -15%->0.5%, STOP at -20%
+   edge +0.12R : P(stop in 500 trades)=67%  median final equity=1.34x  median trade# of stop=229.0
+   edge 0      : P(stop in 500 trades)=95%  median final equity=0.91x  median trade# of stop=165.0
+   edge -0.10R : P(stop in 500 trades)=100%  median final equity=0.85x  median trade# of stop=109.0
+base risk 1.5%, tiers -10%->1%, -15%->0.5%, STOP at -25%
+   edge +0.12R : P(stop in 500 trades)=17%  median final equity=1.62x  median trade# of stop=312.0
+   edge 0      : P(stop in 500 trades)=61%  median final equity=0.90x  median trade# of stop=279.0
+   edge -0.10R : P(stop in 500 trades)=95%  median final equity=0.79x  median trade# of stop=202.0
+----
+base 2% tiers [(0.1, 0.01)] STOP -25%
+   edge +0.12R : P(stop)=61%  median final=1.47x  median trade# stop=227.0
+   edge 0      : P(stop)=92%  median final=0.88x  median trade# stop=166.0
+   edge -0.10R : P(stop)=100%  median final=0.80x  median trade# stop=108.0
+base 2% tiers [(0.1, 0.01), (0.18, 0.005)] STOP -25%
+   edge +0.12R : P(stop)=35%  median final=1.57x  median trade# stop=285.0
+   edge 0      : P(stop)=80%  median final=0.89x  median trade# stop=232.0
+   edge -0.10R : P(stop)=99%  median final=0.80x  median trade# stop=156.0
+base 2% tiers [(0.1, 0.01)] STOP -30%
+   edge +0.12R : P(stop)=30%  median final=1.77x  median trade# stop=273.0
+   edge 0      : P(stop)=75%  median final=0.87x  median trade# stop=230.0
+   edge -0.10R : P(stop)=98%  median final=0.75x  median trade# stop=158.0
+base 2% tiers [(0.12, 0.01), (0.2, 0.005)] STOP -30%
+   edge +0.12R : P(stop)=11%  median final=1.71x  median trade# stop=328.0
+   edge 0      : P(stop)=53%  median final=0.88x  median trade# stop=304.0
+   edge -0.10R : P(stop)=93%  median final=0.75x  median trade# stop=227.0

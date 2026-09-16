@@ -1,0 +1,1 @@
+trade_id,date,mode,asset,symbol,setup,side,thesis_id,opened_by,entry_utc,exit_utc,qty,entry_px,exit_px,planned_entry,stop_px,target_px,risk_usd,pnl_usd,fees_usd,r_multiple,mae_r,mfe_r,slippage_bps,exit_reason,catalyst,regime,rvol,prob_target,process_grade,client_order_id,notes

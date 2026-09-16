@@ -1,0 +1,1 @@
+forecast_id,ts,run_id,role,symbol,setup,question,prob,horizon,resolved_utc,outcome,brier
