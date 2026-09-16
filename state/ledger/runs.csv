@@ -1,1 +1,2 @@
 run_id,date,role,started_utc,ended_utc,status,mode,orders_sent,decisions,web_searches,notes
+20260916-test,2026-09-16,test,2026-09-16T14:46:52Z,2026-09-16T14:49:01Z,ok,normal,0,0,1,"test connessione: tutti gli endpoint Alpaca 200; coingecko 429 rate-limit; WebSearch e sotto-agenti OK; nessuna chiave nel repo; log in state/logs/test-2026-09-16.md"
