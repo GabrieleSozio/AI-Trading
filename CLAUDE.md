@@ -46,7 +46,9 @@ Gli schemi dei campi sono in `state/ledger/SCHEMA.md`. Se una cartella di `state
   for i in 1 2 3; do git pull --rebase origin main && git push origin HEAD:main && break; sleep 5; done
   ```
 - Se dopo 3 tentativi il push su `main` fallisce ancora: fai push sul branch corrente e scrivi l'anomalia in evidenza nel log del giorno.
-- Non terminare la run prima di aver completato tutti i passi del tuo prompt. Se devi aspettare un orario, usa `sleep` a blocchi di al massimo 290 secondi, ricontrollando ogni volta l'orologio (`GET /v2/clock`), finché non arriva l'orario richiesto.
+- **Non terminare la run prima di aver completato tutti i passi del tuo prompt.** Questa è una sessione automatica senza nessuno collegato: se chiudi il turno per "aspettare una notifica", la sessione finisce e il lavoro resta a metà.
+- **Attese: solo in primo piano.** Per aspettare un orario usa comandi `sleep` **bloccanti** (MAI in background, MAI `run_in_background`, MAI "riprendo quando arriva la notifica"), a blocchi di al massimo 290 secondi, ricontrollando ogni volta l'orologio (`GET /v2/clock`) finché non arriva l'orario richiesto. Esempio: `sleep 290; date -u`, ripetuto.
+- Non usare strumenti di monitoraggio o attività in background per le attese.
 
 ## 7. Regole specifiche per ruolo
 - **Closer + Coach:** la parte B (Coach) è obbligatoria **anche nei giorni senza trade**. In quei giorni scrive comunque la riga di `equity.csv`, aggiorna `risk-state.json` (al primo giro allinea i valori `init` all'equity reale), scrive un diario breve e aggiorna `runs.csv`. Prima di iniziare la parte B aspetta le 16:16 ET.
