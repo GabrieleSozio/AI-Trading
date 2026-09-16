@@ -1,1 +1,2 @@
 date,equity_open,equity_close,day_pnl_usd,day_pnl_pct,cum_pnl_pct,hwm,drawdown_pct,spy_day_pct,spy_cum_pct,spy_open_window_pct,trades,wins,losses,exposure_max_pct,mode,notes
+2026-09-16,550.00,550.00,0.00,0.0000,0.0000,550.00,0.0000,-0.4410,-0.4410,-0.0520,0,0,0,0.0,normal,"giorno 1 del tracking: nessuna run operativa (solo test connessione + closer/coach); conto flat tutto il giorno; hwm/equity/week_start allineati da 500 teorici a 550 reali"

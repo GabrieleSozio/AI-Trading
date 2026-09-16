@@ -1,2 +1,3 @@
 run_id,date,role,started_utc,ended_utc,status,mode,orders_sent,decisions,web_searches,notes
 20260916-test,2026-09-16,test,2026-09-16T14:46:52Z,2026-09-16T14:49:01Z,ok,normal,0,0,1,"test connessione: tutti gli endpoint Alpaca 200; coingecko 429 rate-limit; WebSearch e sotto-agenti OK; nessuna chiave nel repo; log in state/logs/test-2026-09-16.md"
+20260916-cls,2026-09-16,closer_coach,2026-09-16T19:46:10Z,2026-09-16T20:19:27Z,ok,normal,0,1,0,"conto gia flat (nessuna posizione/ordine/fill); coach: equity 550 invariata vs SPY -0.44%; risk-state allineato da 500 teorici a 550 reali, modalita normal; 0 trade, 0 previsioni; anomalia: nessuna run CIO/Trader/PM oggi"

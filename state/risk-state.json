@@ -1,14 +1,14 @@
 {
   "mode": "normal",
-  "hwm": 500.0,
-  "equity": 500.0,
+  "hwm": 550.0,
+  "equity": 550.0,
   "drawdown_pct": 0.0,
-  "last_equity": 500.0,
-  "week_start_equity": 500.0,
+  "last_equity": 550.0,
+  "week_start_equity": 550.0,
   "week_lock_until": null,
   "day_stop_date": null,
-  "updated_utc": null,
-  "updated_by": "init",
+  "updated_utc": "2026-09-16T20:16:23Z",
+  "updated_by": "coach",
   "manual_reset_log": [],
-  "note": "Inizializzato con valori teorici: il primo Coach li allinea all'equity reale del conto paper."
+  "note": "2026-09-16: primo allineamento del Coach. hwm/equity/last_equity/week_start_equity portati dai 500 teorici dell'init ai 550 reali del conto paper (GET /v2/account, equity=last_equity=cash=550). Drawdown 0%, nessun trade, modalita normal."
 }
