@@ -45,9 +45,12 @@ Una riga JSON per ogni decisione:
  "action":"open","symbol":"NVDA","asset":"stock","setup":"orb-sip","side":"long",
  "qty":2,"entry":181.2,"stop":179.6,"target":184.4,"risk_usd":3.2,"risk_pct":0.64,
  "prob_target":0.42,"thesis_id":"T1","rationale":"rottura OR5 con RVOL 3.1, sopra VWAP, SPY forte",
- "risk_officer":"APPROVE","client_order_id":"20260917-trd-orb-1","order_ids":["..."]}
+ "risk_officer":"APPROVE","exit_mgmt":"fixed","client_order_id":"20260917-trd-orb-1","order_ids":["..."]}
 ```
 Valori di `action`: `open`, `no_trade`, `modify`, `close`, `cancel`, `skip_thesis`.
+- `setup`: **esattamente** l'id di una scheda di `playbook/`. Le varianti vanno in `rationale` o in `notes`, mai nel nome.
+- `exit_mgmt`: `fixed` (bracket con target e stop fermi, default) · `breakeven` (a +1R lo stop va al prezzo d'ingresso) · `trailing` (trailing stop di Alpaca, senza target). Va indicato per ogni `open`; se cambia durante il trade, si scrive una riga `modify` con il nuovo valore e il motivo.
+- Per una tesi ribassista, `side` resta `long` quando lo strumento è un ETF inverso o una put: nel campo `rationale` spiega la direzione della tesi (es. "tesi short su Nasdaq espressa long su PSQ").
 
 ## 6. Diario (Coach, `state/journal/YYYY-MM-DD.md`)
 ```

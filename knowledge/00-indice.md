@@ -15,6 +15,7 @@ Leggi SOLO i file del tuo ruolo. Gli altri aprili solo se ti serve un dettaglio 
 | `rischio/sizing.md` | ○ | ● | ● | ● | ● | ● |
 | `rischio/limiti-e-circuit-breaker.md` | | | ● | | ● | |
 | `dati/alpaca-api.md` | ● | ● | ● | ● | ● | ● |
+| `dati/alpaca-conto-e-limiti.md` | ● | ● | ● | ● | ○ | ○ |
 | `dati/fonti-dati.md` | ● | ○ | | ○ | ○ | ● |
 | `strumenti/stack.md` | ○ | ○ | | | ● | ○ |
 | `performance/metriche-e-valutazione.md` | | | | | ● | |

@@ -12,6 +12,13 @@
 | 16/09/2026 | Repo GitHub `AI-Trading` come memoria condivisa e storico | le routine cloud non vedono il PC |
 | 16/09/2026 | Mezze giornate: il Position Manager chiude l'intraday | il Closer delle 15:45 arriverebbe dopo la chiusura delle 13:00 |
 | 16/09/2026 | Blocco a −25% dal massimo con riduzioni progressive a −10% e −15% (vedi simulazioni) | distingue un sistema buono da uno cattivo senza fermare quello buono per puro rumore |
+| 17/09/2026 | Niente short di azioni ed ETF: il ribasso si esprime con ETF inversi long o put/put spread | Alpaca richiede 2.000 USD di equity per margine e short (403 sul conto da 550) |
+| 17/09/2026 | Restare a 550 USD invece di aprire un conto paper più grande | si vuole misurare il processo con il capitale reale del progetto; il passaggio a 2.500-3.000 USD resta un'opzione |
+| 17/09/2026 | Gambe di protezione di azioni ed ETF con `time_in_force: gtc` | se una routine salta, target e stop restano attivi invece di scadere alla chiusura |
+| 17/09/2026 | Gestione dell'uscita a scelta dell'agente fra `fixed`, `breakeven` e `trailing`, registrata in `exit_mgmt` | permette di confrontare i tre modi con i dati invece di deciderlo a priori |
+| 17/09/2026 | Varianti ORB (`orb15-conferma`, `orb-retest`, `orb-fallito`, `orb-inverso`, `orb-indice-leva`) aggiunte come schede **facoltative** | ampliano le scelte dell'apertura senza imporre una strategia fissa |
+| 17/09/2026 | Tetto del premio opzioni confermato all'8% dell'equity | con 550 USD alzarlo aumenterebbe la perdita singola senza aprire strutture molto migliori |
+| 17/09/2026 | Correzione: il conto non ha vincolo T+1 (limited margin, PDT abolita il 04/06/2026) | il capitale si riusa più volte al giorno; il limite vero è il capitale nominale |
 
 ## Da fare prima del primo avvio
 - [ ] Nuovo conto paper Alpaca da 500 USD e chiavi API

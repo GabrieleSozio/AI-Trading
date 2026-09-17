@@ -17,9 +17,11 @@ Campi: vedi `knowledge/processo/decisione-e-registrazione.md` §5. Obbligatori: 
 - `brier` = (prob − outcome)²: lo calcola il Coach alla risoluzione, aggiungendo una **nuova riga** con lo stesso `forecast_id` e i campi di risoluzione compilati
 
 ## trades.csv — trade chiusi (li aggiunge il Coach)
-`trade_id,date,mode,asset,symbol,setup,side,thesis_id,opened_by,entry_utc,exit_utc,qty,entry_px,exit_px,planned_entry,stop_px,target_px,risk_usd,pnl_usd,fees_usd,r_multiple,mae_r,mfe_r,slippage_bps,exit_reason,catalyst,regime,rvol,prob_target,process_grade,client_order_id,notes`
+`trade_id,date,mode,asset,symbol,setup,side,thesis_id,opened_by,entry_utc,exit_utc,qty,entry_px,exit_px,planned_entry,stop_px,target_px,risk_usd,pnl_usd,fees_usd,r_multiple,mae_r,mfe_r,slippage_bps,exit_reason,exit_mgmt,catalyst,regime,rvol,prob_target,process_grade,client_order_id,notes`
 - `mode`: real | shadow
 - `exit_reason`: target | stop | time | manual | eod | invalidation
+- `exit_mgmt`: fixed | breakeven | trailing (come è stata gestita l'uscita; lo decide chi apre il trade e lo scrive anche in `decisions.jsonl`)
+- Il nome in `setup` deve essere **esattamente** l'id di una scheda in `playbook/` (ad es. `vwap-reclaim`, non `vwap-reclaim-pullback`). Le varianti si scrivono in `notes`, non nel nome.
 - `process_grade`: A | B | C | D
 
 ## equity.csv — una riga per giornata (Coach)

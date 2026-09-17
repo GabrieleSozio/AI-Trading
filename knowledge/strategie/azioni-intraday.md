@@ -29,7 +29,17 @@ Qui trovi il "perché" e le evidenze dietro ogni setup. Le schede operative sono
 ## 3. Gap Fade (riempimento del gap)
 - Condizioni: gap senza catalizzatore solido (notizia vecchia, generica, "sympathy move", upgrade minore), apertura debole, rifiuto del massimo pre-market, **perdita del VWAP**.
 - Ingresso: rottura del minimo del range con il prezzo sotto VWAP. Target sulla chiusura del giorno prima (gap fill parziale o totale).
-- Rischi: short soggetto a SSR se il titolo è già −10%, borrow e squeeze. Alternativa: put o put debit spread.
+- **Con questo conto lo short non è disponibile** (equity sotto i 2.000 USD): il trade si esprime con **put o put debit spread**, oppure si rinuncia. Un ETF inverso non serve qui, perché la tesi è su un singolo titolo.
+- Rischi: IV alta sulle put dopo un gap, spread bid/ask larghi, SSR se il titolo è già −10%.
+
+## 3-bis. Tesi ribassiste senza short
+Finché l'equity resta sotto i 2.000 USD (vedi `knowledge/dati/alpaca-conto-e-limiti.md`), una tesi al ribasso si esegue solo così:
+| Tesi | Strumento |
+|---|---|
+| Mercato o indice debole | ETF inverso comprato long: **SH** (S&P 500), **PSQ** (Nasdaq-100), **RWM** (Russell 2000), **DOG** (Dow). Prezzi per quota bassi, quindi adatti a un conto piccolo |
+| Settore debole | put o put spread sull'ETF settoriale (XLK, XLF, XLE…), oppure ETF inverso settoriale se liquido |
+| Singolo titolo debole | put o put debit spread sul titolo; se il premio supera il tetto del mandato, si rinuncia |
+Attenzione: gli ETF inversi replicano **il rendimento giornaliero** invertito, quindi vanno benissimo per l'intraday e male per periodi lunghi. Il rischio si calcola sull'ATR dell'ETF inverso, non su quello dell'indice. Gli inversi a leva (SDS, QID, SQQQ) rientrano nel limite dell'1% di rischio previsto per i 3x e nella prudenza dei 2x.
 
 ## 4. VWAP Reclaim / Reject
 - Il VWAP è il prezzo medio "istituzionale" della giornata. Un titolo in play che lo riconquista con volume segnala domanda; se lo perde e non lo recupera, segnala offerta.

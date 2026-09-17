@@ -54,15 +54,16 @@ j "$D/v1beta1/screener/crypto/movers?top=10"
 
 ## Ordini (esempi)
 ```bash
-# Azione: ingresso stop in rottura + bracket (TP e SL sul server)
+# Azione: ingresso stop in rottura + bracket con gambe GTC (rete di sicurezza: non scadono a fine giornata)
 j -X POST $T/v2/orders -H 'Content-Type: application/json' -d '{
  "symbol":"NVDA","qty":"2","side":"buy","type":"stop","stop_price":"181.20",
- "time_in_force":"day","order_class":"bracket",
+ "time_in_force":"gtc","order_class":"bracket",
  "take_profit":{"limit_price":"184.40"},"stop_loss":{"stop_price":"179.60"},
  "client_order_id":"20260917-trd-orb-1"}'
 
-# Short con bracket (TP sotto, SL sopra)
-#   "side":"sell", "type":"stop","stop_price":<sotto il minimo del range>, take_profit < entry < stop_loss
+# Short su azioni/ETF: NON disponibile sotto 2.000 USD di equity (403 "account is not allowed to short").
+# Il lato ribassista si esprime con ETF inversi long (SH, PSQ, RWM) o put / put debit spread.
+# Vedi knowledge/dati/alpaca-conto-e-limiti.md.
 
 # Opzione singola: limit al mid
 j -X POST $T/v2/orders -H 'Content-Type: application/json' -d '{
@@ -78,20 +79,49 @@ j -X POST $T/v2/orders -H 'Content-Type: application/json' -d '{
  "client_order_id":"20260917-trd-dspr-1"}'
 # Chiusura: stesse gambe con side invertiti e position_intent sell_to_close / buy_to_close
 
-# Crypto: acquisto limit + stop-limit di protezione GTC (dopo il fill)
+# Crypto: acquisto limit + stop-limit di protezione GTC (dopo il fill; lo "stop" semplice non esiste per le crypto)
 j -X POST $T/v2/orders -H 'Content-Type: application/json' -d '{"symbol":"BTC/USD","qty":"0.002","side":"buy","type":"limit","limit_price":"64000","time_in_force":"gtc","client_order_id":"20260919-cry-trend-1"}'
 j -X POST $T/v2/orders -H 'Content-Type: application/json' -d '{"symbol":"BTC/USD","qty":"0.002","side":"sell","type":"stop_limit","stop_price":"62500","limit_price":"62000","time_in_force":"gtc","client_order_id":"20260919-cry-trend-1-sl"}'
+```
 
-# Gestione
-j -X PATCH $T/v2/orders/<id> -H 'Content-Type: application/json' -d '{"stop_price":"180.40"}'   # es. stop della gamba SL a breakeven (sostituzione delle gambe dei bracket: da verificare al primo test)
+## Gestione dell'uscita (stop che segue il prezzo)
+```bash
+# 1) Stop a pareggio o più stretto: PATCH della gamba SL del bracket.
+#    L'id della gamba si legge dal parent con nested=true; la PATCH restituisce un id NUOVO (il vecchio va in "replaced").
+j "$T/v2/orders?status=open&symbols=NVDA&nested=true" | jq '[.[]|{id,symbol,legs:[.legs[]?|{id,type,side,limit_price,stop_price,status}]}]'
+j -X PATCH $T/v2/orders/<id_gamba_SL> -H 'Content-Type: application/json' -d '{"stop_price":"180.40"}'
+# se la gamba e' stop_limit servono entrambi: {"stop_price":"180.40","limit_price":"180.20"}
+
+# 2) Trailing stop (lo alza il server da solo, senza bisogno che una routine sorvegli).
+#    NON può essere la gamba di un bracket: va inviato come ordine singolo, dopo aver cancellato le gambe esistenti.
+j "$T/v2/orders?status=open&symbols=NVDA" | jq -r '.[].id' | while read id; do j -X DELETE $T/v2/orders/$id; done
+j -X POST $T/v2/orders -H 'Content-Type: application/json' -d '{
+ "symbol":"NVDA","qty":"2","side":"sell","type":"trailing_stop","trail_percent":"1.2",
+ "time_in_force":"day","client_order_id":"20260917-trd-orb-1-trail"}'
+# stringere il trail più tardi: j -X PATCH $T/v2/orders/<id> -d '{"trail":"0.8"}'
+# hwm = massimo raggiunto dall'invio; lo stop sale con il prezzo e non scende mai. Quando scatta diventa market.
+
+# 3) OCO su una posizione già aperta (target + stop insieme, senza nuovo ingresso)
+j -X POST $T/v2/orders -H 'Content-Type: application/json' -d '{
+ "symbol":"NVDA","qty":"2","side":"sell","type":"limit","time_in_force":"gtc","order_class":"oco",
+ "take_profit":{"limit_price":"184.40"},"stop_loss":{"stop_price":"179.60"}}'
+```
+Limiti da ricordare: il trailing stop vale solo per azioni ed ETF interi (**niente crypto, niente opzioni, niente frazionari**), funziona solo in orario regolare, TIF day o gtc. La quantità di un ordine complesso non si può modificare con PATCH; la PATCH senza modifiche dà errore.
+
+## Gestione e chiusura
+```bash
 j -X DELETE $T/v2/orders/<id>
 j -X DELETE "$T/v2/positions/NVDA"                     # chiude una posizione
 j -X DELETE "$T/v2/orders"                             # cancella TUTTI gli ordini aperti (attenzione: anche gli stop crypto!)
+j -X DELETE "$T/v2/positions?cancel_orders=true"       # chiude TUTTO, crypto comprese: da non usare
 ```
 
 ## Attenzione
 - `DELETE /v2/orders` e `DELETE /v2/positions` agiscono su **tutto**, crypto comprese. Il Closer chiude simbolo per simbolo, escludendo le crypto.
-- Per chiudere una posizione che ha un bracket attivo: **prima** cancella gli ordini aperti di quel simbolo (altrimenti la quantità risulta "held" e la chiusura può essere rifiutata), **poi** `DELETE /v2/positions/{symbol}`. Verifica con GET che non restino ordini o posizioni.
-- Le quantità e i prezzi nel JSON vanno come stringhe. Arrotonda i prezzi al tick: 0,01 sopra 1 USD; per le opzioni 0,01 o 0,05 a seconda del contratto.
+- Per chiudere una posizione che ha un bracket attivo: **prima** cancella gli ordini aperti di quel simbolo (altrimenti la quantità risulta "held_for_orders" e la chiusura risponde 403 "insufficient qty available"), aspetta lo stato `canceled`, **poi** `DELETE /v2/positions/{symbol}`. Verifica con GET che non restino ordini o posizioni.
+- **Gambe GTC:** proteggono anche se una routine salta, ma uno stop che scatta diventa un ordine market: con un gap di apertura il prezzo di uscita può essere molto peggiore dello stop. Restano una rete di sicurezza, non un sostituto della chiusura intraday.
+- Gli ordini non idonei all'extended hours inviati dopo le 16:00 ET partono il giorno di borsa successivo. Fuori orario sono accettati solo limit con TIF day o gtc (niente bracket né OCO).
+- Le quantità e i prezzi nel JSON vanno come stringhe. Arrotonda i prezzi al tick: 0,01 sopra 1 USD (4 decimali sotto 1 USD); per le opzioni 0,01 o 0,05 a seconda del contratto.
 - Dopo ogni POST: `GET /v2/orders/{id}` e controlla che `status` non sia `rejected`. In caso di rifiuto, leggi il motivo e non ripetere l'ordine alla cieca.
 - Timestamp in UTC (RFC3339). Il mercato apre alle 13:30Z (fino al 31/10) e alle 14:30Z (dal 2/11).
+- Vincoli di conto (short, margine, opzioni, crypto, dati): `knowledge/dati/alpaca-conto-e-limiti.md`.

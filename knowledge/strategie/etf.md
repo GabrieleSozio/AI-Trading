@@ -24,7 +24,14 @@ Il rendimento della prima mezz'ora (dalla chiusura precedente) predice quello de
 - Il dato esce prima dell'apertura: il gap di SPY o QQQ incorpora la sorpresa. Nella prima mezz'ora conta se il mercato **conferma** (tiene il gap) o **rifiuta** (lo riempie).
 - Nei giorni FOMC (comunicato alle 14:00 ET) la mattina è spesso compressa: dimensioni ridotte, e nessun trade aperto verso le 14:00 visto che siamo flat prima. Il noto "pre-FOMC drift" (Lucca e Moench) secondo studi successivi si è attenuato. [NY Fed](https://www.newyorkfed.org/research/staff_reports/sr512.html)
 
-## 5. ETF a leva (TQQQ, SQQQ, SOXL…)
+## 5. ETF inversi: il modo per stare short con un conto piccolo
+- Senza margine non si vendono azioni allo scoperto. Un **ETF inverso comprato long** dà la stessa esposizione al ribasso senza short: **SH** (S&P 500 −1x), **PSQ** (Nasdaq-100 −1x), **RWM** (Russell 2000 −1x), **DOG** (Dow −1x).
+- Vantaggi: prezzo per quota basso (comodo con 550 USD), niente borrow, niente SSR, niente rischio di squeeze sul prestito titoli.
+- Svantaggi: spread leggermente più larghi e volumi minori dell'ETF originale; la replica è **giornaliera**, quindi vale per l'intraday e non per più giorni; nessun dividendo.
+- Regola pratica: calcola stop e target sul grafico dell'**ETF inverso** (che si muove al contrario dell'indice), non convertendo i livelli dell'indice a mente.
+- Le versioni a leva (SDS −2x, QID −2x, SQQQ −3x) seguono il limite del mandato sugli ETF a leva.
+
+## 6. ETF a leva (TQQQ, SQQQ, SOXL…)
 - Si possono usare solo intraday, con rischio calcolato sul movimento reale (circa 3 volte il sottostante).
 - Il decadimento da ribilanciamento conta poco nell'intraday, ma le escursioni sono ampie: lo stop va messo in base all'ATR dell'ETF a leva, non a quello del sottostante.
 - Il mandato limita il rischio all'1% quando si usano ETF 3x.

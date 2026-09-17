@@ -14,6 +14,7 @@
 - **Theta:** una 0DTE perde valore molto in fretta durante la giornata. Il movimento deve arrivare presto.
 
 ## Quando le opzioni sono lo strumento migliore
+0. **È una tesi ribassista su un singolo titolo**: con equity sotto i 2.000 USD lo short non è disponibile, quindi put o put debit spread sono l'unica via (per indici e settori si preferiscono gli ETF inversi, più economici in spread). Il premio resta dentro il tetto del mandato: se non ci sta, si rinuncia al trade.
 1. Si attende un movimento **ampio e rapido** e lo stop tecnico sull'azione sarebbe troppo lontano per il capitale disponibile.
 2. Il sottostante costa troppo per comprare azioni intere con il rischio consentito (ad es. titoli sopra i 300 USD).
 3. Si vuole un **rischio definito** senza dipendere da uno stop che salta durante un halt.

@@ -10,7 +10,14 @@ Il ragionamento e le simulazioni dietro ogni numero sono in `knowledge/rischio/l
 | Premio massimo per un trade in opzioni (rischio definito) | **8% dell'equity** |
 | Dimensione di riferimento consigliata (non obbligatoria) | 0,5-2% di rischio |
 | Protezione | obbligatoria all'ingresso: bracket o stop sul server, oppure rischio definito |
+| Time in force delle gambe di protezione (azioni ed ETF) | **`gtc`**, così target e stop non scadono a fine giornata se una routine salta |
 | Stop "mentali" | vietati |
+
+**Gestione dell'uscita (facoltativa, a scelta dell'agente).** Dopo l'ingresso lo stop può essere spostato **solo in direzione favorevole** (mai allargato), in tre modi ammessi:
+1. **Stop a pareggio**: quando il trade guadagna almeno 1R, la gamba di stop si sposta al prezzo d'ingresso (PATCH della gamba SL).
+2. **Trailing stop di Alpaca**: si cancellano le gambe del bracket e si invia un `trailing_stop` con `trail_percent` o `trail_price`. Lo gestisce il server, non consuma run né token, ma rinuncia al target fisso. Non disponibile per crypto, opzioni e frazionari.
+3. **Stop fisso fino alla chiusura**: nessuna modifica (comportamento di default, e quello con più evidenza a favore nello studio ORB).
+La scelta e il motivo vanno scritti nel log e in `decisions.jsonl` (`exit_mgmt`: `fixed` / `breakeven` / `trailing`), così il Coach può confrontarne i risultati.
 
 ## B. Portafoglio
 | Regola | Limite |
@@ -26,7 +33,7 @@ Il ragionamento e le simulazioni dietro ogni numero sono in `knowledge/rischio/l
 - **Azioni, ETF e opzioni**: solo intraday. Tutto flat entro le 15:50 ET. Niente overnight e niente weekend.
 - **Opzioni**: solo acquisti (call o put) e spread a rischio definito. **Mai vendite scoperte.** Niente contratti con spread bid/ask > 10% del mid. Le 0DTE vanno chiuse entro le 15:30 ET.
 - **Crypto**: solo long (Alpaca non consente short). Overnight e weekend ammessi solo con stop-limit GTC attivo sul server.
-- **Short su azioni ed ETF**: ammesso, solo con bracket.
+- **Short su azioni ed ETF**: **non disponibile** finché l'equity resta sotto i 2.000 USD (Alpaca risponde 403). Il lato ribassista si esprime **solo** con ETF inversi comprati long (SH, PSQ, RWM, e simili) o con put / put debit spread. Se un giorno l'equity superasse stabilmente i 2.000 USD, lo short torna ammesso solo con bracket e solo su titoli `shortable` ed `easy_to_borrow`. Dettagli: `knowledge/dati/alpaca-conto-e-limiti.md`.
 - Niente titoli sotto 3 USD, niente ordini in extended hours, niente leva tramite ETF 3x oltre l'1% di rischio.
 
 ## D. Circuit breaker (calcolati dal Coach in `state/risk-state.json`)
