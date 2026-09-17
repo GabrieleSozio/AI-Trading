@@ -1,1 +1,5 @@
 forecast_id,ts,run_id,role,symbol,setup,question,prob,horizon,resolved_utc,outcome,brier
+20260917-cio-T1,2026-09-17T12:45:31Z,20260917-cio,cio,LEN,orb-sip,"LEN rompe il minimo del range di apertura sotto VWAP e raggiunge un target ribassista (parziale gap fill) prima di invalidare sopra il massimo dei primi 5 minuti, entro EOD",0.45,EOD,,,
+20260917-cio-T2,2026-09-17T12:45:31Z,20260917-cio,cio,NOK,gap-go,"NOK rompe il massimo pre-market/range con RVOL>=2 e tiene sopra VWAP fino a un'estensione 2R prima di perdere VWAP per piu' di 5 minuti, entro EOD",0.42,EOD,,,
+20260917-cio-T3,2026-09-17T12:45:31Z,20260917-cio,cio,IWM,etf-noise,"IWM esce dalla banda inferiore di noise e resta sotto VWAP fino a un nuovo minimo di giornata prima di una riconquista di VWAP, entro EOD",0.40,EOD,,,
+20260917-cio-T4,2026-09-17T12:45:31Z,20260917-cio,cio,CRDO,vwap-reclaim,"CRDO forma un pullback che riconquista VWAP con volume e estende al rialzo prima di rompere il minimo dello swing di pullback, entro EOD (condizionato al verificarsi del pullback)",0.38,EOD,,,

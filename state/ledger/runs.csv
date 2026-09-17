@@ -1,2 +1,3 @@
 run_id,date,role,started_utc,ended_utc,status,mode,orders_sent,decisions,web_searches,notes
 20260916-test,2026-09-16,test,2026-09-16T14:46:52Z,2026-09-16T14:49:01Z,ok,normal,0,0,1,"test connessione: tutti gli endpoint Alpaca 200; coingecko 429 rate-limit; WebSearch e sotto-agenti OK; nessuna chiave nel repo; log in state/logs/test-2026-09-16.md"
+20260917-cio,2026-09-17,cio,2026-09-17T12:40:24Z,2026-09-17T12:45:49Z,ok,normal,0,1,8,"Piano del giorno scritto (state/plans/2026-09-17.md). Post-FOMC (Fed +25bp a 3.75-4%, primo rialzo dal 2023): VIX in salita, ampiezza stretta, dispersione forte nei semi. 4 tesi: LEN short, NOK long, IWM short, CRDO vwap-reclaim long. Nessuna posizione crypto aperta da proteggere. Nessun ordine inviato (mandato CIO)."
