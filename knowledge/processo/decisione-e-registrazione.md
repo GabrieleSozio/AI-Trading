@@ -50,6 +50,7 @@ Una riga JSON per ogni decisione:
 Valori di `action`: `open`, `no_trade`, `modify`, `close`, `cancel`, `skip_thesis`.
 - `setup`: **esattamente** l'id di una scheda di `playbook/`. Le varianti vanno in `rationale` o in `notes`, mai nel nome.
 - `exit_mgmt`: `fixed` (bracket con target e stop fermi, default) · `breakeven` (a +1R lo stop va al prezzo d'ingresso) · `trailing` (trailing stop di Alpaca, senza target). Va indicato per ogni `open`; se cambia durante il trade, si scrive una riga `modify` con il nuovo valore e il motivo.
+- Campi di contesto facoltativi ma consigliati (servono al Coach per capire se questi segnali aiutano): `notte_vs_giorno` (`favorevole`/`contrario`/`neutro`), `spy_prima_mezzora` (rendimento di SPY 9:30-10:00 in %), `cambio_mese` (true/false), `insider_cluster_buy_30d` (true/false), `sec_filing` (es. `8-K 2.02`, `424B5`, `nessuno`).
 - Per una tesi ribassista, `side` resta `long` quando lo strumento è un ETF inverso o una put: nel campo `rationale` spiega la direzione della tesi (es. "tesi short su Nasdaq espressa long su PSQ").
 
 ## 6. Diario (Coach, `state/journal/YYYY-MM-DD.md`)

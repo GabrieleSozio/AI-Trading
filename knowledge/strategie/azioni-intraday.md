@@ -49,11 +49,34 @@ Attenzione: gli ETF inversi replicano **il rendimento giornaliero** invertito, q
 - Nei giorni di SPY debole, i titoli che salgono comunque (con un catalizzatore) sono i long più robusti, e viceversa per gli short.
 - Misura: rendimento del titolo dall'apertura − beta × rendimento di SPY dall'apertura. Approssimazione: differenza semplice.
 
+## 5-bis. Tre segnali di contesto con evidenza solida (gratis, con i dati che abbiamo)
+Non sono setup: sono **modificatori** che alzano o abbassano la fiducia in una tesi, e si calcolano dalle barre Alpaca.
+
+**1. Notturno contro diurno** — Lou, Polk, Skouras, *Journal of Financial Economics* 2019 ("A Tug of War"). I titoli che guadagnano sistematicamente **di notte** (fra la chiusura e l'apertura) tendono poi a **perdere durante la seduta**: nel campione, +3,47% al mese di alpha notturno contro −3,02% di alpha diurno, effetto persistente per anni.
+- Come si calcola: per ogni candidato, sulle ultime ~21 barre giornaliere, media di `apertura / chiusura precedente − 1` (parte notturna) e di `chiusura / apertura − 1` (parte diurna).
+- Come si usa: se un titolo ha una parte notturna molto positiva e una diurna negativa, **il gap-up di stamattina è sospetto**: probabile pressione di vendita durante la seduta. Alza la soglia di conferma (volume, tenuta del VWAP) o riduci la dimensione. Il contrario rafforza una tesi long intraday.
+```python
+# b = barre giornaliere [{o,c}, ...] in ordine cronologico
+on = sum(x['o']/p['c']-1 for p,x in zip(b,b[1:]))/ (len(b)-1)
+day = sum(x['c']/x['o']-1 for x in b[1:])/ (len(b)-1)
+```
+
+**2. Momentum intraday del mercato** — Gao, Han, Li, Zhou, *JFE* 2018. Il rendimento di SPY nella **prima mezz'ora** (9:30-10:00) predice quello dell'**ultima mezz'ora**, con R² ~2% (più forte nei giorni volatili) e circa 6,3% annuo su SPY. Il secondo predittore è la penultima mezz'ora.
+- Uso: è un'indicazione di **regime della giornata**, utile soprattutto al Position Manager e al Closer per decidere se tenere fino alla chiusura o uscire prima. La mattina serve come conferma della direzione, non come ingresso.
+
+**3. Giorni a cavallo del cambio mese** — Ogden 1990, Xu-McConnell. Storicamente gran parte del rendimento azionario si concentra nei giorni **da −1 a +3** rispetto al cambio di mese (flussi di stipendi e ribilanciamenti). Costo zero: è solo una data.
+- Uso: in quei giorni, leggera preferenza per le tesi long; fuori da quei giorni nessun effetto.
+
+Questi tre vanno **registrati** insieme alla decisione (`notte_vs_giorno`, `spy_prima_mezzora`, `cambio_mese`), così il Coach può verificare se nel nostro campione aiutano davvero o no.
+
 ## 6. Cosa evitare
 - **Target di M&A** (acquisizioni in contanti): il prezzo resta ancorato al prezzo d'offerta, quindi non c'è momentum.
 - Small cap sotto 5 USD, float minuscoli, titoli sospesi di recente: halt, spread enormi, manipolazione.
 - Le prime 1-2 candele dopo l'apertura, senza un piano.
-- Titoli con utili **dopo** la chiusura di oggi: l'intraday è spesso compresso e la volatilità implicita alta.
+- Titoli con utili **dopo** la chiusura di oggi: l'intraday è spesso compresso e la volatilità implicita alta (calendario utili in `knowledge/dati/fonti-dati.md` §4-bis).
+- Titoli che hanno appena depositato un **424B5 o un'offerta ATM**: stanno emettendo nuove azioni e la diluizione pesa sul prezzo. Mai comprarne la forza (vedi `knowledge/dati/sec-edgar.md`).
+- Titoli in **halt**: nessun ordine finché non riaprono, e alla riapertura la tesi va rifatta da zero.
+- Titoli in cima alle menzioni social con un picco improvviso: dopo i picchi di attenzione i rendimenti sono mediamente negativi.
 - Ordini a mercato su titoli con spread > 0,3%.
 
 ## Metriche da registrare per setup

@@ -29,6 +29,16 @@ Su claude.ai/code apri il selettore dell'ambiente (icona a nuvola), poi crea un 
    efts.sec.gov
    www.sec.gov
    ```
+   Domini aggiunti il 17/09/2026 (fonti gratuite senza chiave: documenti SEC, halt, calendari):
+   ```
+   www.nasdaqtrader.com
+   api.nasdaq.com
+   www.pdufa.bio
+   home.treasury.gov
+   www.prnewswire.com
+   www.businesswire.com
+   www.globenewswire.com
+   ```
    Spunta **"Also include default list of common package managers"** (serve per pip e GitHub).
 3. **Environment variables:** le chiavi Alpaca, come spiegato al punto 5.
 4. **Setup script:**
