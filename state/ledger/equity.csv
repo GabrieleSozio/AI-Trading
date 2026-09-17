@@ -1,1 +1,2 @@
 date,equity_open,equity_close,day_pnl_usd,day_pnl_pct,cum_pnl_pct,hwm,drawdown_pct,spy_day_pct,spy_cum_pct,spy_open_window_pct,trades,wins,losses,exposure_max_pct,mode,notes
+2026-09-17,550.0,546.71,-3.29,-0.5982,-0.5982,550.0,0.5982,1.1392,1.1392,-0.1933,1,0,1,80.0,normal,"primo giorno di ledger reale; equity0 550 (non 500 teorico dell'init). 1 trade reale (INTC, -1.03R, stop). Anomalia: bracket INTC con TIF=day invece di gtc (nessun danno, stop scattato in giornata)."

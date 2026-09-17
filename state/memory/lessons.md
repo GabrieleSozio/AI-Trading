@@ -4,8 +4,8 @@ Curata dal Coach. **Al massimo ~30 regole**: ogni nuova lezione ne sostituisce o
 Formato: `- [L##] regola concreta — prova: n casi, date o trade_id — aggiunta YYYY-MM-DD`
 
 ## Esecuzione
-- [L01] Le gambe di protezione di azioni ed ETF si inviano con `time_in_force: gtc`: con `day` scadono alla chiusura e la posizione resta scoperta se una routine salta — prova: Closer del 16/09/2026 interrotto a metà — aggiunta 2026-09-17
-- [L02] Il nome del setup nei registri è l'id esatto della scheda di `playbook/`; le varianti vanno nelle note — prova: `vwap-reclaim-pullback` del 17/09/2026 — aggiunta 2026-09-17
+- [L01] Le gambe di protezione di azioni ed ETF si inviano con `time_in_force: gtc`: con `day` scadono alla chiusura e la posizione resta scoperta se una routine salta — prova: 2 casi, Closer del 16/09/2026 interrotto a metà + bracket INTC del 17/09/2026 inviato con `day` invece di `gtc` (nessun danno solo perché lo stop è scattato entro la giornata) — aggiunta 2026-09-17, confermata 2026-09-17
+- [L02] Il nome del setup nei registri è l'id esatto della scheda di `playbook/`; le varianti vanno nelle note — prova: 2 casi, `vwap-reclaim-pullback` in `decisions.jsonl` il 17/09/2026 (poi corretto a `vwap-reclaim` in `trades.csv`) — aggiunta 2026-09-17, confermata 2026-09-17 (stesso giorno, due registri diversi)
 
 ## Selezione
 _(vuoto)_
