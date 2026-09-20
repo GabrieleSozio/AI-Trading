@@ -11,5 +11,6 @@ Se cambi un prompt qui, aggiorna anche la routine su claude.ai/code/routines (o 
 | 03-position-manager.md | Position Manager | 11:30 lun-ven | `30 15 * * 1-5` | `30 16 * * 1-5` | Opus 5 |
 | 04-closer-coach.md | Closer + Coach | 15:45-16:30 lun-ven | `45 19 * * 1-5` | `45 20 * * 1-5` | Opus 5 (o Sonnet) |
 | 05-crypto-desk.md | Desk crypto | sab/dom 15:00 UTC | `0 15 * * 6,0` | `0 15 * * 6,0` | Opus 5 |
+| 06-scarico-dati-futures.md | Scarico dati futures (una tantum) | manuale | – | – | Sonnet 5 |
 
 Run al giorno: 4 nei giorni di borsa, 1 nei giorni del weekend (limite del piano Pro: 5 al giorno). Secondo la documentazione, le run programmate una sola volta (one-off) non contano nel limite giornaliero; per "Run now" non è specificato.

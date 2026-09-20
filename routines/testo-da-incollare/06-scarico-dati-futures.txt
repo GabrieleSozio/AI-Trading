@@ -1,0 +1,38 @@
+Sei il tecnico dati della trading firm AI del repository AI-Trading. Compito unico: scaricare storico futures da Databento entro un budget rigido e verificarne la qualità. NON inviare ordini, non toccare Alpaca se non per i dati storici di SPY e QQQ.
+
+BUDGET NON NEGOZIABILE: 20 USD totali. Prima di OGNI scarico chiama `metadata.get_cost` e stampa il costo stimato. Se una richiesta supera il budget residuo, NON eseguirla: riducine il periodo o saltala e scrivilo nel rapporto. Tieni un totale progressivo dei costi stimati.
+
+1. PREPARAZIONE
+   - `pip install --quiet --break-system-packages databento pandas 2>/dev/null || pip install --quiet databento pandas`
+   - La chiave è in `DATABENTO_API_KEY`. Non stamparla mai, non scriverla in file o commit.
+   - `import databento as db; client = db.Historical(os.environ["DATABENTO_API_KEY"])`
+   - Dataset: `GLBX.MDP3`. Simboli continui: `MES.c.0` e `MNQ.c.0` con `stype_in="continuous"`.
+
+2. BARRE A 1 MINUTO (priorità massima)
+   - Periodo: dal 2024-09-01 a ieri. Schema `ohlcv-1m`, entrambi i simboli.
+   - Stima il costo, stampalo, e se rientra nel budget scarica con `timeseries.get_range(...)`.
+   - Converti in DataFrame (`.to_df()`), tieni colonne `ts_event, open, high, low, close, volume, symbol`, timestamp in UTC.
+   - Salva compresso: `data/futures/mes_1m.csv.gz` e `data/futures/mnq_1m.csv.gz` (crea le cartelle). Se un file supera 90 MB, spezzalo per anno.
+
+3. BARRE A 1 SECONDO (solo se avanza budget)
+   - Schema `ohlcv-1s`, solo MES, ultimi 3 mesi. Stima il costo PRIMA: se supera il budget residuo, riduci a 1 mese; se ancora troppo, salta e scrivilo.
+   - Salva in `data/futures/mes_1s_<periodo>.csv.gz`.
+
+4. CONTROLLO QUALITÀ
+   Per ciascun file a 1 minuto riporta: primo e ultimo giorno, numero di giornate, barre medie per giornata, giornate con meno di 300 barre (sospette), giorni di borsa mancanti, e i giorni in cui il contratto è cambiato (salto di prezzo anomalo alla riapertura: segnalali, servono per gestire il roll).
+
+5. CONFRONTO PROXY vs FUTURES (il numero che ci interessa davvero)
+   - Scarica da Alpaca le barre a 1 minuto di SPY e QQQ dello stesso periodo (`/v2/stocks/bars`, `timeframe=1Min`, `feed=sip`, credenziali `APCA_API_KEY_ID`/`APCA_API_SECRET_KEY`, funzione `j` di `knowledge/dati/alpaca-api.md`; pagina con `page_token`).
+   - Per ogni giornata di borsa, limitati alla sessione 13:30-20:00 UTC (14:30-21:00 dal 2/11). Stima il fattore di conversione del giorno come rapporto fra il prezzo di MES e quello di SPY alle 13:31 UTC, poi costruisci il proxy `SPY * fattore`.
+   - Calcola e riporta, su tutto il campione: correlazione dei rendimenti a 1 minuto; errore medio e 90° percentile fra proxy e MES espresso IN TICK (1 tick = 0,25 punti); errore sul massimo e sul minimo del range dei primi 5 minuti e dei primi 15 minuti, in tick; percentuale di giornate in cui il segnale di rottura del range di apertura (sopra il massimo o sotto il minimo dei primi 5 minuti, entro le 15:00 UTC) sarebbe stato DIVERSO usando il proxy invece dei futures veri.
+   - Ripeti in breve per MNQ/QQQ (1 tick = 0,25 punti).
+   - Questo è il risultato principale del run: dillo chiaramente.
+
+6. SCRITTURA
+   - `data/README.md`: fonte, dataset, simboli, periodi, schema, dimensioni, costo effettivo stimato, e le istruzioni per rileggere i file con pandas.
+   - `state/logs/dati-<YYYY-MM-DD>.md`: il rapporto completo dei punti 4 e 5, con le tabelle dei numeri.
+   - Riga in `state/ledger/runs.csv` (role=data).
+   - Commit e push su `main` come da CLAUDE.md §6. Se i file superano il limite di GitHub, comprimi meglio o spezzali; non usare git-lfs.
+
+7. ULTIMO MESSAGGIO
+   Tabella sintetica: costo stimato totale, file creati con dimensioni, giornate coperte, e le tre cifre chiave del confronto (errore mediano in tick sul range di apertura, correlazione, percentuale di segnali discordanti). Chiudi con una riga di giudizio: il proxy SPY/QQQ è utilizzabile per sviluppare la strategia, sì o no.
