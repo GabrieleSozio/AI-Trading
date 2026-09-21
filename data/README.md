@@ -44,6 +44,34 @@ Colonne: `ts_event, open, high, low, close, volume` (senza colonna `symbol`, uni
 
 Nessun file oltre il 2011 è stato scaricato (2012-2026 tutti respinti per credito esaurito, sia in blocchi annuali sia mensili).
 
+## Storico NQ.c.0 (contratto grande) 2012-2024 — 2026-09-21 (run "data" successiva)
+
+Compito dedicato: solo `NQ.c.0`, un file per anno, dal 2010-06-06 al 2024-08-31 (dal 2024-09-01 in poi c'è già `mnq_1m.csv.gz`), budget nominale **25 USD**. A differenza della run precedente dello stesso giorno, questa volta il credito Databento reale **era disponibile**: prova di credito su un giorno singolo (2015-06-01, 0.0045 USD) riuscita senza 402, quindi si è proceduto con lo scarico annuale completo. 2010 e 2011 erano già presenti su disco (dalla run precedente) e sono stati **saltati** per regola ("salta gli anni già presenti"), non ri-verificati né completati in questa run.
+
+Risultato: **tutti gli anni da 2012 a 2024 (2024 parziale, fino al 2024-08-30) scaricati con successo**, nessun 402 incontrato. Costo totale **15.41 USD** (incluso 0.0045 USD della prova di credito), ben sotto il budget di 25 USD.
+
+| File | Periodo coperto | Schema | Simbolo | Barre | Dimensione | Costo stimato |
+|---|---|---|---|---|---|---|
+| `futures/nq_1m_2012.csv.gz` | 2012-01-03 → 2012-12-31 | ohlcv-1m | NQ.c.0 | 308.787 | 2.4 MB | 1.1273 |
+| `futures/nq_1m_2013.csv.gz` | 2013-01-02 → 2013-12-31 | ohlcv-1m | NQ.c.0 | 300.548 | 2.3 MB | 1.0972 |
+| `futures/nq_1m_2014.csv.gz` | 2014-01-02 → 2014-12-30 | ohlcv-1m | NQ.c.0 | 302.199 | 2.4 MB | 1.1033 |
+| `futures/nq_1m_2015.csv.gz` | 2015-01-01 → 2015-12-31 | ohlcv-1m | NQ.c.0 | 320.647 | 2.8 MB | 1.1706 |
+| `futures/nq_1m_2016.csv.gz` | 2016-01-03 → 2016-12-30 | ohlcv-1m | NQ.c.0 | 328.725 | 2.8 MB | 1.2001 |
+| `futures/nq_1m_2017.csv.gz` | 2017-01-02 → 2017-12-29 | ohlcv-1m | NQ.c.0 | 334.810 | 2.7 MB | 1.2223 |
+| `futures/nq_1m_2018.csv.gz` | 2018-01-01 → 2018-12-31 | ohlcv-1m | NQ.c.0 | 344.491 | 3.4 MB | 1.2577 |
+| `futures/nq_1m_2019.csv.gz` | 2019-01-01 → 2019-12-31 | ohlcv-1m | NQ.c.0 | 346.026 | 3.4 MB | 1.2633 |
+| `futures/nq_1m_2020.csv.gz` | 2020-01-01 → 2020-12-31 | ohlcv-1m | NQ.c.0 | 346.609 | 3.9 MB | 1.2654 |
+| `futures/nq_1m_2021.csv.gz` | 2021-01-03 → 2021-12-31 | ohlcv-1m | NQ.c.0 | 350.429 | 3.9 MB | 1.2793 |
+| `futures/nq_1m_2022.csv.gz` | 2022-01-02 → 2022-12-30 | ohlcv-1m | NQ.c.0 | 351.626 | 4.1 MB | 1.2837 |
+| `futures/nq_1m_2023.csv.gz` | 2023-01-02 → 2023-12-29 | ohlcv-1m | NQ.c.0 | 350.427 | 3.9 MB | 1.2793 |
+| `futures/nq_1m_2024.csv.gz` | 2024-01-01 → 2024-08-30 (parziale, fino al confine con `mnq_1m.csv.gz`) | ohlcv-1m | NQ.c.0 | 235.541 | 2.7 MB | 0.8599 |
+
+Colonne: `ts_event, open, high, low, close, volume` (senza colonna `symbol`, univoco per file).
+
+**Controllo qualità**: giorni feriali mancanti quasi tutti festività note (Natale, Venerdì Santo, vigilia di Natale/Ringraziamento). Unica anomalia reale: **2014 ha 5 giorni feriali mancanti non spiegati da festività** (2014-06-12, 2014-06-13, 2014-09-23, 2014-09-24, 2014-09-25), con warning `BentoWarning` di Databento su qualità dati degradata per più date di giugno 2014 — probabile problema di dati lato provider/CME per quel periodo, non un errore di questa run. Anno **2014 da considerare incompleto** per chi userà questi dati. Dettagli completi in `state/logs/dati-2026-09-21c.md`.
+
+**Lacune rimaste fuori da questa run** (non nel suo scope, segnalate per chi proseguirà): 2011 resta parziale (solo marzo, 27 giorni) per il credito esaurito nella run precedente dello stesso giorno; gen-feb 2011 e gran parte di marzo-dicembre 2011 mancano ancora.
+
 ## Dati storici azioni (Alpaca) — SPY/QQQ, 1 minuto — 2026-09-21
 
 Storico a 1 minuto di SPY e QQQ scaricato da Alpaca (`GET /v2/stocks/bars`, `feed=sip`, `adjustment=all`), dal 2016-01-01 a ieri (2026-09-20; ultima seduta disponibile venerdì 2026-09-18). Un file per anno e per simbolo, 22 file totali, 47 MB su disco.
