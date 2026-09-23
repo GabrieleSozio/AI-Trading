@@ -94,3 +94,13 @@ Colonne: `ts,open,high,low,close,volume`, timestamp UTC ISO-8601. Include le ses
 import pandas as pd
 df = pd.read_csv("data/equity/spy_1m_2024.csv.gz", parse_dates=["ts"])
 ```
+
+## Prima ora di borsa, MES 1s, 2025-09-02 → 2026-06-18 — 2026-09-23
+
+Barre a 1 secondo di `MES.c.0` (Databento `GLBX.MDP3`, ohlcv-1s, `stype_in=continuous`) limitate alla finestra **09:25–10:35 ET** di ogni giorno feriale, per il periodo che precede senza sovrapporsi il file `mes_1s_2026-06-19_2026-09-19.csv.gz` già presente. Budget nominale 6 USD, **costo reale 3.0181 USD**. 205 giorni su 208 feriali richiesti (3 festività senza dati: Natale, Capodanno, Venerdì Santo). 6 giorni "sospetti" nel controllo qualità (<2500 barre tra le 09:30 e le 10:31 ET), tutti spiegati: 4 sono giorni di roll del contratto continuo (3 scadenze trimestrali + un roll anticipato prima della scadenza di giugno), 2 sono festività a bassa liquidità (Thanksgiving, Memorial Day). Dettagli completi in `state/logs/dati-2026-09-23.md`.
+
+| File | Periodo | Schema | Simbolo | Barre | Dimensione | Costo |
+|---|---|---|---|---|---|---|
+| `futures/mes_1s_prima_ora_2025-09-02_2026-06-18.csv.gz` | 2025-09-02 → 2026-06-18 (finestra 09:25-10:35 ET/giorno) | ohlcv-1s | MES.c.0 | 826.709 | 5,9 MB | 3.0181 USD |
+
+Colonne: `ts_event` (UTC, ISO-8601), `open, high, low, close, volume`.
