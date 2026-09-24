@@ -4,7 +4,7 @@
  "entry": null,
  "stop_id": null,
  "stop_px": null,
- "last_min": 900,
+ "last_min": 906,
  "done": false,
  "trades": [],
  "checks": [
@@ -18,5 +18,6 @@
    "segnale": 0
   }
  ],
- "n_entry": 0
+ "n_entry": 0,
+ "_n_pushed": 0
 }
