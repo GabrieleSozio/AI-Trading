@@ -6,3 +6,8 @@
 2026-09-28 11:01:05 ET | controllo 11:00: prezzo 733.10 banda 737.69-747.24 VWAP 735.91 posizione -1 segnale 0
 2026-09-28 11:31:06 ET | controllo 11:30: prezzo 734.83 banda 737.65-747.29 VWAP 735.47 posizione -1 segnale 0
 2026-09-28 11:37:05 ET | USCITA (stop sul server) short a 735.50: +58.78 $
+2026-09-28 12:01:05 ET | controllo 12:00: prezzo 735.28 banda 737.40-747.54 VWAP 735.34 posizione 0 segnale -1
+2026-09-28 12:01:08 ET | INGRESSO short 82 QQQ a 735.36, stop 735.34
+2026-09-28 12:01:09 ET | ERRORE: RuntimeError('HTTP 422 POST /v2/orders: {"code":42210000,"market_price":"735.34","message":"stop price must be greater than current price","stop_price":"735.34"}')
+2026-09-28 12:05:01 ET | avvio; scarto orologio rispetto ad Alpaca +0.1s
+2026-09-28 12:05:05 ET | banda da 14 sedute; chiusura precedente (2026-09-25) 744.45; azioni 82
