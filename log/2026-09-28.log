@@ -11,3 +11,5 @@
 2026-09-28 12:01:09 ET | ERRORE: RuntimeError('HTTP 422 POST /v2/orders: {"code":42210000,"market_price":"735.34","message":"stop price must be greater than current price","stop_price":"735.34"}')
 2026-09-28 12:05:01 ET | avvio; scarto orologio rispetto ad Alpaca +0.1s
 2026-09-28 12:05:05 ET | banda da 14 sedute; chiusura precedente (2026-09-25) 744.45; azioni 82
+2026-09-28 12:05:06 ET | ATTENZIONE: trovata posizione -82 non registrata: la adotto
+2026-09-28 12:07:05 ET | USCITA (stop sul server) short a 735.37: +0.00 $
