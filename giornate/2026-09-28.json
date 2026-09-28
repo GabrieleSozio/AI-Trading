@@ -1,12 +1,22 @@
 {
  "day": "2026-09-28",
- "pos": -1,
+ "pos": 0,
  "entry": 736.216829,
- "stop_id": "535ae9aa-4170-4aac-8735-707a48dd7b67",
- "stop_px": 735.47,
- "last_min": 690,
+ "stop_id": null,
+ "stop_px": 735.45,
+ "last_min": 696,
  "done": false,
- "trades": [],
+ "trades": [
+  {
+   "side": -1,
+   "t_in": 630,
+   "px_in": 736.216829,
+   "t_out": 696,
+   "px_out": 735.5,
+   "why": "stop sul server",
+   "pnl_usd": 58.78
+  }
+ ],
  "checks": [
   {
    "m": 600,
