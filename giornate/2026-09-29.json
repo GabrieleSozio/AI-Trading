@@ -4,8 +4,8 @@
  "entry": null,
  "stop_id": null,
  "stop_px": null,
- "last_min": 900,
- "done": false,
+ "last_min": 955,
+ "done": true,
  "trades": [],
  "checks": [
   {
@@ -109,5 +109,10 @@
   }
  ],
  "n_entry": 0,
- "_n_pushed": 0
+ "_n_pushed": 0,
+ "sip_sim": {
+  "pnl_per_azione": 0.0,
+  "pnl_usd": 0.0,
+  "trades": []
+ }
 }
