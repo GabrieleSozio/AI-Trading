@@ -1,0 +1,16 @@
+{
+ "phase": "valutazione",
+ "attempt": 1,
+ "balance": 50000.0,
+ "hwm": 50000.0,
+ "floor": 48000.0,
+ "locked": false,
+ "days": [
+  {
+   "day": "2026-10-01",
+   "pnl": 0
+  }
+ ],
+ "payout_days": 0,
+ "history": []
+}
