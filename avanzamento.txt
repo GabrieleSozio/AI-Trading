@@ -23,3 +23,4 @@
 2026-10-02 22:28:01 | in pausa durante il mercato (ripresa alle 16:30 ET), ora 16:28 ET
 2026-10-03 05:09:13 | finito qqq k1
 2026-10-03 21:25:39 | finito mnq k1
+2026-10-04 15:39:28 | finito qqq k1b
