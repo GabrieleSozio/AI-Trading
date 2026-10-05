@@ -2,9 +2,9 @@
  "day": "2026-10-05",
  "pos": 1,
  "entry": 753.02,
- "stop_id": "2144925d-89ff-4f5b-a4f3-b5493ed25401",
- "stop_px": 753.19,
- "last_min": 870,
+ "stop_id": "a6ac560e-2379-4f0d-9a46-5079824db0ee",
+ "stop_px": 753.37,
+ "last_min": 900,
  "done": false,
  "trades": [],
  "checks": [
@@ -95,6 +95,15 @@
    "up": 753.14,
    "dn": 745.9,
    "vwap": 753.19,
+   "pos": 1,
+   "segnale": 0
+  },
+  {
+   "m": 900,
+   "close": 755.83,
+   "up": 753.15,
+   "dn": 745.89,
+   "vwap": 753.38,
    "pos": 1,
    "segnale": 0
   }
