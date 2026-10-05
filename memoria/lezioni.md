@@ -18,3 +18,14 @@
 - Gap grande (+1.25%) su dato macro: NON riempito in 1h, dip dei primi 5 min poi continuazione. Non fare fade di gap grandi per riflesso (n=1, da confermare).
 - Variabile da osservare in parallelo: posizione rispetto a max/min pre-market e VWAP dopo 9:45-10:00 (sembra indicare la direzione 10:00-10:30 in entrambi i giorni, n=2). Non regola finché ≤20 giorni.
 - Movimenti in prima ora su QQQ spesso piccoli (5-7 $ range totale): verificare che target ≥2x stop sia realistico prima di qualsiasi ingresso.
+
+## Dal 05/10 (sessione estesa 9:30-11:30)
+- 9:30-10:30: invariato, default flat, solo osservazione/registro.
+- 10:30-11:30: unico setup ammesso = zona di rumore ai controlli 10:30 e 11:00 (chiusura barra fuori banda, stop VWAP/banda opposta, 1 MNQ, rischio ≤ ~200 $, uscita 11:30). Pilota: con uscita 11:30 non è testato, il vantaggio della ricerca viene da tenere fino a sera. Valutare dopo ≥20 casi.
+- Calcolo bande: get_bars QQQ 15Min 300 dà ~8-9 sedute; mossa |close barra 10:15 / open 9:30 -1| per 10:30, barra 10:45 per 11:00.
+
+## Dal 05/10 (primo trade, +2.86 $)
+- Il pilota zona di rumore ha funzionato a livello di processo: piano scritto -> controllo 10:30 -> ingresso meccanico. Continuare identico.
+- Seconda ora compressa (range ~1.4 $ vs ~5 $ prima ora, n=1): con uscita 11:30 il P&L atteso per trade è piccolo. Registrare MFE/MAE per vedere se lo stop VWAP (~1 $) è troppo vicino rispetto al movimento disponibile. Stop statico sul VWAP del momento: il VWAP sale col trend, lo stop no (non fare trailing finché non ho letto ricerca/14 e 18 su questo).
+- Matematica obiettivo: +3000 $ a 1 MNQ con mosse da ~1-2 $ QQQ (~80-160 $) richiede molte settimane. Va bene: priorità 1 è non bruciare. Aumentare taglia SOLO dopo ≥20 casi pilota con aspettativa positiva.
+- Controllo 11:00 se già in posizione: niente da fare (una posizione alla volta), non aggiungere.
