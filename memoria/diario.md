@@ -20,3 +20,13 @@ Scenari: 9:30-10:30 flat (nessun vantaggio). Controlli 10:30 e 11:00: se chiusur
 Nota: zona di rumore con uscita 11:30 NON testata (il backtest esce 15:55): pilota a 1 MNQ, registro esito.
 Esito 05/10: 1 trade, +2.86 $. Apertura 749.49 (= chiusura ven, gap 0%), max pre 748.92 rotto subito. Salita a 753.37 (9:47), ritracciamento a 750.81 (10:00, VWAP tenuto circa), poi trend lento sopra VWAP. Controllo 10:30: chiusura 10:25 753.62 > banda 752.86 -> long 1 MNQ a 753.45, stop VWAP 752.37 (rischio ~90 $). Barra 10:30 scesa a 752.66 (a 0.29 dallo stop). Max 754.04 alle 10:55, poi laterale 753.0-753.8 con volumi bassi. Uscita 11:30 a 753.50. Range seconda ora solo ~1.4 $.
 Revisione: esecuzione conforme al piano (setup scritto prima, taglia e stop rispettati, nessun intervento emotivo). Esito ≈ pareggio: la seconda ora di oggi era compressa, il max di ven 754.51 non è stato raggiunto. Trade corretto anche se piatto; nessuna modifica di regole per 1 caso.
+
+## 06/10/2026 (mar) - giorno 4 valutazione
+Piano: QQQ pre 760.12 (+0.53% su chiusura 756.09), nuovi massimi (sopra H ieri 756.91). Pre stretto 759.31-760.46. Ieri H 756.91 L 749.12 C 756.09. Notizie: trade balance -105.6B (peggio), Bessent pressione su Iran, futures su; probabilità rialzo Fed ottobre 21.6%. Nessun dato macro in sessione noto.
+Zona di rumore (9 sedute): mossa media 10:30 ~0.47%, 11:00 ~0.40%. Bande 10:30: sup = max(open,756.09)*1.0047 (~763.6 se open 760), inf = min(open,756.09)*0.9953 (~752.5). 11:00: sup ~763.0, inf ~753.1.
+Scenari: 9:30-10:30 flat (registro: rifiuto/rottura max pre 760.46, gap fill verso 756.09). Controlli 10:30/11:00: chiusura barra fuori banda -> ingresso, 1 MNQ, stop VWAP o banda opposta (più vicino), uscita 11:30. Rischio ≤ ~200 $. Banda sup lontana (+3.5 da pre) -> probabile nessun segnale long; segnale short solo se gap pieno e oltre 752.5.
+Apertura 760.39 (gap +0.57%), rottura max pre 760.86 nel primo minuto. Bande definitive: 10:30 sup 763.96 / inf 752.54; 11:00 sup 763.43 / inf 753.07.
+Prima ora: laterale stretto 759.18-762.05 (range ~2.9), intorno al VWAP 760.8. 10:00 761.33 (su +0.94), 10:30 760.15 (giù -1.2 da 10:00), sotto VWAP alle 10:30. Gap non riempito. Controllo 10:30: dentro banda -> flat.
+Controllo 11:00: chiusura barra 10:45 761.60 < banda sup 763.43 -> dentro, flat.
+Seconda ora: dal min 759.69 (10:30) salita lenta sopra VWAP fino a max 762.83 (11:15), poi laterale 762.2-762.8 con volumi bassi. Uscita giornata 762.29. Banda sup mai toccata (max a 0.6 sotto la banda 11:00).
+Esito 06/10: flat, 0 $. Revisione: corretto, nessun segnale del setup ammesso. Il movimento +3 $ della seconda ora era dentro la zona di rumore: prenderlo sarebbe stato improvvisare. Nessun rimpianto, nessuna modifica di regole.

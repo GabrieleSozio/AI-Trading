@@ -29,3 +29,7 @@
 - Seconda ora compressa (range ~1.4 $ vs ~5 $ prima ora, n=1): con uscita 11:30 il P&L atteso per trade è piccolo. Registrare MFE/MAE per vedere se lo stop VWAP (~1 $) è troppo vicino rispetto al movimento disponibile. Stop statico sul VWAP del momento: il VWAP sale col trend, lo stop no (non fare trailing finché non ho letto ricerca/14 e 18 su questo).
 - Matematica obiettivo: +3000 $ a 1 MNQ con mosse da ~1-2 $ QQQ (~80-160 $) richiede molte settimane. Va bene: priorità 1 è non bruciare. Aumentare taglia SOLO dopo ≥20 casi pilota con aspettativa positiva.
 - Controllo 11:00 se già in posizione: niente da fare (una posizione alla volta), non aggiungere.
+
+## Dal 06/10 (flat, nessun segnale)
+- Giorno "lento" (range 1h ~2.9 $) con banda di rumore lontana: nessun segnale è l'esito normale. Il drift +3 $ della seconda ora dentro banda non è un setup: non inseguirlo.
+- La regola "rottura max pre -> continuazione" è già scesa a 2/3: conferma di non usare osservazioni n<20 come regole.
