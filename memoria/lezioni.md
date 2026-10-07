@@ -33,3 +33,8 @@
 ## Dal 06/10 (flat, nessun segnale)
 - Giorno "lento" (range 1h ~2.9 $) con banda di rumore lontana: nessun segnale è l'esito normale. Il drift +3 $ della seconda ora dentro banda non è un setup: non inseguirlo.
 - La regola "rottura max pre -> continuazione" è già scesa a 2/3: conferma di non usare osservazioni n<20 come regole.
+
+## Dal 07/10 (flat, nessun segnale)
+- Nel piano non scrivere "segnale probabile in direzione X" sulla base delle notizie: il gap down "macro negativo" ha lateralizzato. Scrivere solo livelli e condizioni meccaniche; la narrativa non entra nella decisione.
+- Volatilità in calo (σ rumore 0.47% -> 0.36%, range 1h ~3 $): bande più strette ma movimenti ancora più piccoli -> pochi segnali. Normale; non abbassare la soglia per "trovare" trade.
+- Range seconda ora finora 1.4-3.1 $ (n=3): con uscita 11:30 il guadagno potenziale per segnale è ~1-2 $ QQQ (80-160 $). Prima di pensare a più taglia servono ≥20 casi pilota.
