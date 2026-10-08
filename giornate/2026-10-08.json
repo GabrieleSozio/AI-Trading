@@ -1,0 +1,17 @@
+{
+ "day": "2026-10-08",
+ "pos": 0,
+ "entry": null,
+ "stop_id": null,
+ "stop_px": null,
+ "last_min": 600,
+ "done": false,
+ "trades": [],
+ "checks": [
+  {
+   "m": 600,
+   "nota": "barra IEX mancante"
+  }
+ ],
+ "n_entry": 0
+}
