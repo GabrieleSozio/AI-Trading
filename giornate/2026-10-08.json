@@ -1,12 +1,23 @@
 {
  "day": "2026-10-08",
- "pos": -1,
+ "pos": 0,
  "entry": 746.94122,
- "stop_id": "b4ede07d-f8e2-4b56-b106-82283a70f052",
- "stop_px": 749.39,
- "last_min": 900,
+ "stop_id": null,
+ "stop_px": null,
+ "last_min": 955,
  "done": false,
- "trades": [],
+ "trades": [
+  {
+   "side": -1,
+   "t_in": 780,
+   "px_in": 746.94122,
+   "t_out": 955,
+   "px_out": 747.21,
+   "qty": 82,
+   "why": "uscita 15:55",
+   "pnl_usd": -22.04
+  }
+ ],
  "checks": [
   {
    "m": 600,
@@ -106,6 +117,6 @@
  "n_entry": 1,
  "_n_pushed": 0,
  "t_in": 780,
- "qty": 82,
+ "qty": null,
  "ext_cancel_at": null
 }
