@@ -40,3 +40,15 @@ Prima ora: discesa a 751.77 (9:47, 0.7 sopra banda inf), recupero; 10:00 753.88 
 Controllo 11:00: 754.20 dentro banda -> flat. Seconda ora finora laterale 753.2-754.9 intorno al VWAP 753.6, volumi bassi.
 Seconda ora: laterale 753.22-755.58 (range ~2.4), max 755.58 alle 11:16, chiusura 11:30 ~754.84, sopra VWAP 753.78 nell'ultima mezz'ora. Banda inf 751.06 mai toccata (min giorno 751.77 alle 9:47). Gap mai riempito (max 755.58 vs 759.62).
 Esito 07/10: flat, 0 $. Revisione: corretto, nessun segnale. Gap down -0.77% con contesto negativo (rendimenti 30Y, Hormuz) NON ha prodotto continuazione: il mercato ha assorbito e ha lateralizzato. Lo scenario "short probabile" del piano era sbagliato, ma il setup meccanico mi ha tenuto fuori: è esattamente il motivo per cui seguo la banda e non la narrativa. Unico rischio di processo: avevo un bias short scritto nel piano; non va scritto come "probabile" senza dati.
+
+## 08/10/2026 (gio) - giorno 6 valutazione
+Piano: QQQ pre 753.74 (-0.53% su chiusura 757.74), pre stretto 752.52-753.79. Ieri H 758.19 L 751.77 C 757.74 (salita dopo le 11:30). Notizie: Pentagono prepara possibili strike su Iran, futures giù; claims 197K vs 200K (neutro); semis venduti (petrolio/tassi). Nessun dato in sessione noto.
+Zona di rumore (8 sedute, 15min): σ 10:30 = 0.336%, σ 11:00 = 0.388%. Bande 10:30: sup = max(open,757.74)*1.00336 (~760.29), inf = min(open,757.74)*0.99664 (~751.2 se open 753.7). 11:00: sup ~760.68, inf = min(open,757.74)*0.99612 (~750.8).
+Scenari: 9:30-10:30 flat, registro (max/min pre, gap fill verso 757.74, min ieri 751.77). Controlli 10:30/11:00: chiusura barra fuori banda -> ingresso, 1 MNQ, stop VWAP o banda opposta (più vicino), uscita 11:30, rischio ≤ ~200 $. Nessun bias direzionale scritto.
+Apertura 753.96 (gap -0.50%), max pre 754.40. Bande definitive: 10:30 sup 760.29 / inf 751.43; 11:00 sup 760.68 / inf 751.03.
+9:30-10:00: max 754.81 (9:34, rotto max pre 754.40), min 752.16 (9:55), 10:00 753.10 (-0.86 da open), poco sotto VWAP 753.53. Range 2.65, molto lento, volumi bassi.
+10:00-10:30: salita ordinata da 752.98 a 757.18 (max 10:29), sopra VWAP da ~10:05. 10:30 close 756.90 (+2.94 da open, +0.39%). Range 1h ~5.0. Gap verso 757.74 quasi riempito (max 757.18). Controllo 10:30: 756.90 < banda sup 760.29 -> dentro, flat.
+10:30-11:00: ritracciamento lento da 757.18 a 754.28, ritorno sul VWAP (754.49). Controllo 11:00: close 754.82 dentro banda (sup 760.68 / inf 751.03) -> flat.
+11:00-11:30: deriva lenta in calo 754.8 -> 753.54 (min 11:25), sotto VWAP (754.42) quasi tutta la mezz'ora, volumi bassi. Chiusura 11:30 754.07. Banda inf 751.03 lontana (~2.5 $).
+Esito 08/10: flat, 0 $. Gap down -0.50% non riempito per 0.56 $ (max 757.18 vs 757.74), poi tutta la salita 10:00-10:30 (+3.8) restituita in 2a ora (-3.1). Min ieri 751.77 non toccato (min 752.16).
+Revisione: corretto, nessun segnale in nessuno dei due controlli. Nessuna tentazione eseguita, piano seguito. Da notare: la salita 10:00-10:30 verso il gap fill sembrava "trend", ma era dentro banda e si è invertita: inseguirla avrebbe perso ~2-3 $ QQQ. Conferma il valore del filtro banda.

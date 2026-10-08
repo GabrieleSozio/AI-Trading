@@ -38,3 +38,8 @@
 - Nel piano non scrivere "segnale probabile in direzione X" sulla base delle notizie: il gap down "macro negativo" ha lateralizzato. Scrivere solo livelli e condizioni meccaniche; la narrativa non entra nella decisione.
 - Volatilità in calo (σ rumore 0.47% -> 0.36%, range 1h ~3 $): bande più strette ma movimenti ancora più piccoli -> pochi segnali. Normale; non abbassare la soglia per "trovare" trade.
 - Range seconda ora finora 1.4-3.1 $ (n=3): con uscita 11:30 il guadagno potenziale per segnale è ~1-2 $ QQQ (80-160 $). Prima di pensare a più taglia servono ≥20 casi pilota.
+
+## Dal 08/10 (flat, nessun segnale)
+- Salita "ordinata" 10:00-10:30 verso il gap fill (+3.8 $) dentro banda -> restituita in 2a ora. Il filtro banda evita di inseguire mosse da prima ora. Ipotesi da osservare (n=4, non regola): la 2a ora non prolunga la mossa 10:00-10:30.
+- Gap down con notizie negative: 0/2 continuazione. Resta narrativa, non entra nelle decisioni.
+- Processo stabile: 4 giorni su 5 di pilota senza segnale. Non toccare σ/soglie per aumentare la frequenza; rivedere solo a ≥20 giorni.
