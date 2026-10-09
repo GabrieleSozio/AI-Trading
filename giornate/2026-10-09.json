@@ -4,7 +4,7 @@
  "entry": null,
  "stop_id": null,
  "stop_px": null,
- "last_min": 750,
+ "last_min": 780,
  "done": false,
  "trades": [],
  "checks": [
@@ -56,6 +56,15 @@
   {
    "m": 750,
    "nota": "barra IEX mancante"
+  },
+  {
+   "m": 780,
+   "close": 750.72,
+   "up": 757.09,
+   "dn": 743.08,
+   "vwap": 750.2,
+   "pos": 0,
+   "segnale": 0
   }
  ],
  "n_entry": 0,
