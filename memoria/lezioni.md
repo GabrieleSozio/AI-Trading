@@ -43,3 +43,8 @@
 - Salita "ordinata" 10:00-10:30 verso il gap fill (+3.8 $) dentro banda -> restituita in 2a ora. Il filtro banda evita di inseguire mosse da prima ora. Ipotesi da osservare (n=4, non regola): la 2a ora non prolunga la mossa 10:00-10:30.
 - Gap down con notizie negative: 0/2 continuazione. Resta narrativa, non entra nelle decisioni.
 - Processo stabile: 4 giorni su 5 di pilota senza segnale. Non toccare σ/soglie per aumentare la frequenza; rivedere solo a ≥20 giorni.
+
+## Dal 09/10 (flat, nessun segnale; fine prima settimana sessione estesa)
+- Settimana estesa: 10 controlli, 1 segnale, ~0 $. La 2a ora è stata quasi sempre laterale attorno al VWAP (range medio ~2.4 $): con σ ~0.3% le bande sono a ~2.3-2.5 $ dall'apertura e raramente toccate. È l'esito atteso del filtro, non un difetto da "correggere".
+- Rifiuto max pre-market su gap up -> calo prima mezz'ora: 2/2 (01, 09). Interessante ma n=2 e in prima ora (zona senza vantaggio testato): solo registro fino a ≥20 casi.
+- Tentazione da evitare la prossima settimana: con 0 $ dopo 7 giorni, non abbassare σ/soglie né aggiungere setup in prima ora per "accelerare". Il tempo non è un vincolo della valutazione; il drawdown sì.

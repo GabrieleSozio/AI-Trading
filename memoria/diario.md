@@ -52,3 +52,16 @@ Apertura 753.96 (gap -0.50%), max pre 754.40. Bande definitive: 10:30 sup 760.29
 11:00-11:30: deriva lenta in calo 754.8 -> 753.54 (min 11:25), sotto VWAP (754.42) quasi tutta la mezz'ora, volumi bassi. Chiusura 11:30 754.07. Banda inf 751.03 lontana (~2.5 $).
 Esito 08/10: flat, 0 $. Gap down -0.50% non riempito per 0.56 $ (max 757.18 vs 757.74), poi tutta la salita 10:00-10:30 (+3.8) restituita in 2a ora (-3.1). Min ieri 751.77 non toccato (min 752.16).
 Revisione: corretto, nessun segnale in nessuno dei due controlli. Nessuna tentazione eseguita, piano seguito. Da notare: la salita 10:00-10:30 verso il gap fill sembrava "trend", ma era dentro banda e si è invertita: inseguirla avrebbe perso ~2-3 $ QQQ. Conferma il valore del filtro banda.
+
+## 09/10/2026 (ven) - giorno 7 valutazione
+Piano: QQQ pre 753.72 (+0.83% su chiusura 747.50; ieri dopo le 11:30 crollo da 754 a min 743.28 alle 13:15, chiusura 747.50). Pre 752.34-753.79. Ieri H 757.18 L 743.28 C 747.50. Notizie: AAPL taglia ordini iPhone 18 Pro (AAPL giù pre), Bessent su Iran, futures su; Germania rilascia scorte petrolio. Nessun dato macro in sessione noto.
+Zona di rumore (8 sedute, 15min): σ 10:30 = 0.314%, σ 11:00 = 0.272%. Bande 10:30: sup = max(open,747.50)*1.00314 (~756.1 se open 753.7), inf = min(open,747.50)*0.99686 = 745.16. 11:00: sup = open*1.00272 (~755.7), inf = 745.47.
+Scenari: 9:30-10:30 flat, registro (max/min pre, gap fill verso 747.50). Controlli 10:30/11:00: chiusura barra fuori banda -> ingresso, 1 MNQ, stop VWAP o banda opposta (più vicino), uscita 11:30, rischio ≤ ~200 $. Nessun bias. Banda sup vicina (~+2.4 $ da open): long possibile se continuazione del gap; short richiede gap pieno + oltre 745.2.
+Apertura 752.57 (gap +0.68%), sotto min pre? no (min pre 752.34): primo minuto scende a 751.38, rotto min pre. Bande definitive: 10:30 sup 754.93 / inf 745.16; 11:00 sup 754.62 / inf 745.47.
+9:30-10:00: max 752.84 (9:34, mai sopra max pre 753.79), discesa a min 748.55 (9:55), 10:00 749.44 (-3.13 da open), sotto VWAP 750.56. Gap verso 747.50 per metà riempito. Range 4.3.
+10:00-10:30: laterale 748.40-750.08, min giorno 748.40 (10:11). 10:30 close 749.89 (-2.68 da open, -0.36%), poco sotto VWAP 750.12. Range 1h 4.44. Gap non riempito (min 748.40 vs 747.50). Controllo 10:30: dentro banda (754.93/745.16) -> flat.
+10:30-11:00: laterale 749.09-750.84 intorno al VWAP (750.13), volumi bassi. Controllo 11:00: close 750.53 dentro banda (754.62/745.47) -> flat.
+11:00-11:30: discesa a 749.09 (11:08), risalita sul VWAP ~750.2, chiusura 11:29 749.47 sotto VWAP 750.11. Seconda ora: range 749.09-750.84 (~1.75), direzione piatta (-0.4). Bande mai avvicinate (sup a ~4 $, inf a ~2.6 $ dal min).
+Esito 09/10: flat, 0 $. Gap +0.68% con rifiuto max pre 753.79 (mai superato) -> discesa -3.1 $ nei primi 25 min, gap fill mancato di 0.90 (min 748.40 vs 747.50), poi laterale 2 ore attorno al VWAP.
+Revisione: corretto, nessun segnale in entrambi i controlli. Nessuna tentazione. Secondo caso (dopo 01/10) di "rifiuto max pre + perdita VWAP" seguito da calo ~3 $ nella prima mezz'ora: solo registro (n=2), prima ora resta flat per regola.
+Bilancio settimana 05-09/10 (sessione estesa): 10 controlli, 1 segnale, P&L +2.86 $. Volatilità in calo, seconda ora media ~2.4 $ di range. Ritmo lento accettato: priorità non bruciare.
