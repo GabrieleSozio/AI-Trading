@@ -1,3 +1,5 @@
 2026-10-12 07:00:03 ET | avvio; scarto orologio rispetto ad Alpaca +0.1s
 2026-10-12 07:00:07 ET | banda da 14 sedute; chiusura precedente (2026-10-09) 751.24; azioni 82
 2026-10-12 10:01:04 ET | controllo 10:00: prezzo 747.73 banda 747.69-753.18 VWAP 748.16 posizione 0 segnale 0
+2026-10-12 10:31:05 ET | controllo 10:30: prezzo 746.05 banda 746.77-754.10 VWAP 747.28 posizione 0 segnale -1
+2026-10-12 10:31:07 ET | INGRESSO short 82 QQQ a 745.90, stop 747.28
