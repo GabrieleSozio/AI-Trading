@@ -10,3 +10,5 @@
 2026-10-12 12:31:05 ET | controllo 12:30: prezzo 747.15 banda 746.88-754.00 VWAP 747.10 posizione 0 segnale 0
 2026-10-12 13:01:05 ET | controllo 13:00: prezzo 745.91 banda 745.81-755.07 VWAP 747.02 posizione 0 segnale 0
 2026-10-12 13:31:05 ET | controllo 13:30: prezzo 745.84 banda 745.83-755.04 VWAP 746.92 posizione 0 segnale 0
+2026-10-12 14:01:05 ET | controllo 14:00: prezzo 745.45 banda 746.16-754.71 VWAP 746.87 posizione 0 segnale -1
+2026-10-12 14:01:10 ET | INGRESSO short 82 QQQ a 745.49, stop 746.87
