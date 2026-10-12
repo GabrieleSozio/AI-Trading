@@ -2,9 +2,9 @@
  "day": "2026-10-12",
  "pos": -1,
  "entry": 745.903902,
- "stop_id": "d53d6e57-59d4-4701-96a1-0454c5988f24",
- "stop_px": 747.28,
- "last_min": 630,
+ "stop_id": "ce63d033-dade-43f2-b1bf-7dc6920a5cd9",
+ "stop_px": 747.15,
+ "last_min": 660,
  "done": false,
  "trades": [],
  "checks": [
@@ -25,6 +25,10 @@
    "vwap": 747.28,
    "pos": 0,
    "segnale": -1
+  },
+  {
+   "m": 660,
+   "nota": "barra IEX mancante"
   }
  ],
  "n_entry": 1,
