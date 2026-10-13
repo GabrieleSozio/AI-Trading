@@ -1,0 +1,14 @@
+2026-10-13 07:00:03 ET | avvio (riavvii 0)
+2026-10-13 09:36:30 ET | INGRESSO long 2 MNQ-eq (164 QQQ) a 740.14, stop 738.8, target None — Setup C: sweep del min pre-market 739.90 (min 738.89) e chiusura 5m 9:30 a 740.13 sopra il livello e sopra VWAP 739.78. Gap -0.8% con prima spinta giù respinta 
+2026-10-13 09:41:12 ET | STOP spostato a 740.6 — +2R raggiunto: stop sopra pareggio, sotto il minimo della barra di rottura 9:37 (740.72). Lascio correre verso 744.85.
+2026-10-13 09:45:14 ET | STOP spostato a 741.9 — Trailing: sotto la base 742 del breakout e sotto il min della 5m 9:40 (742.56) con margine, sopra VWAP 741.08. Blocca ~+
+2026-10-13 09:50:15 ET | STOP spostato a 742.45 — Trailing sotto lo swing 5m 742.56 (min 5m 9:40); 5m 9:45 ha fatto minimo crescente 742.98. Blocca ~+380 $.
+2026-10-13 10:05:13 ET | STOP spostato a 743.1 — Minimi 5m crescenti (742.66, 743.20, 743.26): stop sotto 743.20. Blocca ~+485 $. Obiettivo 744.85 (min ieri).
+2026-10-13 10:18:18 ET | USCITA (stop o target sul server) long 2 MNQ-eq a 743.05: +474.60 $
+2026-10-13 10:40:24 ET | INGRESSO long 2 MNQ-eq (164 QQQ) a 742.91, stop 741.98, target None — Setup 4 (trend 2a ora): giornata sopra VWAP da 9:37; 5m 10:35 tocca VWAP 742.14 (min 742.10) e chiude sul massimo 743.03 = rifiuto. SMH forte. Stop sotto il min
+2026-10-13 10:50:17 ET | USCITA (chiusura decisa dal trader: Rimbalzo da VWAP fallito: massimo inferiore 743.56, 5m 10:45 chiude sul minimo 7) long 2 MNQ-eq a 742.20: -118.29 $
+2026-10-13 10:55:15 ET | INGRESSO short 1 MNQ-eq (82 QQQ) a 741.45, stop 742.25, target None — Setup 3 trappola->reverse: rimbalzo long da VWAP fallito, 5m 10:50 chiude sul minimo 741.26 sotto VWAP 742.15 e sotto il min di pullback 742.10, massimi decresc
+2026-10-13 11:00:17 ET | STOP spostato a 741.95 — Stop sopra il massimo della 5m 10:55 (741.82): se torna sopra il breakdown è fallito. Rischio ridotto a ~42 $.
+2026-10-13 11:13:21 ET | USCITA (stop o target sul server) short 1 MNQ-eq a 742.00: -46.12 $
+2026-10-13 11:30:06 ET | LUCID: giornata 2026-10-13: +310.19 $, saldo 50290.44 $
+2026-10-13 11:30:54 ET | FINE: 3 trade, +310.19 $, chiamate API 61, costo 1.04 $

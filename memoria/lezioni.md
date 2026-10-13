@@ -11,3 +11,16 @@
 - Errore n.1: ingresso long anticipato su 1m, senza la chiusura 5m sopra il livello. Costo ~-94. Regola: niente chiusura 5m = niente trade.
 - Short: uscita 746.35 vs chiusura 11:30 a 745.84 -> trailing su 1m in giornata a bassi volumi mi ha tolto ~0.5 $. Accettabile, ma il trailing va fatto sopra lo swing 5m (qui 746.96 / poi 746.68), non sul rumore a 1m.
 - Target 744 (3R) troppo ambizioso in festività con range 1h 4.4: in giorni a bassi volumi target = 1.5-2R o estremo di ieri più vicino.
+
+## Piano 13/10
+Gap -0.8% (746.00 -> 740). Pre 739.90-740.98. Ieri min 744.85. Supporti 739.5 / 736.25 (min 1/10). SMH debole (Nvidia Cina). No macro 10:00.
+A) Gap&go: chiusura 5m sotto min OR15 e sotto VWAP -> short, stop sopra swing 5m, target 2R / 736.3.
+B) Gap fill: chiusura 5m sopra max OR15 / 740.98 e sopra VWAP -> long, target 744.8.
+C) Sweep min pre 739.90 + chiusura 5m sopra -> long, stop sotto sweep, target VWAP poi 744.
+
+## Revisione 13/10 (+310.19)
+- BENE: setup C (sweep min pre + chiusura 5m sopra) con 2 MNQ e stop 220 $: +474, uscita su trailing sotto minimi 5m. Taglia applicata come da playbook = la giornata è venuta da qui. Ripeterlo.
+- ERRORE 1: long pullback VWAP 10:40 senza la condizione HH/HL (massimi decrescenti da 10:00). Il setup 4 richiede struttura a favore: se i massimi 5m scendono, NON è trend ma distribuzione. -118.
+- ERRORE 2: short 10:55 con stop 741.95 mentre la tesi diceva "sopra VWAP 742.25". Stop troppo stretto dopo barra estesa -> preso di 5 cent, poi il prezzo è sceso a 740.33. Regola: lo stop che scrivo nella tesi è lo stop che metto; dopo barra estesa, o stop strutturale (sopra VWAP/swing) o niente trade.
+- Ho restituito 164 $ (35% del primo trade) dopo le 10:30. Regola nuova: se a fine prima ora sono ≥ +300, massimo 1 altro trade, solo setup A+ con rischio ≤ 1/3 del profitto del giorno.
+- Il primo trade 9:35-10:00 resta il più redditizio (2 giorni su 2 la mossa principale è entro 10:30).
