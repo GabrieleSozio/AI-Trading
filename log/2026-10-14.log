@@ -1,0 +1,10 @@
+2026-10-14 07:00:02 ET | avvio (riavvii 0)
+2026-10-14 09:35:38 ET | INGRESSO long 2 MNQ-eq (164 QQQ) a 737.43, stop 736.9, target None — Setup B: sweep del min pre-market 737.77 fino a 737.00 e chiusura 5m 9:30 sopra (737.99), sopra VWAP 737.87. Stop sotto estremo sweep 736.90. Obiettivi 740.4 (m
+2026-10-14 09:38:06 ET | USCITA (stop o target sul server) long 2 MNQ-eq a 736.83: -101.76 $
+2026-10-14 09:50:16 ET | INGRESSO long 2 MNQ-eq (164 QQQ) a 739.85, stop 738.55, target None — Setup 1 ORB15+VWAP dopo sweep&reclaim: min 736.76 (sweep pre low/CPI) rifiutato, chiusura 5m 9:45 a 740.19 sopra max OR15 739.62 e sopra VWAP 738.45, sopra min 
+2026-10-14 09:52:24 ET | USCITA (stop o target sul server) long 2 MNQ-eq a 738.47: -228.80 $
+2026-10-14 10:05:21 ET | INGRESSO short 1 MNQ-eq (82 QQQ) a 736.54, stop 737.7, target None — Setup 3 trappola->reverse con retest: rottura ORB long fallita (740.43), breakdown sotto min 736.76 e 736.25 (min 1/10), retest 10:00 a 737.46 rifiutato (chiusu
+2026-10-14 10:15:11 ET | STOP spostato a 737.15 — Trailing sopra ultimo massimo swing 5m (737.01) con margine; struttura LH/LL intatta
+2026-10-14 10:15:43 ET | USCITA (stop o target sul server) short 1 MNQ-eq a 737.19: -54.54 $
+2026-10-14 11:30:08 ET | LUCID: giornata 2026-10-14: -385.10 $, saldo 49905.34 $
+2026-10-14 11:31:20 ET | FINE: 3 trade, -385.10 $, chiamate API 37, costo 0.76 $
