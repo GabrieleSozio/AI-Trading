@@ -28,3 +28,16 @@
 - 3 perdite. 2 di 3 avevano direzione giusta: perse per stop stretti (T1 di 0.07 $, T3 sotto il retest). T2 = taglia doppia contro regola su rottura in frusta post-CPI.
 - Il setup A del piano (chiusura 5m 9:55 a 735.91 sotto OR low 736.76 e VWAP) era esattamente il trade del giorno: preso in ritardo e con stop sbagliato.
 - Fase 2 ora -97.52: serve tornare positivi. Meno trade, stop larghi e corretti, 1 MNQ se stop >1.2.
+
+## Revisione 15/10 (+48.29)
+- T1 short 718.79: MFE +3.3 $ (~+270), chiuso a pareggio. Il pareggio a +1R su chiusura 5m in un range di 6 $ ha tolto tutto. NUOVA REGOLA: a +2R prendo METÀ? (impossibile con 1 MNQ) -> con 1 MNQ: a +2R sposto lo stop a +0.5R sopra/sotto lo swing 5m più vicino, non a pareggio puro; se arriva al livello target strutturale (es. min/max del range opposto, swing chiave) e rallenta -> chiudo. Con 2 MNQ: chiudo 1 a +2R.
+- T2: ho stretto lo stop da 721.70 a 721.30 "sopra LH" dopo 15 min laterali -> preso di 0 cent. ERRORE N.1 ANCORA (variante: stringere durante il trade). Mai stringere uno stop in perdita.
+- T3 long: rottura del range con SPY/SMH allineati, trail sui minimi 5m crescenti -> +164. Funziona: rottura di un range di 1 ora dopo 10:30 con indici allineati.
+- Gap molto grande (>1.2%) dopo più giorni di calo: la direzione del gap NON è garantita anche con dato caldo; in range prima ora, seguire la rottura del range confermata da SPY/SMH.
+- 2 trappole sullo stesso livello = il terzo test spesso rompe. Non rifare short al massimo del range al 2°-3° test se SPY fa nuovi massimi.
+
+## Revisione 15/10 – punti onesti in più
+- T1: il trade del giorno era corretto (trappola su OR high) e ha dato +2.5R. L'ho restituito tutto per il pareggio puro. Su 4 giorni il problema non è trovare i trade, è TENERE i guadagni: 13/10 e 15/10 MFE totali ~+750 $, incassati ~+640 / ~0.
+- T2: fade al 2° test dello stesso massimo mentre SPY saliva = trade a bassa probabilità, non "trappola". Lo stop stretto stavolta ha perso meno (l'originale sarebbe stato preso), ma resta errore di processo: una sola regola, mai stringere.
+- T3: il trade migliore è venuto quando ho cambiato idea senza ostinarmi (dopo 2 short, long sulla rottura). Flessibilità di direzione = OK.
+- Pattern 4 giorni: le perdite più grandi vengono da trade presi contro la conferma degli altri indici o al 2°/3° tentativo nella stessa zona. Ogni trade: chiedersi "SPY/SMH sono d'accordo?".

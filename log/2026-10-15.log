@@ -1,0 +1,16 @@
+2026-10-15 07:00:04 ET | avvio (riavvii 0)
+2026-10-15 09:50:25 ET | INGRESSO short 1 MNQ-eq (82 QQQ) a 718.79, stop 720.1, target None — Trappola->reverse: rottura OR high 720.74 fallita (max 720.95), LH 719.78, chiusura 5m sotto VWAP 718.78. Giorno PPI caldo + gap -1.28%: direzione del gap. Stop
+2026-10-15 09:55:17 ET | STOP spostato a 718.75 — Chiusura 5m a +2R sotto OR low 717.01: stop a pareggio
+2026-10-15 10:02:02 ET | USCITA (stop o target sul server) short 1 MNQ-eq a 718.83: -4.66 $
+2026-10-15 10:15:19 ET | INGRESSO short 1 MNQ-eq (82 QQQ) a 719.96, stop 721.7, target None — Seconda trappola al massimo del range: sweep 720.95 -> 721.40 e chiusura 5m di nuovo sotto (719.78). Giornata in range 715.5-721.4 con gap giù e PPI caldo. Stop
+2026-10-15 10:30:15 ET | STOP spostato a 721.3 — Stop sopra LH 5m 721.00 +0.30 (strutturale)
+2026-10-15 10:40:25 ET | USCITA (stop o target sul server) short 1 MNQ-eq a 721.30: -111.17 $
+2026-10-15 10:45:29 ET | INGRESSO long 1 MNQ-eq (82 QQQ) a 722.54, stop 720.45, target None — Rottura del range 715.5-721.4 durato 1 ora: chiusura 5m 10:40 a 722.53 con volume, SPY a nuovi massimi e SMH al massimo di giornata (allineati). Direzione: riem
+2026-10-15 11:00:17 ET | STOP spostato a 721.43 — Nuovo HH 724.02: trail sotto HL 5m 721.73 -0.30
+2026-10-15 11:10:20 ET | STOP spostato a 722.58 — Minimi 5m crescenti (722.41, 722.88, 723.33): stop sotto il minimo 5m 11:00 722.88 -0.30, pareggio protetto a 20 min dal
+2026-10-15 11:16:13 ET | STOP spostato a 723.88 — Trail sotto minimo 5m 11:10 (724.18) -0.30; minimi crescenti
+2026-10-15 11:22:15 ET | STOP spostato a 724.6 — Ultimi 8 minuti: stop sotto minimo 5m 724.94 -0.30
+2026-10-15 11:23:49 ET | USCITA (stop o target sul server) long 1 MNQ-eq a 724.56: +164.12 $
+2026-10-15 11:24:17 ET | [sessione] Claude: Giornata chiusa con 3 trade (il massimo). Aggiorno la memoria.
+2026-10-15 11:30:02 ET | LUCID: giornata 2026-10-15: +48.29 $, saldo 49953.63 $
+2026-10-15 11:31:10 ET | FINE: 3 trade, +48.29 $, chiamate API 70, costo 1.40 $
