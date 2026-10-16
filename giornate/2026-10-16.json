@@ -1,10 +1,10 @@
 {
  "day": "2026-10-16",
- "pos": -1,
+ "pos": 0,
  "entry": 720.716585,
- "stop_id": "1b2364db-2397-41ad-bf51-7bb1784fa89a",
- "stop_px": 716.94,
- "last_min": 900,
+ "stop_id": null,
+ "stop_px": null,
+ "last_min": 933,
  "done": false,
  "trades": [
   {
@@ -16,6 +16,16 @@
    "qty": 82,
    "why": "stop sul server",
    "pnl_usd": -124.88
+  },
+  {
+   "side": -1,
+   "t_in": 660,
+   "px_in": 720.716585,
+   "t_out": 933,
+   "px_out": 709.221708,
+   "qty": 82,
+   "why": "chiusura manuale",
+   "pnl_usd": 942.58
   }
  ],
  "checks": [
@@ -121,7 +131,7 @@
  ],
  "n_entry": 2,
  "t_in": 660,
- "qty": 82,
+ "qty": null,
  "ext_cancel_at": null,
  "_n_pushed": 1
 }
