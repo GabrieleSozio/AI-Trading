@@ -1,0 +1,25 @@
+{
+ "day": "2026-10-16",
+ "pos": -1,
+ "entry": 720.81878,
+ "stop_id": "9d3be758-2b4b-47a3-a5b8-cc03959f51af",
+ "stop_px": 722.86,
+ "last_min": 600,
+ "done": false,
+ "trades": [],
+ "checks": [
+  {
+   "m": 600,
+   "close": 720.69,
+   "up": 729.84,
+   "dn": 723.75,
+   "vwap": 722.86,
+   "pos": 0,
+   "segnale": -1
+  }
+ ],
+ "n_entry": 1,
+ "t_in": 600,
+ "qty": 82,
+ "ext_cancel_at": null
+}
