@@ -25,3 +25,15 @@ data | setup | dir | entrata | stop (rischio $) | uscita | P&L $ | MFE/MAE | not
 Setup: 2/C sweep&reclaim 1W/2L (+278); trappola->reverse 0W/5L (incl. BE) (-216, ma 3 con direzione giusta e stop stretto/BE); ORB/rottura 3W/1L (+6 ma +164 su rottura range 1h). MFE non incassato 15/10 T1: ~270 $.
 Media R reale vincenti ~+2R, perdenti ~-1R: con 27% vincenti serve +R più alto o più % -> migliorare gestione dei vincenti (no BE puro).
 CORREZIONE riepilogo: trappola->reverse 0W/4L (-216); ORB/rottura 2W/1L (+7: 12/10 +71, 14/10 -229, 15/10 +164); pullback VWAP 0W/1L (-118); sweep&reclaim 1W/2L (+278).
+
+16/10 | A gap&go short sotto OR+VWAP | short 1 | 721.89 9:42 | 724.15 (185) -> trail 723.85 -> 722.30 | 722.31 10:36 trail | -35.31 | +2.09/-1.66 | trail su swing 5m DENTRO un range 720-722: preso; con stop originale 724.15 (mai toccato, max successivo 723.55) alle 11:10 era 717.7 = +345 $
+16/10 | 5 rottura range 1h long | long 1 | 723.03 10:40 | 721.49 -> 721.70 (126) | 721.68 10:53 stop | -111.94 | +0.47/-1.35 | rottura senza SPY a nuovi max = trappola; poi crollo a 717.7
+Giornata 16/10: -147.25. Cumulato fase 2: -196.48 | Trade 13 | W/L 3/10 (23%) | media W +236.67 | media L -96.35. Settimana 1: -196.48.
+Contesto 16/10: opex, gap -0.37%, rotazione (Dow su, Nasdaq giù). Short 9:35-9:50 da 725.5 a 720.4, poi range 720-723.5 per 1h10 (4 test di 720), falsa rottura rialzista 10:35-10:50, poi rottura vera giù 11:05 -> 717.7. Direzione del gap = direzione del giorno (3° giorno su 4).
+
+## STATO AGGIORNATO (sostituisce l'intestazione) dopo 16/10
+Cumulato fase 2: -196.48 | Trade 13 | W/L 3/10 (23%) | media W +236.67 | media L -96.35 | Saldo 49806.38 (min 48290.44, margine 1515.94).
+Settimana 1: -196.48 (12/10 -22.61, 13/10 +310.19, 14/10 -385.10, 15/10 +48.29, 16/10 -147.25).
+Per setup: sweep&reclaim 1W/2L (+278) | gap&go A 0W/1L (-35, direzione giusta) | rottura range/ORB 2W/2L (-105) | trappola->reverse 0W/4L (-216) | pullback VWAP 0W/1L (-118).
+Trade 1 della giornata: +... somma -; Trade 2-3 contro gap/trend: -341 totale. Trade a favore del gap: direzione giusta 5/6 volte.
+CORREZIONE riga sopra: 1° trade della giornata = +238.97 (5 trade); trade successivi = -435.45 (8 trade). Il 1° trade rende, i successivi distruggono. Con 1 trade/giorno la settimana era +239.

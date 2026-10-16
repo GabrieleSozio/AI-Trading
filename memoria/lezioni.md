@@ -41,3 +41,10 @@
 - T2: fade al 2° test dello stesso massimo mentre SPY saliva = trade a bassa probabilità, non "trappola". Lo stop stretto stavolta ha perso meno (l'originale sarebbe stato preso), ma resta errore di processo: una sola regola, mai stringere.
 - T3: il trade migliore è venuto quando ho cambiato idea senza ostinarmi (dopo 2 short, long sulla rottura). Flessibilità di direzione = OK.
 - Pattern 4 giorni: le perdite più grandi vengono da trade presi contro la conferma degli altri indici o al 2°/3° tentativo nella stessa zona. Ogni trade: chiedersi "SPY/SMH sono d'accordo?".
+
+## Revisione 16/10 (-147.25)
+- ERRORE N.3 (nuovo, costoso): TRAIL TROPPO PRESTO in un range. Short giusto (gap&go 721.89), stop originale 724.15 mai minacciato; l'ho spostato su "swing 5m" minori dentro un range di 2 $ (723.85, poi 722.30) a +0.7R/+1R -> preso a -35, poi il trade sarebbe arrivato a +345. È la 3a volta in 4 giorni che restituisco/manco il trade del giorno per gestione (13/10 ok, 15/10 BE, 16/10 trail).
+- REGOLA NUOVA: lo stop iniziale NON si muove finché il prezzo non chiude un 5m oltre +2R. Dopo: trail solo oltre swing 5m che hanno prodotto un nuovo minimo/massimo di almeno 1R (non micro-swing dentro un range). Se il prezzo entra in range sotto VWAP, lo stop resta sopra VWAP/swing principale.
+- Long rottura range 1h con SPY NON a nuovi max (solo SMH) contro trend del giorno e sotto struttura LH di giornata = trappola. Setup 5 richiede SPY a nuovi max/min DI SEDUTA, non del range. Ho anche stretto lo stop di 0.21 (721.49->721.70): stessa malattia.
+- In giorno con gap giù e trend giù, preferire SOLO short; dopo stop-out del primo, il re-ingresso giusto era nella stessa direzione (rottura 719.8 alle 11:05), non il flip.
+- Statistica utile: direzione del gap = direzione della seduta 9:30-11:30 in 3/4 giorni (non 15/10, gap >1.2%).

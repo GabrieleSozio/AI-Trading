@@ -1,0 +1,10 @@
+2026-10-16 07:00:02 ET | avvio (riavvii 0)
+2026-10-16 09:42:23 ET | INGRESSO short 1 MNQ-eq (82 QQQ) a 721.89, stop 724.15, target None — Setup A gap&go short: 5m 9:35 chiusa 722.46 sotto OR low 724.08 e VWAP, massimi 1m decrescenti, SPY a nuovi minimi. Invalidazione: riconquista VWAP (724.03) e s
+2026-10-16 10:01:12 ET | STOP spostato a 723.85 — Trail oltre swing 5m 723.55 (+0.30); trade in profitto
+2026-10-16 10:11:17 ET | STOP spostato a 722.3 — Rotto doppio minimo 720.3: trail oltre nuovo swing 5m 721.98 +0.30
+2026-10-16 10:36:56 ET | USCITA (stop o target sul server) short 1 MNQ-eq a 722.31: -35.31 $
+2026-10-16 10:40:18 ET | INGRESSO long 1 MNQ-eq (82 QQQ) a 723.03, stop 721.49, target None — Setup 5 rottura range 1h (719.8-722.0) dopo 10:30: chiusura 5m 722.91 sopra range e VWAP 722.33, 4 test falliti del min 720 (trappola ribassista), SMH a nuovi m
+2026-10-16 10:50:18 ET | STOP spostato a 721.7 — Trail sotto HL 5m 722.00 (retest del range) -0.30
+2026-10-16 10:53:15 ET | USCITA (stop o target sul server) long 1 MNQ-eq a 721.68: -111.94 $
+2026-10-16 11:30:06 ET | LUCID: giornata 2026-10-16: -147.25 $, saldo 49806.38 $
+2026-10-16 11:30:56 ET | FINE: 2 trade, -147.25 $, chiamate API 58, costo 1.31 $
