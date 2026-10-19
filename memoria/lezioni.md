@@ -48,3 +48,13 @@
 - Long rottura range 1h con SPY NON a nuovi max (solo SMH) contro trend del giorno e sotto struttura LH di giornata = trappola. Setup 5 richiede SPY a nuovi max/min DI SEDUTA, non del range. Ho anche stretto lo stop di 0.21 (721.49->721.70): stessa malattia.
 - In giorno con gap giù e trend giù, preferire SOLO short; dopo stop-out del primo, il re-ingresso giusto era nella stessa direzione (rottura 719.8 alle 11:05), non il flip.
 - Statistica utile: direzione del gap = direzione della seduta 9:30-11:30 in 3/4 giorni (non 15/10, gap >1.2%).
+
+## Revisione 19/10 (-294) onesta
+- Gap +1.37% su. Seduta: frusta 718-720 fino 9:55, falsa rottura giù a 716.64, V-reversal, retest VWAP 10:30 (719.23, tenuto), trend su fino 724.1. Direzione del gap ha vinto ANCORA (gap fill mai neanche avvicinato).
+- T1 short contro gap: il setup B era nel piano, ma è il trade a probabilità più bassa (contro gap). Fill 0.56 peggio del segnale: la regola diceva ricalcolare R e io no -> rischio 164 invece di ~115.
+- T2 long: direzione giusta, ma INSEGUITO dopo +4 $ in 10 min, con stop sotto la barra di rottura (micro-struttura). Il pullback normale è tornato al VWAP (719.23 vs VWAP 719.04) e mi ha preso; poi +4.3 $. Stesso schema di 14/10 e 16/10: direzione giusta, stop dentro il rumore.
+- DIAGNOSI 6 GIORNI: 12 perdite su 15. Il problema non è la direzione, è DOVE entro: a mercato dopo la barra di rottura (già estesa, slittamento 0.4-0.6) e con stop a 1.4-2 $ che sta dentro il ritracciamento normale (QQQ ritraccia 50-60% di una gamba da 4 $ prima di ripartire).
+- REGOLA NUOVA (ingresso sul retest): dopo la rottura/chiusura 5m che dà la direzione, NON entro a mercato. Aspetto il ritracciamento verso il livello rotto o il VWAP (entro 0.5 $) con una barra 1-5m di rifiuto, entro lì. Stop oltre il VWAP / swing di ritracciamento +0.30. Se non torna, salto il trade (meglio perdere un trade che inseguire).
+- Stop sotto la "barra di rottura" VIETATO come stop principale: lo stop va oltre il VWAP o oltre lo swing che ha generato la mossa.
+- Contro gap: vietato prima delle 10:30. Il gap +/- >0.8% ha tenuto la direzione 9:30-11:30 in 4 giorni su 6 (eccezione 15/10 e 13/10 parziale); i miei trade contro gap: quasi tutti persi.
+- Dopo il primo stop-out, il secondo trade nella direzione opposta (flip) è stato perso 3 volte su 3 (15/10, 16/10, 19/10). Dopo uno stop: pausa fino a nuova struttura chiara (retest VWAP), non flip immediato a mercato.

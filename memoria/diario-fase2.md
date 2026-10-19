@@ -21,3 +21,14 @@ Taglia: stop ≤1.2 -> 2 MNQ, altrimenti 1. Perdita max giorno 350.
 - Trovo i trade giusti (13/10, 14/10 T3, 15/10 T1, 16/10 T1 = direzione corretta), li perdo per GESTIONE: stop stretti all'ingresso, stretti durante, BE/trail prematuri. MFE non incassato settimana ~+900 $.
 - Simulazione regola "stop fermo finché chiusura 5m a +2R, poi +0.5R": 15/10 T1 ~+53 invece di -5; 16/10 T1 ~+300 invece di -35. Questa regola da sola rendeva la settimana positiva.
 - Secondo problema: trade numero 2-3 della giornata contro la direzione del gap/trend (13/10 T2, 15/10 T2, 16/10 T2): -341 in totale.
+
+## 19/10 piano (lunedì)
+Contesto: QQQ PM 719.56 vs close 709.82 = gap +1.37% dopo settimana di sell-off chip (streak "Lehman-era"). Dow fut giù, NDX su (rotazione inversa). Hassett/Bessent su inflazione. Earnings tech in settimana. Nessun dato macro alle 10.
+Livelli: sopra 720-721 (range ven), 723.5, 725.7 (max ven). Sotto 718.6 (PM min), 717-716.4, 712.5, 709.8 (close/gap fill).
+A) Gap&go long: chiusura 5m sopra OR15 high e sopra VWAP, SPY/SMH su -> long, stop sotto swing/VWAP -0.30. Target 723.5/725.7.
+C) Sweep&reclaim long: bucata OR low/PM min + chiusura 5m sopra e sopra VWAP -> long, stop 0.30 sotto sweep.
+B) Gap fade: sweep fallito del max + chiusura 5m sotto OR low e VWAP con SPY/SMH giù -> short, stop sopra max +0.30, target 716.5/712.5. (Gap >1.2% dopo calo = direzione non garantita.)
+Regole: stop fermo fino a chiusura 5m +2R. Max perdita giorno 300. 2° trade solo a favore del trend del giorno.
+19/10 esito: -294.00 (short fade 717.99 -164 contro gap, slip 0.56; long reverse 721.38 -130 inseguito, stop sotto barra rottura, preso dal retest VWAP 719.23 poi 724.1). Fase 2: -490.48, margine 1221.94.
+Trade giusto del giorno: long al retest VWAP ~719.3-719.5 alle 10:30-10:35 dopo sweep 716.64 e reclaim OR high, stop 718.7 (rischio ~60-70 $/MNQ), 11:30 a 723.8 = +350 $ con 1 MNQ (+3.5R).
+Per domani: solo direzione gap, ingresso sul retest (niente market dopo barra di rottura), stop oltre VWAP/swing, max 2 trade, max perdita 200.

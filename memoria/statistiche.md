@@ -37,3 +37,14 @@ Settimana 1: -196.48 (12/10 -22.61, 13/10 +310.19, 14/10 -385.10, 15/10 +48.29, 
 Per setup: sweep&reclaim 1W/2L (+278) | gap&go A 0W/1L (-35, direzione giusta) | rottura range/ORB 2W/2L (-105) | trappola->reverse 0W/4L (-216) | pullback VWAP 0W/1L (-118).
 Trade 1 della giornata: +... somma -; Trade 2-3 contro gap/trend: -341 totale. Trade a favore del gap: direzione giusta 5/6 volte.
 CORREZIONE riga sopra: 1° trade della giornata = +238.97 (5 trade); trade successivi = -435.45 (8 trade). Il 1° trade rende, i successivi distruggono. Con 1 trade/giorno la settimana era +239.
+
+19/10 | B gap fade short (OR low + VWAP, SPY min) | short 1 | 717.99 10:00 (segnale 717.43, slip 0.56) | 719.96 (164) | 719.98 10:14 stop | -164.42 | +1.35/-2.0 | contro gap +1.37%; V-reversal da 716.64
+19/10 | trappola->reverse long (chiusure 5m sopra OR high/VWAP, SPY nuovi max) | long 1 | 721.38 10:20 (segnale 721.02, slip 0.36) | 719.96 (130) | 719.82 10:32 stop | -129.58 | +0.28/-2.1 | inseguito dopo +4 $ in 10 min; pullback 10:30 a 719.23 = retest VWAP (719.04) tenuto; poi 724.13 alle 11:25 (stop sotto VWAP -0.30 ~718.7 => ~+195 a 11:30)
+Giornata 19/10: -294.00. Saldo 49512.38, margine 1221.94.
+
+## STATO dopo 19/10 (sostituisce i precedenti)
+Cumulato fase 2: -490.48 | Trade 15 | W/L 3/12 (20%) | media W +236.67 | media L -104.79 | Saldo 49512.38 | min 48290.44 | margine 1221.94.
+Settimana 2: -294.00 (19/10).
+Per setup: sweep&reclaim 1W/2L (+278) | gap&go A 0W/1L (-35) | rottura range/ORB 2W/2L (-105) | trappola->reverse 0W/5L (-346) | pullback VWAP 0W/1L (-118) | gap fade B 0W/1L (-164).
+Slittamento medio ingresso a mercato dopo chiusura 5m: 0.35-0.55 $ (=30-60 $ per MNQ a trade). Ingressi a mercato dopo barre di rottura = inseguimento.
+Trappola->reverse 0/5: SETUP SOSPESO.
