@@ -32,3 +32,16 @@ Regole: stop fermo fino a chiusura 5m +2R. Max perdita giorno 300. 2° trade sol
 19/10 esito: -294.00 (short fade 717.99 -164 contro gap, slip 0.56; long reverse 721.38 -130 inseguito, stop sotto barra rottura, preso dal retest VWAP 719.23 poi 724.1). Fase 2: -490.48, margine 1221.94.
 Trade giusto del giorno: long al retest VWAP ~719.3-719.5 alle 10:30-10:35 dopo sweep 716.64 e reclaim OR high, stop 718.7 (rischio ~60-70 $/MNQ), 11:30 a 723.8 = +350 $ con 1 MNQ (+3.5R).
 Per domani: solo direzione gap, ingresso sul retest (niente market dopo barra di rottura), stop oltre VWAP/swing, max 2 trade, max perdita 200.
+
+## 20/10 piano (martedì)
+Contesto: futures giù (Iran minaccia cavi sottomarini), QQQ PM 715.66 vs close 718.31 = gap -0.37% (piccolo). PM min 712.81 poi rimbalzo. CoreWeave nuovi minimi (AI debt), NVDA ordine 35 mld Cina. Nessun dato macro. Earnings TSLA/NFLX in settimana.
+Livelli: sopra 716.64 (min ieri), 717.9-718.3 (close/gap fill), 719.2-720.3. Sotto 712.8 (PM min), 710, 709.8.
+A) Gap&go short: chiusura 5m sotto OR15 low e VWAP, SPY/SMH giù -> short sul RETEST di OR low/VWAP (entro 0.5), stop oltre swing del retest/VWAP +0.30. Target 712.8 / 710.
+C) Sweep max (OR high/716.6) fallito + chiusura 5m sotto -> short al retest, stop 0.30 oltre sweep.
+B) Gap piccolo (<0.5%): gap fill possibile. Long solo dopo 9:50: chiusura 5m sopra OR high + VWAP con SPY/SMH a nuovi max, ingresso al retest VWAP/OR high, stop sotto swing -0.30, target 718.3/720.
+Regole: max 150 $/trade, max perdita giorno 200, max 2 trade, stop fermo fino chiusura 5m +2R, niente market dopo barra di rottura.
+20/10 T1 short 1 MNQ 712.85 (9:51) setup A su retest VWAP (max retest 713.70), stop 714.00 (R=1.15, 94 $). +2R = chiusura 5m sotto 710.55 -> stop a +0.5R. SPY forte = rischio.
+T1 esito: stop 714.07 alle 9:53, -101.30. V-reversal da 710.42 (vicino close ven 709.82) mentre SPY era ai max di seduta: short contro SPY forte = altro trade con indici non d'accordo. Ora max 1 trade, rischio ≤ 95 $, niente flip immediato.
+T2 long 1 MNQ 718.40 (10:14) bandiera sopra gap fill, SPY/SMH nuovi max, stop 717.45 (R 0.95, 78 $). +2R = chiusura 5m sopra 720.30.
+20/10 esito: +47.52 (short A -101.30 contro SPY forte; long bandiera sopra gap fill +148.82, trail 720.33 a 11:12). Fase 2: -442.96. Seduta: rottura PM min a 9:40, min 710.42 sul close ven, V-reversal +12 $ fino 722.74 alle 10:30, poi range. Gap piccolo riempito.
+Per domani: filtro SPY assoluto; con gap piccolo niente direzione default; cercare V/sweep su livello chiave con SPY forte; ingresso in bandiera se il retest non arriva.

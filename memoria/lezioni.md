@@ -58,3 +58,14 @@
 - Stop sotto la "barra di rottura" VIETATO come stop principale: lo stop va oltre il VWAP o oltre lo swing che ha generato la mossa.
 - Contro gap: vietato prima delle 10:30. Il gap +/- >0.8% ha tenuto la direzione 9:30-11:30 in 4 giorni su 6 (eccezione 15/10 e 13/10 parziale); i miei trade contro gap: quasi tutti persi.
 - Dopo il primo stop-out, il secondo trade nella direzione opposta (flip) è stato perso 3 volte su 3 (15/10, 16/10, 19/10). Dopo uno stop: pausa fino a nuova struttura chiara (retest VWAP), non flip immediato a mercato.
+
+## Revisione 20/10 (+47.52)
+- T1 short: setup A eseguito "da manuale" (retest VWAP + rifiuto) ma con SPY ai MAX di seduta e QQQ sul close di venerdì (709.8, supporto): stop in 2 min. Il check "SPY d'accordo?" era NO e l'ho ignorato. REGOLA: se SPY fa nuovi max mentre shorto QQQ (o viceversa) -> niente trade, anche se il setup è perfetto. Gap piccolo (<0.5%) = direzione del gap non vale.
+- T2 long: ingresso dentro la bandiera (non sulla rottura) con stop sotto la bandiera, tutti gli indici allineati -> +4.3 $ MFE, +149. Stop fermo fino a +2R, poi trail su swing che ha creato nuovo max: ha funzionato. Il flip dopo stop-out ha funzionato perché c'era NUOVA struttura (chiusura 5m sopra OR high + gap fill) e 20 min di pausa.
+- Ingresso "in bandiera" = buona alternativa al retest quando il trend è forte e il pullback non arriva (10:00-10:14 nessun retest).
+- Trail a fine sessione (<30 min) sul min del range di 30' = corretto.
+- Quello che manca ancora: il trade A+ del giorno era il long dalla V (713.5-714 alle 9:55 con stop 712.6) → +8 $. Riconoscere prima la V-reversal su supporto chiave (close ven) con SPY forte.
+
+- Aggiunta revisione 20/10: T1 short preso con il supporto chiave (close ven 709.8) a soli 3 $ e SPY ai max -> due "no" ignorati. REGOLA: niente short se un supporto chiave (close ieri/ven, min ieri) è a <1.5R dal fill; niente long simmetrico sotto resistenza chiave. Lì si aspetta la reazione al livello (setup C), non si entra prima.
+- T2: con stop 0.95 il playbook dava 2 MNQ, ho tenuto 1 per il limite dopo-perdita (rischio ≤95). Coerente con le regole; costo opportunità ~150 $. Ok così finché il conto è in perdita: la disciplina viene prima.
+- Unico setup con aspettativa positiva provata: C (sweep/V su livello chiave + SPY allineato + ingresso al retest/bandiera) 2W/2L +427. Tutti gli altri negativi. Domani: C prima scelta; A solo con gap >0.8% e SPY d'accordo.

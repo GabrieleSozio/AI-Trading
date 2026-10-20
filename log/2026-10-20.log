@@ -1,0 +1,9 @@
+2026-10-20 07:00:02 ET | avvio (riavvii 0)
+2026-10-20 09:51:15 ET | INGRESSO short 1 MNQ-eq (82 QQQ) a 712.85, stop 714.0, target None — Setup A gap&go short: gap giù, chiusura 5m 9:40 sotto OR/PM low 712.81 e VWAP; retest 9:49 a 713.70 (VWAP 712.98) rifiutato, barra 9:50 chiude 712.68 sotto VWAP
+2026-10-20 09:53:45 ET | USCITA (stop o target sul server) short 1 MNQ-eq a 714.07: -101.30 $
+2026-10-20 10:14:27 ET | INGRESSO long 1 MNQ-eq (82 QQQ) a 718.40, stop 717.45, target None — Sweep&reclaim: min 710.42 sul close di ven 709.8, V-reversal, chiusura 5m sopra OR high 715.30 e VWAP, gap riempito 718.3. SPY e SMH a nuovi max di seduta, tutt
+2026-10-20 10:30:22 ET | STOP spostato a 719.1 — Chiusura 5m 721.93 oltre +2R (720.30). Stop sotto lo swing 5m 719.40 (consolidamento che ha generato il nuovo max 722.18
+2026-10-20 11:02:20 ET | STOP spostato a 720.33 — Range di 30 min 720.63-722.74 con minimi crescenti; a 28 min dalla chiusura forzata, la rottura del minimo del range (72
+2026-10-20 11:12:23 ET | USCITA (stop o target sul server) long 1 MNQ-eq a 720.23: +148.82 $
+2026-10-20 11:30:02 ET | LUCID: giornata 2026-10-20: +47.52 $, saldo 49559.90 $
+2026-10-20 11:30:33 ET | FINE: 2 trade, +47.52 $, chiamate API 61, costo 1.42 $

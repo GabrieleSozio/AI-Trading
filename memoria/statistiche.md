@@ -48,3 +48,18 @@ Settimana 2: -294.00 (19/10).
 Per setup: sweep&reclaim 1W/2L (+278) | gap&go A 0W/1L (-35) | rottura range/ORB 2W/2L (-105) | trappola->reverse 0W/5L (-346) | pullback VWAP 0W/1L (-118) | gap fade B 0W/1L (-164).
 Slittamento medio ingresso a mercato dopo chiusura 5m: 0.35-0.55 $ (=30-60 $ per MNQ a trade). Ingressi a mercato dopo barre di rottura = inseguimento.
 Trappola->reverse 0/5: SETUP SOSPESO.
+
+20/10 | A gap&go short su retest VWAP | short 1 | 712.85 9:51 | 714.00 (94) | 714.07 9:53 stop | -101.30 | +0.2/-1.2 | SPY ai max di seduta mentre shortavo QQQ; V-reversal da 710.42 (close ven 709.8). Gap piccolo -0.37%
+20/10 | sweep&reclaim -> bandiera sopra gap fill, SPY/SMH nuovi max | long 1 | 718.40 10:14 | 717.45 (78) -> 719.10 (+2R chiuso 10:25) -> 720.33 (min range 30') | 720.23 11:12 trail | +148.82 | +4.34/-0.6 | trail su min range 30' a 28' dalla fine: corretto (poi 719.8)
+Giornata 20/10: +47.52. Saldo ~49559.90.
+
+## STATO dopo 20/10 (sostituisce i precedenti)
+Cumulato fase 2: -442.96 | Trade 17 | W/L 4/13 (24%) | media W +214.70 | media L -101.77 | Saldo ~49559.90 | min 48290.44.
+Settimana 2: -246.48 (19/10 -294.00, 20/10 +47.52).
+Per setup: sweep&reclaim/V-reversal long 2W/2L (+427) | gap&go A 0W/2L (-137) | rottura range/ORB 2W/2L (-105) | trappola->reverse 0W/5L (-346) | pullback VWAP 0W/1L (-118) | gap fade B 0W/1L (-164).
+Gap piccoli (<0.5%): 20/10 il gap -0.37% è stato riempito entro 10:10 e superato (+4 $). Direzione del gap NON affidabile con gap piccolo.
+
+CORREZIONE STATO dopo 20/10 (verificato in revisione): media L = -104.52 (13 perdite, totale -1358.78), media W = +214.71 (4 vincite, totale +858.83). Cumulato -442.96 confermato. Saldo 49559.90, margine 1269.46.
+Profit factor 0.63. Con media W/L ~2.05 serve ≥33% vincenti per pareggio: ora 24%.
+Obiettivo: +443 in 13 sedute (21/10-06/11) = ~35 $/giorno. Un solo trade +2R al giorno basta; non serve forzare.
+MFE T2 20/10: +4.34 (max 722.74), incassato +1.83 (42%). Uscita a 11:12 sul trail range 30' corretta (chiusura 11:30 ~719.8).
