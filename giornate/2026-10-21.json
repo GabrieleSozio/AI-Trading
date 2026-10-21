@@ -4,8 +4,8 @@
  "entry": 727.09,
  "stop_id": null,
  "stop_px": null,
- "last_min": 900,
- "done": false,
+ "last_min": 955,
+ "done": true,
  "trades": [
   {
    "side": 1,
@@ -120,5 +120,19 @@
  "qty": null,
  "ext_cancel_at": null,
  "best": 727.95,
- "trail_on": false
+ "trail_on": false,
+ "sip_sim": {
+  "pnl_per_azione": -2.611,
+  "pnl_usd": -214.1,
+  "trades": [
+   {
+    "side": 1,
+    "t_in": 780,
+    "px_in": 727.1435,
+    "t_out": 899,
+    "px_out": 724.5324700341675,
+    "why": "stop"
+   }
+  ]
+ }
 }
