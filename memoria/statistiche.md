@@ -63,3 +63,13 @@ CORREZIONE STATO dopo 20/10 (verificato in revisione): media L = -104.52 (13 per
 Profit factor 0.63. Con media W/L ~2.05 serve ≥33% vincenti per pareggio: ora 24%.
 Obiettivo: +443 in 13 sedute (21/10-06/11) = ~35 $/giorno. Un solo trade +2R al giorno basta; non serve forzare.
 MFE T2 20/10: +4.34 (max 722.74), incassato +1.83 (42%). Uscita a 11:12 sul trail range 30' corretta (chiusura 11:30 ~719.8).
+
+21/10 | A/bandiera short dopo falsa rottura 723.54, SPY nuovi min | short 2 | 720.73 10:10 (segnale 721.38, slip 0.65) | 722.30 (258!) | 720.54 10:10 man | +28.84 | ~0 | chiuso subito per regola ricalcolo R; supporto 720.13 a 0.4R
+21/10 | compressione minimi crescenti -> bandiera al top range | long 2 | 723.26 10:58 | 722.49 (126) -> 723.09 -> 723.67 | 723.65 11:18 trail | +62.44 | +1.40/-0.1 | trail su swing 1m negli ultimi 15' preso da rumore (IEX min 724.01, fill 723.65); con trail su min 30' (722.79) a 11:30 ~724.0 = ~+120
+Giornata 21/10: +91.28. Saldo ~49651.18.
+
+## STATO dopo 21/10 (sostituisce i precedenti)
+Cumulato fase 2: -351.68 | Trade 19 | W/L 6/13 (32%) | media W +158.35 | media L -104.52 | Saldo ~49651.18 | min 48290.44 | margine ~1360.
+Settimana 2: -155.20 (19/10 -294.00, 20/10 +47.52, 21/10 +91.28).
+Per setup: sweep&reclaim/V long 2W/2L (+427) | gap&go A 0W/2L (-137) | rottura range/ORB/compressione 3W/2L (-43) | bandiera short 1W (+29, fortuna) | trappola->reverse 0W/5L (-346) | pullback VWAP 0W/1L (-118) | gap fade B 0W/1L (-164).
+Mancano +352 in 12 sedute (~30 $/giorno).

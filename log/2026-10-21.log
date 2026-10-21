@@ -1,0 +1,9 @@
+2026-10-21 07:00:03 ET | avvio (riavvii 0)
+2026-10-21 10:10:30 ET | INGRESSO short 2 MNQ-eq (164 QQQ) a 720.73, stop 722.3, target None — Falsa rottura del range a 723.54 (SPY senza nuovi max), poi SPY e SMH a nuovi minimi di seduta. QQQ in bandiera ribassista 721.28-721.99 sotto VWAP 722.16. Shor
+2026-10-21 10:10:47 ET | USCITA (chiusura decisa dal trader: Fill 720.73 vs segnale 721.38 (slip 0.65): R 1.57, rischio 258 $ > limite. E il ) short 2 MNQ-eq a 720.54: +28.84 $
+2026-10-21 10:58:24 ET | INGRESSO long 2 MNQ-eq (164 QQQ) a 723.26, stop 722.49, target None — Compressione con minimi crescenti (720.13, 721.20, 722.29) risolta al rialzo: nuovo max 723.70, bandiera 722.79-723.70 al top, SMH su, SPY a 0.2 dal max. Long i
+2026-10-21 11:11:16 ET | STOP spostato a 723.09 — Ultimi 20 min: trail sotto lo swing 11:08 (723.39) che ha generato il nuovo max 724.15, -0.30.
+2026-10-21 11:15:18 ET | STOP spostato a 723.67 — Rotto max 19/10 724.53, chiusura 5m 724.60. Ultimi 15 min: trail sotto swing 11:13 (723.97) -0.30, blocca ~+65 $.
+2026-10-21 11:18:36 ET | USCITA (stop o target sul server) long 2 MNQ-eq a 723.65: +62.44 $
+2026-10-21 11:30:07 ET | LUCID: giornata 2026-10-21: +91.28 $, saldo 49651.18 $
+2026-10-21 11:31:00 ET | FINE: 2 trade, +91.28 $, chiamate API 74, costo 2.08 $

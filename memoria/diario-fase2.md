@@ -45,3 +45,17 @@ T1 esito: stop 714.07 alle 9:53, -101.30. V-reversal da 710.42 (vicino close ven
 T2 long 1 MNQ 718.40 (10:14) bandiera sopra gap fill, SPY/SMH nuovi max, stop 717.45 (R 0.95, 78 $). +2R = chiusura 5m sopra 720.30.
 20/10 esito: +47.52 (short A -101.30 contro SPY forte; long bandiera sopra gap fill +148.82, trail 720.33 a 11:12). Fase 2: -442.96. Seduta: rottura PM min a 9:40, min 710.42 sul close ven, V-reversal +12 $ fino 722.74 alle 10:30, poi range. Gap piccolo riempito.
 Per domani: filtro SPY assoluto; con gap piccolo niente direzione default; cercare V/sweep su livello chiave con SPY forte; ingresso in bandiera se il retest non arriva.
+
+## 21/10 piano (mercoledì)
+Contesto: QQQ PM 722.12 vs close 717.21 = gap +0.68% (medio). Chip rimbalzano (SpaceX 200k chip/mese, NVDA su PM), futures su (Iran prolunga trattative). Fink: rischio recessione da data center. TSLA earnings stasera. Nessun dato macro alle 10.
+Livelli: sopra 722.74 (max ieri), 724.53 (max 19/10), 725.7. Sotto 721.28 (PM min), 720-719.2, 717.2 (close/gap fill), 716.6.
+C) Sweep PM min 721.28 / OR low + reclaim (chiusura 5m sopra e sopra VWAP), SPY/SMH forti -> long al retest/bandiera, stop 0.30 sotto sweep. Target 724.5/725.7. PRIMA SCELTA.
+A/5) Chiusura 5m sopra 722.74 (max ieri) con SPY nuovi max -> long al retest 722.7 (entro 0.5) o in bandiera, stop sotto swing/VWAP -0.30. Target 724.5.
+B) Rottura giù: chiusura 5m sotto PM min e VWAP con SPY/SMH a nuovi min -> short solo al retest, e solo se 720/719.2 non è a <1.5R; preferibilmente dopo 10:00. Target 719.2/717.2.
+Regole: max 150 $/trade, perdita max giorno 200, max 2 trade, stop fermo fino a chiusura 5m +2R, niente market dopo barra di rottura, check SPY.
+
+21/10 T1 short 2 MNQ in bandiera 721.38 -> fill 720.73 (slip 0.65, R 1.57, rischio 258) -> chiuso subito 720.54 per regola ricalcolo R: +28.84 (fortuna).
+21/10 T2 long 2 MNQ 723.26 (10:58) bandiera al top del range dopo minimi crescenti, stop 722.49 (R 0.77, 126 $). +2R = 724.80.
+21/10 esito: +91.28 (short +28.84 chiuso per slip; long compressione/bandiera 723.26 -> 723.65 trail, +62.44). Fase 2: -351.68. Seduta: range 720.13-723.54 fino 10:45, falsa rottura 10:02, triplo minimo 720.13-720.29, poi minimi crescenti e rottura al rialzo dopo 10:50 fino 724.66 (11:15). SPY debole fino 10:20 poi recupero; SMH guida al rialzo dopo 10:20.
+
+Per domani 22/10 (giovedì): TSLA earnings ieri sera -> controllare PM QQQ/TSLA e gap. Piano con C prima scelta, D/5 dopo 10:30. Check ultimo 1m prima di entrare. Gestione: prima di ogni modify_stop citare la regola. Obiettivo ≥ +30 $.

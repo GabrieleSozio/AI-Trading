@@ -69,3 +69,14 @@
 - Aggiunta revisione 20/10: T1 short preso con il supporto chiave (close ven 709.8) a soli 3 $ e SPY ai max -> due "no" ignorati. REGOLA: niente short se un supporto chiave (close ieri/ven, min ieri) è a <1.5R dal fill; niente long simmetrico sotto resistenza chiave. Lì si aspetta la reazione al livello (setup C), non si entra prima.
 - T2: con stop 0.95 il playbook dava 2 MNQ, ho tenuto 1 per il limite dopo-perdita (rischio ≤95). Coerente con le regole; costo opportunità ~150 $. Ok così finché il conto è in perdita: la disciplina viene prima.
 - Unico setup con aspettativa positiva provata: C (sweep/V su livello chiave + SPY allineato + ingresso al retest/bandiera) 2W/2L +427. Tutti gli altri negativi. Domani: C prima scelta; A solo con gap >0.8% e SPY d'accordo.
+
+## Revisione 21/10 (+91.28)
+- Giornata di range puro (720.13-723.54 per 80 min), gap +0.68% senza direzione, SPY e SMH divergenti. Ho aspettato invece di forzare: giusto. Il trade buono è arrivato alla risoluzione della COMPRESSIONE (minimi crescenti 720.13/721.20/722.29 + max ripetuti a 723) con SMH su: long in bandiera al top, stop sotto bandiera. Setup nuovo valido: "compressione -> bandiera al top/fondo del range dopo 10:30".
+- T1: ordine a mercato su barra veloce = slip 0.65 (3a volta >0.5). Chiudere subito è stato corretto (regola rispettata). Prima di entrare in bandiera controllare che l'ultima barra 1m non stia già rompendo: se sì, aspetto il retest.
+- T2 gestione: negli ultimi 15' ho trailato sotto uno swing 1m (-0.30) e IEX non mostrava nemmeno il tocco (min 724.01, fill 723.65: i dati IEX sottostimano i minimi di ~0.35). REGOLA: trail finale sul minimo del range 30' oppure swing 5m -0.50 (non -0.30) per il rumore IEX. Costo stimato ~55 $.
+- Mancato: range day = mean reversion agli estremi (long 720.3 stop 719.8 al triplo minimo 10:10-10:21 → +2.5 $). Nei giorni di range dopo 10:00 posso fare 1 fade dell'estremo al 3° test con stop 0.5 oltre, se SPY non fa nuovi estremi nel verso della rottura.
+
+## Revisione 21/10 – punti onesti aggiuntivi
+- Il +28.84 del T1 è FORTUNA, non abilità: ingresso sbagliato (market su barra veloce, 2 MNQ, rischio reale 258 > limite). Lo conto come errore di esecuzione corretto in tempo.
+- T2: la regola "dopo 11:00 trail su range 30'" ESISTEVA già nel playbook e l'ho violata con swing 1m. Non è una lezione nuova, è indisciplina in gestione (4a volta in fase 2 che la gestione toglie profitto: 15/10, 16/10, 21/10). Regola di processo: prima di ogni modify_stop scrivo "quale regola del playbook autorizza questo stop?". Se non ne trovo una -> non lo muovo.
+- Dato positivo: 2 giorni di fila positivi rispettando filtro SPY e attesa. 1° trade buono del giorno resta la chiave; ~30 $/giorno bastano.
