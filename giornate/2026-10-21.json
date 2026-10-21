@@ -1,10 +1,10 @@
 {
  "day": "2026-10-21",
- "pos": 0,
- "entry": null,
- "stop_id": null,
- "stop_px": null,
- "last_min": 750,
+ "pos": 1,
+ "entry": 727.09,
+ "stop_id": "40b98e8f-1ffe-4c81-919c-2f85edbe837c",
+ "stop_px": 723.8,
+ "last_min": 780,
  "done": false,
  "trades": [],
  "checks": [
@@ -56,8 +56,22 @@
   {
    "m": 750,
    "nota": "barra IEX mancante"
+  },
+  {
+   "m": 780,
+   "close": 727.11,
+   "up": 726.04,
+   "dn": 713.76,
+   "vwap": 723.8,
+   "pos": 0,
+   "segnale": 1
   }
  ],
- "n_entry": 0,
- "_n_pushed": 0
+ "n_entry": 1,
+ "_n_pushed": 0,
+ "t_in": 780,
+ "qty": 82,
+ "ext_cancel_at": null,
+ "best": 727.09,
+ "trail_on": false
 }
