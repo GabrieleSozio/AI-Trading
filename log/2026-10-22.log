@@ -7,3 +7,5 @@
 2026-10-22 11:31:06 ET | controllo 11:30: prezzo 707.69 banda 710.59-728.32 VWAP 710.55 posizione -1 segnale 0
 2026-10-22 12:01:06 ET | controllo 12:00: prezzo 710.09 banda 710.14-728.78 VWAP 710.30 posizione -1 segnale 0
 2026-10-22 12:21:05 ET | USCITA (stop sul server) short 82 a 710.32: -94.19 $
+2026-10-22 12:31:05 ET | controllo 12:30: prezzo 709.00 banda 710.44-728.47 VWAP 710.24 posizione 0 segnale -1
+2026-10-22 12:31:10 ET | INGRESSO short 82 QQQ a 708.79, stop 710.24
