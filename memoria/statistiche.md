@@ -73,3 +73,13 @@ Cumulato fase 2: -351.68 | Trade 19 | W/L 6/13 (32%) | media W +158.35 | media L
 Settimana 2: -155.20 (19/10 -294.00, 20/10 +47.52, 21/10 +91.28).
 Per setup: sweep&reclaim/V long 2W/2L (+427) | gap&go A 0W/2L (-137) | rottura range/ORB/compressione 3W/2L (-43) | bandiera short 1W (+29, fortuna) | trappola->reverse 0W/5L (-346) | pullback VWAP 0W/1L (-118) | gap fade B 0W/1L (-164).
 Mancano +352 in 12 sedute (~30 $/giorno).
+
+22/10 | D compressione/triangolo discendente rotto + 710.42/709.8, SPY/SMH nuovi min | short 1 | 708.82 10:31 | 710.30 (121) -> 709.52 -> 709.46 -> 708.54 (trail post-11:00) | 708.65 11:20 trail | +12.70 | +2.11/-1.13 | entrato 10' dopo la rottura (10:20 a ~712, 3.2 $ già fatti); mai +2R; trail 708.54 a 0.08 dal max della barra 11:15 (708.46) = dentro il rumore; close 11:30 ~708.14 => con stop originale ~+54
+Giornata 22/10: +12.70. Saldo 49663.88.
+
+## STATO dopo 22/10 (sostituisce i precedenti)
+Cumulato fase 2: -338.98 | Trade 20 | W/L 7/13 (35%) | media W +137.54 (tot +962.81) | media L -104.52 (tot -1358.78) | PF 0.71 | Saldo 49663.88 | min 48290.44 | margine 1373.44.
+Settimana 2: -142.50 (19/10 -294.00, 20/10 +47.52, 21/10 +91.28, 22/10 +12.70). 3 giorni positivi di fila.
+Per setup: sweep&reclaim/V long 2W/2L (+427) | compressione D 2W (+75) | gap&go A 0W/2L (-137) | rottura range/ORB 2W/2L (-105) | bandiera short 1W (+29) | trappola->reverse 0W/5L (-346) | pullback VWAP 0W/1L (-118) | gap fade B 0W/1L (-164).
+Gap >0.8%: direzione del gap 9:30-11:30 ha vinto 5/6 (eccezione 15/10). 22/10 gap -1.77% -> giù 5.3 $ dopo 10:15.
+Mancano +339 in 11 sedute (23/10-06/11) = ~31 $/giorno. La media W è scesa a 137: il problema ora è la DIMENSIONE dei vincenti (ingressi tardi -> R piccolo, 1 MNQ).

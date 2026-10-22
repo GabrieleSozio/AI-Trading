@@ -1,0 +1,9 @@
+2026-10-22 07:00:02 ET | avvio (riavvii 0)
+2026-10-22 10:31:24 ET | INGRESSO short 1 MNQ-eq (82 QQQ) a 708.82, stop 710.3, target None — Setup D/A: gap -1.77%, compressione a massimi decrescenti rotta al ribasso, rotti 710.42 e 709.8 con SPY e SMH a nuovi minimi. Short in bandiera/pullback dopo m
+2026-10-22 10:35:11 ET | [sessione] Claude: Posizione a pareggio, stop fermo come da regola.
+2026-10-22 11:00:14 ET | STOP spostato a 709.52 — Regola playbook "dopo 11:00 trail su swing 5m -0.50": swing 5m 10:40 max 709.02 +0.50 = 709.52. Doppio minimo 707.27 e S
+2026-10-22 11:09:14 ET | STOP spostato a 709.46 — Regola "dopo 11:00 trail su swing 5m +0.50": max barra 5m 11:00 = 708.96 +0.50 = 709.46. Nuovo minimo 707.21.
+2026-10-22 11:14:15 ET | STOP spostato a 708.54 — Regola "dopo 11:00 trail su swing 5m +0.50": max barra 5m 11:05 = 708.04 +0.50 = 708.54 (nuovo minimo 706.74 creato dopo
+2026-10-22 11:20:16 ET | USCITA (stop o target sul server) short 1 MNQ-eq a 708.65: +12.70 $
+2026-10-22 11:30:11 ET | LUCID: giornata 2026-10-22: +12.70 $, saldo 49663.88 $
+2026-10-22 11:31:30 ET | FINE: 1 trade, +12.70 $, chiamate API 65, costo 1.99 $

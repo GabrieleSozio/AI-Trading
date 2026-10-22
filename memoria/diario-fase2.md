@@ -59,3 +59,17 @@ Regole: max 150 $/trade, perdita max giorno 200, max 2 trade, stop fermo fino a 
 21/10 esito: +91.28 (short +28.84 chiuso per slip; long compressione/bandiera 723.26 -> 723.65 trail, +62.44). Fase 2: -351.68. Seduta: range 720.13-723.54 fino 10:45, falsa rottura 10:02, triplo minimo 720.13-720.29, poi minimi crescenti e rottura al rialzo dopo 10:50 fino 724.66 (11:15). SPY debole fino 10:20 poi recupero; SMH guida al rialzo dopo 10:20.
 
 Per domani 22/10 (giovedì): TSLA earnings ieri sera -> controllare PM QQQ/TSLA e gap. Piano con C prima scelta, D/5 dopo 10:30. Check ultimo 1m prima di entrare. Gestione: prima di ogni modify_stop citare la regola. Obiettivo ≥ +30 $.
+
+## 22/10 piano (giovedì)
+Contesto: QQQ PM 712.42 vs close 725.25 = gap -1.77% (grande) dopo 3 giorni su. Futures giù: sell-off Asia, Houthi colpiscono Riyadh/Dammam, BTC 82k. Claims 194k (forti). TSLA earnings: analisti positivi. PM in discesa costante (713.66 -> 712.42 minimo sul finale).
+Livelli: sopra 713.7 (PM max), 716.6-717.2 (min 19/10 / close 20/10), 720. Sotto 710.4 (min 20/10), 709.8 (close 16/10), 707.
+A) Gap&go short: chiusura 5m sotto OR low e VWAP con SPY/SMH a nuovi min -> short al RETEST (entro 0.5) o in bandiera, stop oltre swing/VWAP +0.30. Solo se 710.4 non è a <1.5R: se il prezzo è già a 711, aspetto la reazione a 710.4. Target 710.4 / 707.
+B) Rimbalzo verso VWAP/PM max 713.7 con LH e barra di rifiuto, SPY debole -> short, stop sopra max rimbalzo +0.30.
+C) Sweep di 710.4/709.8 + reclaim (chiusura 5m sopra) con SPY che NON fa nuovi min -> long 1 MNQ al retest, stop 0.30 sotto sweep. Contro gap: solo dopo 9:50 e solo con V netta.
+Regole: max 150 $/trade, perdita max giorno 200, max 2 trade, stop fermo fino chiusura 5m +2R, check ultimo 1m, niente market su barra di rottura.
+22/10 T1 short 1 MNQ 708.82 (10:31) rottura triangolo discendente + 710.42/709.8, SPY/SMH nuovi min, stop 710.30 (R 1.48, 121 $). +2R = chiusura 5m sotto 705.86. Livello 707.27 (min 16/10).
+22/10 esito: +12.70 (1 trade). T1 short 708.82 -> stop trail 708.54 preso a 708.65 alle 11:20. MFE +2.11 (min 706.71, ~+173 $), mai a +2R (705.86). Trail post-11:00 su swing 5m +0.50: 709.52 -> 709.46 -> 708.54.
+Seduta: range 711.83-715.27 fino 10:15 (falsa rottura su 10:01), poi massimi decrescenti 715.27/713.62/713.41/712.58 = triangolo discendente sotto VWAP, rottura 10:20, trend giù lento fino 706.7 (11:14), rimbalzo a 709 alle 11:20. SPY/SMH sempre allineati giù dopo 10:05. Direzione del gap ha vinto ancora (gap -1.77%).
+
+Revisione 22/10: +12.70, fase 2 -338.98. Direzione giusta, ingresso tardivo (10:31 invece della rottura del triangolo alle 10:20 ~712 con 2 MNQ) e trail finale dentro il rumore (708.54 vs max barra 708.46). Close 11:30 ~708.14.
+Per domani 23/10 (venerdì): controllare gap/notizie (Medio Oriente, earnings). Gap >0.8% -> direzione del gap; aspettare range iniziale, cercare compressione e ENTRARE ALLA ROTTURA del bordo (chiusura 5m) con stop oltre l'ultimo massimo/minimo +0.30 -> spesso R <0.9 = 2 MNQ. Obiettivo ≥ +31 $.
