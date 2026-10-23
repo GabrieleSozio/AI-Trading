@@ -1,0 +1,8 @@
+2026-10-23 07:00:03 ET | avvio (riavvii 0)
+2026-10-23 10:02:27 ET | INGRESSO long 1 MNQ-eq (82 QQQ) a 705.30, stop 704.1, target None — Setup C+D: sweep min ieri 701.94 (701.18) e V, compressione 703.65-705.10 sopra VWAP rotta con chiusura 5m 9:55 (705.37), retest 10:00 a 704.54 tenuto, SPY nuov
+2026-10-23 10:07:06 ET | [sessione] Claude: Stop fermo, nessuna regola autorizza modifiche.
+2026-10-23 10:17:05 ET | USCITA (stop o target sul server) long 1 MNQ-eq a 704.08: -101.03 $
+2026-10-23 10:44:26 ET | INGRESSO long 1 MNQ-eq (82 QQQ) a 707.59, stop 706.8, target None — Rottura range 1h (703.4-706.2) dopo 10:30, al 4° test; SMH a nuovi max, SPY a ridosso dei max (761.25 vs 761.32). Bandiera 707.16-707.63 sopra 707.27 rotto: ing
+2026-10-23 11:24:09 ET | USCITA (stop o target sul server) long 1 MNQ-eq a 706.81: -65.35 $
+2026-10-23 11:30:07 ET | LUCID: giornata 2026-10-23: -166.38 $, saldo 49497.50 $
+2026-10-23 11:31:09 ET | FINE: 2 trade, -166.38 $, chiamate API 70, costo 2.13 $

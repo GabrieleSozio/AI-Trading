@@ -83,3 +83,19 @@ Settimana 2: -142.50 (19/10 -294.00, 20/10 +47.52, 21/10 +91.28, 22/10 +12.70). 
 Per setup: sweep&reclaim/V long 2W/2L (+427) | compressione D 2W (+75) | gap&go A 0W/2L (-137) | rottura range/ORB 2W/2L (-105) | bandiera short 1W (+29) | trappola->reverse 0W/5L (-346) | pullback VWAP 0W/1L (-118) | gap fade B 0W/1L (-164).
 Gap >0.8%: direzione del gap 9:30-11:30 ha vinto 5/6 (eccezione 15/10). 22/10 gap -1.77% -> giù 5.3 $ dopo 10:15.
 Mancano +339 in 11 sedute (23/10-06/11) = ~31 $/giorno. La media W è scesa a 137: il problema ora è la DIMENSIONE dei vincenti (ingressi tardi -> R piccolo, 1 MNQ).
+
+23/10 | C+D sweep 701.94 -> V -> rottura compressione 705.10 + retest | long 1 | 705.30 10:02 | 704.10 (98) | 704.08 10:16 stop | -101.03 | +0.78/-1.22 | resistenza 707.3 a 1.1R (filtro violato), SPY non faceva più max dopo 10:00; range 703.4-706.2 fino 10:37
+23/10 | 5 rottura range 1h (4° test) -> bandiera, SMH nuovi max, SPY ai max | long 1 | 707.59 10:44 | 706.80 (65) | 706.81 11:24 stop | -65.35 | +1.56/-0.78 | max 709.15 (+2R mancato di 0.02 sul max, chiusura 5m 708.49); ritorno sul livello rotto 706.2-706.8 ha preso lo stop bandiera
+Giornata 23/10: -166.38. Saldo 49497.50.
+
+## STATO dopo 23/10 (sostituisce i precedenti)
+Cumulato fase 2: -505.36 | Trade 22 | W/L 7/15 (32%) | media W +137.54 (tot +962.81) | media L -101.68 (tot -1525.16) | PF 0.63 | Saldo 49497.50 | min 48290.44 | margine 1207.06.
+Settimana 2: -308.88 (19/10 -294.00, 20/10 +47.52, 21/10 +91.28, 22/10 +12.70, 23/10 -166.38).
+Per setup: sweep&reclaim/V long 2W/3L (+326) | compressione D 2W (+75) | rottura range 1h/ORB 2W/3L (-170) | gap&go A 0W/2L (-137) | bandiera short 1W (+29) | trappola->reverse 0W/5L (-346) | pullback VWAP 0W/1L (-118) | gap fade B 0W/1L (-164).
+Mancano +505 in 10 sedute (26/10-06/11) = ~51 $/giorno.
+
+## Bilancio settimana 2 (19-23/10): -308.88, 9 trade, 4W/5L
+Settimana 1 -196.48 | Settimana 2 -308.88 | Totale fase 2 -505.36 (10 sedute, 22 trade, 7W/15L 32%, media W +137.54, media L -101.68, PF 0.63).
+MFE seconda ora (trade dopo 10:30): 21/10 1.8R, 22/10 1.4R, 23/10 2.0R (max) -> nessuna chiusura 5m oltre +2R. Da qui il target fisso 1.8R.
+Setup C mancati all'apertura: 20/10 (V 710.42, +8 $), 23/10 (sweep 701.18, +3.5 $). Sono i trade più puliti del mese.
+Prossima verifica: venerdì 30/10. Obiettivo realistico: ≥ +250 nella settimana 3 per arrivare al 06/11 con -255 da recuperare in 5 sedute.

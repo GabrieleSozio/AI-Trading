@@ -73,3 +73,22 @@ Seduta: range 711.83-715.27 fino 10:15 (falsa rottura su 10:01), poi massimi dec
 
 Revisione 22/10: +12.70, fase 2 -338.98. Direzione giusta, ingresso tardivo (10:31 invece della rottura del triangolo alle 10:20 ~712 con 2 MNQ) e trail finale dentro il rumore (708.54 vs max barra 708.46). Close 11:30 ~708.14.
 Per domani 23/10 (venerdì): controllare gap/notizie (Medio Oriente, earnings). Gap >0.8% -> direzione del gap; aspettare range iniziale, cercare compressione e ENTRARE ALLA ROTTURA del bordo (chiusura 5m) con stop oltre l'ultimo massimo/minimo +0.30 -> spesso R <0.9 = 2 MNQ. Obiettivo ≥ +31 $.
+
+## 23/10 piano (venerdì)
+Contesto: QQQ PM 702.05 vs close 704.56 = gap -0.36% (piccolo, direzione non affidabile). Futures giù prima dei PMI flash (9:45 ET = possibile frusta 9:45-9:50). Tech in correzione (QQQ da 727.95 a 701.94 in 1 giorno), Tom Lee "compra il dip". 
+Livelli: sopra 704.56 (close), 706.7-707.3, 709.8-710.4. Sotto 701.94 (min ieri), 700.0-700.04 (min 16/09, numero tondo = supporto forte), 698.
+C) PRIMA SCELTA: sweep di 701.94/700 + reclaim (chiusura 5m sopra) con SPY che NON fa nuovi min -> long al retest/bandiera, stop 0.30-0.35 sotto sweep. Target 704.5 / 706.7.
+A/D) Chiusura 5m sotto 700 e VWAP con SPY/SMH a nuovi min -> short al retest di 700 o alla rottura di una compressione, stop oltre swing +0.30. Target 698/696.
+B) Gap fill: chiusura 5m sopra 704.56 e VWAP con SPY/SMH nuovi max -> long al retest/bandiera, stop sotto swing/VWAP -0.30, target 706.7/707.3 (solo dopo 9:50).
+Regole: max 150 $/trade, perdita max giorno 200, max 2 trade, stop fermo fino a chiusura 5m +2R, check ultimo 1m, niente market su barra di rottura, stop ≤0.9 -> 2 MNQ.
+23/10 T1 long 1 MNQ 705.30 (10:02) sweep 701.94 -> V -> rottura compressione 705.10 + retest 704.54, SPY nuovi max. Stop 704.10 (R 1.20, 98 $). +2R = chiusura 5m sopra 707.70. Livelli 707.3, 709.8.
+23/10 T1 esito: stop 704.08 alle 10:16, -101.03. MFE +0.78 (706.08). Filtro livello violato (707.3 a 1.1R) e SPY smetteva di fare max dopo 10:00 (761.32 poi LH). Ora: max 1 trade, nuova struttura, rischio ≤100, niente flip immediato.
+23/10 T2 long 1 MNQ 707.59 (10:44) bandiera dopo rottura range 1h 703.4-706.2 (4° test), SMH nuovi max, SPY ai max. Stop 706.80 (R 0.79, 65 $). +2R = chiusura 5m sopra 709.17. Target 709.8-710.4.
+23/10 T2 esito: stop 706.81 alle 11:24, -65.35. MFE +1.56 (709.15 alle 10:53), mai chiusura 5m >709.17; ritracciamento lento sul livello rotto 706.2-706.8.
+23/10 esito: -166.38 (2 perdite). Fase 2 -505.36, margine 1207.06.
+Seduta: gap -0.36%, sweep min ieri 701.94 a 701.18 (9:37, doppio minimo), V fino 704.85 entro 9:45 (PMI), range 703.4-706.2 fino 10:37 (VWAP al centro), rottura 4° test 10:38 con SMH a nuovi max, salita a 709.15 (10:53, sotto 709.8), poi ritorno a 706.8-707.5 fino 11:30. SPY nuovi max fino 763.14 alle 10:55.
+Per lunedì 26/10: piano sotto in lezioni/playbook. Obiettivo ≥ +50 $.
+
+Revisione finale 23/10 (seconda lettura): trade del giorno = C del piano a 9:37 (sweep 701.18, V +3.5 $), mancato. T1 = inseguimento della V dentro un range; T2 = lettura giusta, ingresso esteso e +2R mai confermato. Playbook ridotto a 3 setup + target fisso dopo 10:30.
+Bilancio settimana 2: -308.88. Fase 2 -505.36, margine 1207.06.
+Per lunedì 26/10: pre-market -> individuare il livello per il C (min/max ieri, PM, tondo) e avere l'ordine pronto 9:35-9:55. Dopo 10:15 solo rottura range vicina al bordo, target fisso 1.8R. Obiettivo ≥ +50 $.
