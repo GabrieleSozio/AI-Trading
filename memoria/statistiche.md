@@ -99,3 +99,13 @@ Settimana 1 -196.48 | Settimana 2 -308.88 | Totale fase 2 -505.36 (10 sedute, 22
 MFE seconda ora (trade dopo 10:30): 21/10 1.8R, 22/10 1.4R, 23/10 2.0R (max) -> nessuna chiusura 5m oltre +2R. Da qui il target fisso 1.8R.
 Setup C mancati all'apertura: 20/10 (V 710.42, +8 $), 23/10 (sweep 701.18, +3.5 $). Sono i trade più puliti del mese.
 Prossima verifica: venerdì 30/10. Obiettivo realistico: ≥ +250 nella settimana 3 per arrivare al 06/11 con -255 da recuperare in 5 sedute.
+
+26/10 | 2 rottura range 45' (705.64-709.53) dopo triplo minimo + bandiera al top, SPY nuovi max | long 1 | 709.63 10:18 | 708.20 (117) | 712.28 10:46 target | +215.98 | +2.65/-0.82 | retest 709.36/708.81 tenuto; target fisso 1.8R preso. Stop sul server NON visibile nello snapshot con bracket+target (ma il target ha funzionato).
+Giornata 26/10: +215.98. Saldo ~49713.48.
+
+## STATO dopo 26/10 (sostituisce i precedenti)
+Cumulato fase 2: -289.38 | Trade 23 | W/L 8/15 (35%) | media W +147.35 (tot +1178.79) | media L -101.68 (tot -1525.16) | PF 0.77 | Saldo ~49713.48 | min 48290.44 | margine ~1423.
+Settimana 3: +215.98 (26/10).
+Per setup: rottura range 30-60' dopo 10:15 (setup 2) 3W/3L (+46) | sweep&reclaim/V 2W/3L (+326) | compressione D 2W (+75) | resto invariato.
+Mancano +289 in 9 sedute (27/10-06/11) = ~32 $/giorno.
+Contesto 26/10: gap +0.57%, range 705.64-709.53 per 45' (sweep max ieri 709.15 fallito alle 9:39, triplo minimo 705.7 alle 10:02-10:07), rottura 10:17 con SPY nuovi max -> trend lineare fino 714.8 alle 11:00 (+5 $ oltre il mio target). MFE dopo target: +2.5 $ ulteriori.

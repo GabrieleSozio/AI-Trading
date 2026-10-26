@@ -92,3 +92,15 @@ Per lunedì 26/10: piano sotto in lezioni/playbook. Obiettivo ≥ +50 $.
 Revisione finale 23/10 (seconda lettura): trade del giorno = C del piano a 9:37 (sweep 701.18, V +3.5 $), mancato. T1 = inseguimento della V dentro un range; T2 = lettura giusta, ingresso esteso e +2R mai confermato. Playbook ridotto a 3 setup + target fisso dopo 10:30.
 Bilancio settimana 2: -308.88. Fase 2 -505.36, margine 1207.06.
 Per lunedì 26/10: pre-market -> individuare il livello per il C (min/max ieri, PM, tondo) e avere l'ordine pronto 9:35-9:55. Dopo 10:15 solo rottura range vicina al bordo, target fisso 1.8R. Obiettivo ≥ +50 $.
+
+## 26/10 piano
+PM 708.2, gap +0.57% (piccolo, no direzione). News: Trump esclude strike Iran (risk-on), Meta offerta 95B, Anthropic IPO. Nessun macro 10:00.
+Livelli: 710.42/709.8 (vecchi), max ieri 709.15, 707.3, PM low 707.9, 705.1, close ieri 704.21 (gap fill), min ieri 701.18.
+S1 (C short): spinta sopra 709.15 -> sweep, 1-2 chiusure 5m di nuovo sotto, SPY non fa nuovo max -> short 1 MNQ, stop sweep IEX +0.30, obiettivo VWAP/707.3.
+S2 (C long): discesa sotto 707.3/707.9 -> sweep e reclaim con SPY che non fa nuovi min -> long 1 MNQ, stop sweep -0.30, obiettivo 709.1.
+S3: dopo 10:15 rottura range 30-60' con SPY a nuovi estremi di seduta, ingresso entro 0.5 dal bordo, target fisso 1.8R.
+Rischio max 150/trade, 200/giorno, max 2 trade.
+26/10 esito: +215.98 (1 trade). Frusta 705.6-709.5 fino 10:15, niente trade sugli scenari C (R/R e filtri non rispettati). Long rottura range 709.63 10:18 (S3), stop 708.20, target 712.25 preso 10:46. Poi trend fino 714.8: non inseguito (esteso, resistenza 715.27, 30' rimasti). Domani: stesso processo; se stop ≤0.9 usare 2 MNQ con 1 runner.
+
+Revisione 26/10: +215.98, fase 2 -289.38, saldo 49713.48, margine 1423.04. 1 trade da playbook (setup 2), nessuna violazione.
+Per 27/10: pre-market -> livelli (max oggi 714.8, 713.6, 712.25, 710.4-709.5 = livello rotto/supporto, VWAP). Gap piccolo -> C solo se sweep netto su livello chiave con SPY che non conferma; altrimenti aspettare range 30-45' e setup 2. Obiettivo ≥ +35 $. Settimana 3 obiettivo ≥ +250 (fatti +216).
