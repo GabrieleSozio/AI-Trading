@@ -1,0 +1,8 @@
+2026-10-27 08:00:03 ET | avvio (riavvii 0)
+2026-10-27 10:12:20 ET | INGRESSO short 1 MNQ-eq (82 QQQ) a 714.38, stop 715.63, target 712.47 — Falsa rottura sopra max ieri/PM max (718.05) rientrata, prezzo sotto VWAP 716.03; triangolo discendente (LH 715.66/715.50/715.33, base 714.35) rotto a 713.86 al
+2026-10-27 10:28:27 ET | USCITA (stop o target sul server) short 1 MNQ-eq a 715.69: -109.31 $
+2026-10-27 10:46:21 ET | INGRESSO long 1 MNQ-eq (82 QQQ) a 717.42, stop 716.27, target 718.93 — Falsa rottura giù (713.66) rientrata, V sopra VWAP, minimi crescenti 713.66/715.15/716.57; bandiera stretta 716.57-717.76 da 13' sotto max seduta 718.05 (3° tes
+2026-10-27 10:46:27 ET | TARGET spostato a 719.45 — Ricalcolo su fill 717.42: R 1.15, target 1.8R = 719.49 (nessun livello strutturale sopra 718.05).
+2026-10-27 11:02:26 ET | USCITA (stop o target sul server) long 1 MNQ-eq a 719.46: +166.04 $
+2026-10-27 11:30:03 ET | LUCID: giornata 2026-10-27: +56.73 $, saldo 49770.21 $
+2026-10-27 11:31:00 ET | FINE: 2 trade, +56.73 $, chiamate API 71, costo 2.10 $

@@ -113,3 +113,9 @@
 - Il +216 non è prova statistica: setup 2 ora 3W/3L. Merito vero = processo (45' senza forzare, 2 scenari C scartati per R/R motivato, ingresso vicino al bordo, nessun intervento sullo stop durante il retest a 708.81, a 0.6 dallo stop).
 - Dopo il target: niente re-ingresso perché esteso (+3 $ oltre il bordo) e resistenza 715.27 vicina = corretto per le regole. Il costo (+2.5 $ ulteriori) si recupera con il runner su 2 MNQ, non inseguendo.
 - R del trade 1.43 -> 1 MNQ era corretto da playbook. Il runner richiede R ≤0.9: se la bandiera è stretta, usarlo.
+
+## 27/10 (+56.73)
+- T1 short persa per FILTRO VIOLATO: livello del piano 713.6 a 0.6R dall'ingresso; il minimo si è fermato a 713.66. Prima di place_trade: elencare i livelli del piano tra ingresso e target; se uno è a <1.5R -> niente trade. Nessuna eccezione per "rottura già avvenuta".
+- Rottura di compressione con estensione <0.6 $ e volume in calo, dopo una falsa rottura sul lato opposto = probabile range day: non è un segnale, aspettare chiusura 5m oltre il livello successivo o il fallimento.
+- Range day: dopo che entrambi i lati sono stati bucati e ripresi, la rottura buona è quella che parte da minimi crescenti/bandiera al bordo, con SPY verso i max (T2 +166). Setup 2 con target fisso 1.8R: 2/2.
+- Regole rispettate: max 2 trade, rischio ≤100 dopo la perdita, nuova struttura, niente flip immediato. Questa disciplina ha trasformato -109 in +57.

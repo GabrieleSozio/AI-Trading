@@ -104,3 +104,21 @@ Rischio max 150/trade, 200/giorno, max 2 trade.
 
 Revisione 26/10: +215.98, fase 2 -289.38, saldo 49713.48, margine 1423.04. 1 trade da playbook (setup 2), nessuna violazione.
 Per 27/10: pre-market -> livelli (max oggi 714.8, 713.6, 712.25, 710.4-709.5 = livello rotto/supporto, VWAP). Gap piccolo -> C solo se sweep netto su livello chiave con SPY che non conferma; altrimenti aspettare range 30-45' e setup 2. Obiettivo ≥ +35 $. Settimana 3 obiettivo ≥ +250 (fatti +216).
+
+## 27/10 piano (martedì)
+PM 714.88 vs close 712.11 = gap +0.39% (piccolo, no direzione). PM max 716.32 (8:45) poi calo dopo durable goods (1.8% vs 2.0). FOMC inizia oggi (decisione domani). Tom Lee "compra il dip AI". Nessun macro 10:00.
+Livelli: sopra 715.19-715.27 (max ieri / max 22/10 = resistenza doppia), 716.32 (PM max). Sotto 714.70 (PM min), 713.6, 712.1 (close/gap fill), 711.2-711.8 (minimi pomeriggio ieri), 709.5-710.4.
+S1 (C short): spinta sopra 715.3/716.3 -> sweep fallito, 1-2 chiusure 5m di nuovo sotto 715.2, SPY non fa nuovi max -> short 1 MNQ, stop sweep IEX +0.30, obiettivo 713.6/712.1 (≥1.5R).
+S2 (C long): discesa a 712.1-711.2 -> sweep + reclaim con SPY che non fa nuovi min -> long 1 MNQ, stop sweep -0.30, obiettivo VWAP/714.7.
+S3: dopo 10:15 rottura range 30-60' con SPY a nuovi estremi seduta, ingresso entro 0.5 dal bordo, target fisso 1.8R (runner se R ≤0.9).
+Rischio max 150/trade, 200/giorno, max 2 trade.
+27/10 T1 short 1 MNQ 714.38 (10:12) setup 2/D: falsa rottura su a 718.05, triangolo discendente sotto VWAP rotto (713.86), ingresso al retest base 714.4. SPY ai min. Stop 715.63 (R 1.25, 103 $), target 712.47. Prob 45%.
+27/10 T1 esito: stop 715.69 alle 10:28, -109.31. MFE +0.72 (713.66). Rottura del triangolo fallita: solo 0.7 sotto la base, poi rientro lento nel range. Ora max 1 trade, nuova struttura, rischio ≤100, niente flip immediato.
+27/10 T2 long 1 MNQ 717.42 (10:46, segnale 717.22) bandiera al top range dopo V e minimi crescenti, SPY verso max. Stop 716.27 (R 1.15, 94 $), target 719.45 (1.8R). Prob 45%. Ultimo trade del giorno.
+27/10 T2 esito: target 719.46 alle 11:02, +166.04 (1.8R). Retest/rumore 716.9-717.0 senza toccare lo stop; rottura 718.05 alle 10:53 con SPY a 768.
+27/10 esito: +56.73 (2 trade: short triangolo -109.31, long bandiera al top +166.04). Fase 2 -232.65. Stop per regola max 2 trade.
+Seduta: gap +0.39%, falsa rottura su 9:34-9:41 (718.05, sopra max ieri/PM max), discesa a 714.4, compressione 714.35-715.66 sotto VWAP, falsa rottura giù 10:11-10:17 (713.66), V sopra VWAP 10:28, minimi crescenti, bandiera 716.6-717.8, rottura 10:53 -> 719.2 alle 11:01. Range day con due false rotture: la seconda rottura (dopo che entrambi i lati erano stati bucati) è stata quella vera.
+
+Revisione 27/10: +56.73, fase 2 -232.65, saldo 49770.21, margine 1479.77. Settimana 3 +272.71 (obiettivo ≥+250 già raggiunto).
+Onesto: T1 non andava preso (713.6 a 0.6R, filtro scritto nel playbook e ignorato). T2 da manuale. S1 (sweep 718.05 + chiusura 9:45 sotto 715.2) scattato ma stop ~3.3 $ = 275 $ -> saltato correttamente.
+Per 28/10 (FOMC alle 14:00): checklist scritta nella tesi prima di ogni ingresso; setup 2 come base; obiettivo ≥ +30 $. Mancano +233 in 8 sedute.

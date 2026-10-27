@@ -109,3 +109,14 @@ Settimana 3: +215.98 (26/10).
 Per setup: rottura range 30-60' dopo 10:15 (setup 2) 3W/3L (+46) | sweep&reclaim/V 2W/3L (+326) | compressione D 2W (+75) | resto invariato.
 Mancano +289 in 9 sedute (27/10-06/11) = ~32 $/giorno.
 Contesto 26/10: gap +0.57%, range 705.64-709.53 per 45' (sweep max ieri 709.15 fallito alle 9:39, triplo minimo 705.7 alle 10:02-10:07), rottura 10:17 con SPY nuovi max -> trend lineare fino 714.8 alle 11:00 (+5 $ oltre il mio target). MFE dopo target: +2.5 $ ulteriori.
+
+27/10 | D triangolo discendente rotto sotto VWAP, retest base, SPY ai min | short 1 | 714.38 10:12 | 715.63 (103) | 715.69 10:28 stop | -109.31 | +0.72/-1.3 | FILTRO VIOLATO: 713.6 (livello del piano) a 0.6R, min fatto 713.66 esatto. Rottura di soli 0.5 su volume calante (3.4k vs 10k), dopo falsa rottura opposta = range day
+27/10 | 2 bandiera al top range dopo V e minimi crescenti, SPY verso max | long 1 | 717.42 10:46 (segnale 717.22) | 716.27 (94) | 719.46 11:02 target | +166.04 | +2.04/-0.5 | da playbook; close 11:30 720.16 (+0.7 oltre target, runner non previsto con R 1.15)
+Giornata 27/10: +56.73. Saldo 49770.21.
+
+## STATO dopo 27/10 (sostituisce i precedenti)
+Cumulato fase 2: -232.65 | Trade 25 | W/L 9/16 (36%) | media W +149.43 (tot +1344.83) | media L -102.15 (tot -1634.47) | PF 0.82 | Saldo 49770.21 | min 48290.44 | margine 1479.77.
+Settimana 3: +272.71 (26/10 +215.98, 27/10 +56.73).
+Per setup: rottura range/compressione dopo 10:15 (2+D) 6W/4L (+178) — target fisso 1.8R: 2/2 presi | sweep&reclaim/V 2W/3L (+326) | gap&go A 0W/2L (-137) | bandiera short 1W (+29) | trappola->reverse 0W/5L (-346) | pullback VWAP 0W/1L (-118) | gap fade B 0W/1L (-164).
+Mancano +233 in 8 sedute (28/10-06/11) = ~29 $/giorno.
+Contesto 27/10: gap +0.39%, FOMC giorno 1. Falsa rottura su 718.05 (9:41), falsa rottura giù 713.66 (10:17), poi trend su lento fino 720.26 (11:20). Range day con entrambe le false rotture: la rottura che segue la SECONDA falsa rottura (lato opposto) è stata quella buona.
