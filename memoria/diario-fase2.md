@@ -122,3 +122,11 @@ Seduta: gap +0.39%, falsa rottura su 9:34-9:41 (718.05, sopra max ieri/PM max), 
 Revisione 27/10: +56.73, fase 2 -232.65, saldo 49770.21, margine 1479.77. Settimana 3 +272.71 (obiettivo ≥+250 già raggiunto).
 Onesto: T1 non andava preso (713.6 a 0.6R, filtro scritto nel playbook e ignorato). T2 da manuale. S1 (sweep 718.05 + chiusura 9:45 sotto 715.2) scattato ma stop ~3.3 $ = 275 $ -> saltato correttamente.
 Per 28/10 (FOMC alle 14:00): checklist scritta nella tesi prima di ogni ingresso; setup 2 come base; obiettivo ≥ +30 $. Mancano +233 in 8 sedute.
+
+## 28/10 (mer, FOMC 14:00 fuori orario) – piano
+Pre 723.62 (gap +0.33%, piccolo: nessuna direzione). PM 723.42-724.35. Ieri: close 721.22, max 722.87, range pomeriggio 720.08-722.87. 3 giorni di rialzo 702->723. Notizie: SK Hynix +11% (chip forti), nulla di macro rilevante prima del FOMC.
+Livelli: 724.35 (PM high), 723.42 (PM low), 722.87 (max ieri), 721.22 (close), 720.1-720.4 (base pomeriggio), 718.05.
+A) C long: sweep 722.87/721.22 + 1-2 chiusure 5m dentro, SPY non fa nuovi min -> long 1 MNQ, stop 0.30 sotto sweep IEX, target ≥1.5R (PM high).
+B) C short: sweep 724.35 fallito + chiusure 5m sotto, SPY non conferma -> short, stop 0.30 sopra, target 722.9 se ≥1.5R.
+C) Setup 2: range 9:30-10:15 rotto dopo 10:15 con SPY a nuovi estremi, ingresso entro 0.5 dal bordo, target fisso min(1.8R, livello-0.15). Pre-FOMC probabile range stretto: se R non sta, 1 solo trade.
+Rischio max 150, giornata max -200, max 2 trade.
