@@ -26,3 +26,4 @@
 2026-10-30 15:01:05 ET | controllo 15:00: prezzo 685.04 banda 691.74-720.75 VWAP 691.80 posizione 0 segnale -1
 2026-10-30 15:01:09 ET | stop d'ingresso stretto dalla protezione della giornata: 691.80 -> 686.29
 2026-10-30 15:01:09 ET | INGRESSO short 82 QQQ a 685.05, stop 686.29
+2026-10-30 15:08:05 ET | USCITA (stop sul server) short 82 a 686.35: -106.38 $
