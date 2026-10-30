@@ -4,7 +4,7 @@
  "entry": 693.962927,
  "stop_id": null,
  "stop_px": null,
- "last_min": 660,
+ "last_min": 690,
  "done": false,
  "trades": [
   {
@@ -42,6 +42,15 @@
    "close": 696.305,
    "up": 719.1,
    "dn": 693.35,
+   "vwap": 695.35,
+   "pos": 0,
+   "segnale": 0
+  },
+  {
+   "m": 690,
+   "close": 694.485,
+   "up": 719.46,
+   "dn": 693.0,
    "vwap": 695.35,
    "pos": 0,
    "segnale": 0
