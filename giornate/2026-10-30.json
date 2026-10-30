@@ -4,7 +4,7 @@
  "entry": 686.929512,
  "stop_id": "12e95132-2021-4602-be96-1b927b20790f",
  "stop_px": 687.59,
- "last_min": 840,
+ "last_min": 870,
  "done": false,
  "trades": [
   {
@@ -119,6 +119,15 @@
    "vwap": 693.25,
    "pos": 0,
    "segnale": -1
+  },
+  {
+   "m": 870,
+   "close": 685.06,
+   "up": 720.85,
+   "dn": 691.64,
+   "vwap": 692.47,
+   "pos": -1,
+   "segnale": 0
   }
  ],
  "n_entry": 4,
@@ -127,7 +136,7 @@
  "t_in": 840,
  "qty": 82,
  "ext_cancel_at": null,
- "best": 686.929512,
+ "best": 684.95,
  "trail_on": false,
  "day_lock_on": true
 }
