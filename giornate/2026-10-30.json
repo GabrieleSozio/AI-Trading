@@ -1,0 +1,17 @@
+{
+ "day": "2026-10-30",
+ "done": true,
+ "trades": [],
+ "open": null,
+ "decisions": [],
+ "cost_usd": 0.0,
+ "usage": {
+  "in": 0,
+  "out": 0,
+  "cw": 0,
+  "cr": 0
+ },
+ "calls": 0,
+ "lucid_note": "giornata 2026-10-30: +0.00 $, saldo 49770.21 $",
+ "restarts": 1
+}
