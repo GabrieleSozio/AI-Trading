@@ -4,7 +4,7 @@
  "entry": 693.879634,
  "stop_id": null,
  "stop_px": null,
- "last_min": 660,
+ "last_min": 690,
  "done": false,
  "trades": [
   {
@@ -55,6 +55,15 @@
    "vwap": 695.3,
    "pos": 0,
    "segnale": 1
+  },
+  {
+   "m": 690,
+   "close": 691.725,
+   "up": 692.57,
+   "dn": 681.54,
+   "vwap": 694.76,
+   "pos": 0,
+   "segnale": 0
   }
  ],
  "n_entry": 2,
@@ -64,5 +73,5 @@
  "ext_cancel_at": null,
  "best": 693.879634,
  "trail_on": false,
- "_n_pushed": 1
+ "_n_pushed": 2
 }
