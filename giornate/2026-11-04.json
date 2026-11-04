@@ -4,8 +4,8 @@
  "entry": 694.62,
  "stop_id": null,
  "stop_px": null,
- "last_min": 900,
- "done": false,
+ "last_min": 955,
+ "done": true,
  "trades": [
   {
    "side": 1,
@@ -166,5 +166,59 @@
  "ext_cancel_at": null,
  "best": 694.62,
  "trail_on": false,
- "_n_pushed": 5
+ "_n_pushed": 5,
+ "sip_sim": {
+  "pnl_per_azione": -5.7643,
+  "pnl_usd": -472.67,
+  "trades": [
+   {
+    "side": 1,
+    "t_in": 600,
+    "px_in": 699.1399,
+    "t_out": 625,
+    "px_out": 696.2657503305928,
+    "why": "stop"
+   },
+   {
+    "side": 1,
+    "t_in": 630,
+    "px_in": 697.3,
+    "t_out": 632,
+    "px_out": 696.3234490265106,
+    "why": "stop"
+   },
+   {
+    "side": 1,
+    "t_in": 660,
+    "px_in": 693.85,
+    "t_out": 661,
+    "px_out": 693.82,
+    "why": "stop gi\u00e0 superato all'ingresso"
+   },
+   {
+    "side": 1,
+    "t_in": 720,
+    "px_in": 695.92,
+    "t_out": 722,
+    "px_out": 694.8941042783365,
+    "why": "stop"
+   },
+   {
+    "side": 1,
+    "t_in": 750,
+    "px_in": 695.83,
+    "t_out": 790,
+    "px_out": 695.0121728154069,
+    "why": "stop"
+   },
+   {
+    "side": 1,
+    "t_in": 810,
+    "px_in": 694.8,
+    "t_out": 811,
+    "px_out": 694.7601,
+    "why": "stop gi\u00e0 superato all'ingresso"
+   }
+  ]
+ }
 }
