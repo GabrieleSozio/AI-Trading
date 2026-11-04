@@ -11,3 +11,5 @@
 2026-11-04 12:01:05 ET | controllo 12:00: prezzo 695.90 banda 681.15-692.96 VWAP 694.72 posizione 0 segnale 1
 2026-11-04 12:01:08 ET | INGRESSO long 82 QQQ a 696.00, stop 694.72
 2026-11-04 12:03:05 ET | USCITA (stop sul server) long 82 a 694.57: -117.00 $
+2026-11-04 12:31:04 ET | controllo 12:30: prezzo 695.77 banda 681.37-692.74 VWAP 694.75 posizione 0 segnale 1
+2026-11-04 12:31:09 ET | INGRESSO long 82 QQQ a 695.89, stop 694.75
