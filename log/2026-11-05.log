@@ -2,3 +2,6 @@
 2026-11-05 07:00:06 ET | banda da 14 sedute; chiusura precedente (2026-11-04) 691.85; azioni 82
 2026-11-05 10:01:05 ET | controllo 10:00: prezzo 666.59 banda 681.38-693.82 VWAP 673.26 posizione 0 segnale -1
 2026-11-05 10:01:10 ET | INGRESSO short 82 QQQ a 666.16, stop 673.26
+2026-11-05 10:11:06 ET | trailing attivo: guadagno massimo +310 $, stop portato a 663.33 (75% del guadagno)
+2026-11-05 10:16:05 ET | USCITA (stop sul server) short 82 a 662.71: +283.28 $
+2026-11-05 10:16:05 ET | protezione giornata attiva: guadagno massimo della giornata +283 $, da qui non si scende sotto +212 $ (75%)
