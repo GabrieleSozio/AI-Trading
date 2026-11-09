@@ -4,7 +4,7 @@
  "entry": 679.349269,
  "stop_id": "2e6a8a2a-4987-4551-a3d1-5544c2773612",
  "stop_px": 678.5,
- "last_min": 900,
+ "last_min": 954,
  "done": false,
  "trades": [
   {
@@ -144,7 +144,7 @@
  "t_in": 900,
  "qty": 82,
  "ext_cancel_at": null,
- "best": 679.349269,
+ "best": 681.68,
  "trail_on": false,
  "_n_pushed": 3,
  "day_lock_on": true

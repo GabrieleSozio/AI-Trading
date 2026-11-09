@@ -23,3 +23,6 @@
 2026-11-09 15:01:05 ET | controllo 15:00: prezzo 679.41 banda 650.22-668.67 VWAP 675.13 posizione 0 segnale 1
 2026-11-09 15:01:11 ET | stop d'ingresso stretto dalla protezione della giornata: 675.13 -> 678.50
 2026-11-09 15:01:11 ET | INGRESSO long 82 QQQ a 679.35, stop 678.50
+2026-11-09 15:56:07 ET | ERRORE: RuntimeError('HTTP 403 POST /v2/orders: {"available":"0","code":40310000,"existing_qty":"82","held_for_orders":"82","message":"insufficient qty available for order (requested: 82, available: 0)","related_orders":["2e6a8a2a-4987-4551-a3d1-5544c2773612"],"symbol":"QQQ"}')
+2026-11-09 16:00:02 ET | avvio; scarto orologio rispetto ad Alpaca +0.1s
+2026-11-09 16:00:05 ET | banda da 14 sedute; chiusura precedente (2026-11-06) 656.19; azioni 82
