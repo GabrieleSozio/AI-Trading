@@ -1,0 +1,28 @@
+{
+ "day": "2026-11-09",
+ "pos": 1,
+ "entry": 672.638536,
+ "stop_id": "8759bc3f-e366-432d-9d10-3b1427177e68",
+ "stop_px": 669.67,
+ "last_min": 600,
+ "done": false,
+ "trades": [],
+ "checks": [
+  {
+   "m": 600,
+   "close": 672.4,
+   "up": 665.55,
+   "dn": 653.31,
+   "vwap": 669.67,
+   "pos": 0,
+   "segnale": 1
+  }
+ ],
+ "n_entry": 1,
+ "day_peak": 0.0,
+ "t_in": 600,
+ "qty": 82,
+ "ext_cancel_at": null,
+ "best": 672.638536,
+ "trail_on": false
+}
