@@ -119,3 +119,15 @@
 - Rottura di compressione con estensione <0.6 $ e volume in calo, dopo una falsa rottura sul lato opposto = probabile range day: non è un segnale, aspettare chiusura 5m oltre il livello successivo o il fallimento.
 - Range day: dopo che entrambi i lati sono stati bucati e ripresi, la rottura buona è quella che parte da minimi crescenti/bandiera al bordo, con SPY verso i max (T2 +166). Setup 2 con target fisso 1.8R: 2/2.
 - Regole rispettate: max 2 trade, rischio ≤100 dopo la perdita, nuova struttura, niente flip immediato. Questa disciplina ha trasformato -109 in +57.
+
+## Revisione 09/11 (+239.18) – trend day
+- Riconosciuto trend day open-drive: gap ~0.8% nel verso dello short-covering, SPY/SMH a nuovi max ogni 5', pullback 1m ≤1.3 $, ogni barra 5m con min crescenti. In questo contesto la regola "dopo impulso >3 $ prima delle 10:00 aspetta range 30-45'" NON vale: il range non arriva. Ingresso in bandiera 1m/5m con stop sotto la bandiera -0.30 (≤1.8 $) = giusto.
+- Costo: ho aspettato da 9:38 a 9:52 (ingresso 667.5 -> 672.7 = ~+400 $ di differenza). REGOLA NUOVA: se entro le 9:45 ho gap ≥0.6% + 3 barre 5m consecutive con min crescenti + SPY/SMH nuovi max -> long alla prima bandiera 1m (stop sotto bandiera -0.30, ≤150 $), senza aspettare il range.
+- Gestione da playbook ha funzionato: stop fermo durante 25' di lateralità (671.1-673.6) e 30' di range al top; trail SOLO dopo chiusura 5m oltre +2R, su swing 5m che avevano fatto nuovo max ≥1R, -0.50. MFE +6.11, incassato +2.93 (48%). Nessun modify_stop senza regola.
+- Il trade NON aveva target fisso: in trend day è corretto (target 1.8R = 675.9 avrebbe dato +262, simile; ma col trend fino 678.8 la versione trail ha la coda).
+
+## Revisione 09/11 – seconda lettura (onesta)
+- Bene: 1 trade, setup chiaro, stop strutturale mai stretto, niente secondo trade forzato dopo +1.6R (regola "dopo vincente ≥1.5R solo A+").
+- Male 1: ingresso tardivo (9:52 invece di ~9:40): mi è costato più di quanto ho incassato. Il setup 0 ora è scritto: va eseguito alla prima bandiera entro 9:45.
+- Male 2: restituito 3.2 $ su 6.1 di MFE (max 678.83 alle 11:03 -> uscita 675.65). Il trail "swing 5m -0.50" in trend lento lascia indietro troppo nell'ultima mezz'ora. DA TESTARE (regola di protezione, non micro-trail): dopo le 11:00, se MFE ≥3R, stop = max(trail attuale, estremo -1R). Oggi = uscita ~677.0 (+350 invece di +239).
+- Dato mancante: nessun trade/nota tra 28/10 e 06/11 in memoria. Il controllo del venerdì 06/11 è passato senza che io abbia registrato nulla: ogni seduta va registrata in statistiche, anche se flat (con motivo).

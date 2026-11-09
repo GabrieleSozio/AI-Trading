@@ -120,3 +120,11 @@ Settimana 3: +272.71 (26/10 +215.98, 27/10 +56.73).
 Per setup: rottura range/compressione dopo 10:15 (2+D) 6W/4L (+178) — target fisso 1.8R: 2/2 presi | sweep&reclaim/V 2W/3L (+326) | gap&go A 0W/2L (-137) | bandiera short 1W (+29) | trappola->reverse 0W/5L (-346) | pullback VWAP 0W/1L (-118) | gap fade B 0W/1L (-164).
 Mancano +233 in 8 sedute (28/10-06/11) = ~29 $/giorno.
 Contesto 27/10: gap +0.39%, FOMC giorno 1. Falsa rottura su 718.05 (9:41), falsa rottura giù 713.66 (10:17), poi trend su lento fino 720.26 (11:20). Range day con entrambe le false rotture: la rottura che segue la SECONDA falsa rottura (lato opposto) è stata quella buona.
+
+09/11 | trend open-drive, bandiera 671.3-672.0 dopo +10 $, SPY/SMH nuovi max | long 1 | 672.72 9:52 | 670.95 (145) -> 674.12 (+2R chiuso 10:50) -> 675.25 (11:00) | 675.65 11:25 man | +239.18 | +6.11/-0.66 | stop iniziale mai minacciato (min 671.09); trail su swing 5m che hanno fatto nuovo max ≥1R; chiuso 5' prima della chiusura forzata
+Giornata 09/11: +239.18. Saldo 50009.39. (28/10-06/11: nessun trade registrato, saldo invariato.)
+
+## STATO dopo 09/11 (sostituisce i precedenti)
+Cumulato fase 2: +6.53 | Trade 26 | W/L 10/16 (38%) | media W +158.40 (tot +1584.01) | media L -102.15 (tot -1634.47) | PF 0.97 | Saldo 50009.39 | min 48290.44 | margine ~1719.
+Per setup: trend open-drive/bandiera 1W (+239) | rottura range/compressione dopo 10:15 6W/4L (+178) | sweep&reclaim/V 2W/3L (+326) | gap&go A 0W/2L (-137) | bandiera short 1W (+29) | trappola->reverse 0W/5L (-346) | pullback VWAP 0W/1L (-118) | gap fade B 0W/1L (-164).
+Contesto 09/11: dopo settimana di crollo (725->648), gap +0.79% con NVDA debole PM. Open-drive senza pullback >1.3 $ fino 673.6 (9:57), base 671.1-673.6 fino 10:10, poi trend lento fino 678.83 (11:03), ritracciamento a 675.5 a 11:25. SPY/SMH sempre a nuovi max.

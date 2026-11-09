@@ -130,3 +130,18 @@ A) C long: sweep 722.87/721.22 + 1-2 chiusure 5m dentro, SPY non fa nuovi min ->
 B) C short: sweep 724.35 fallito + chiusure 5m sotto, SPY non conferma -> short, stop 0.30 sopra, target 722.9 se ≥1.5R.
 C) Setup 2: range 9:30-10:15 rotto dopo 10:15 con SPY a nuovi estremi, ingresso entro 0.5 dal bordo, target fisso min(1.8R, livello-0.15). Pre-FOMC probabile range stretto: se R non sta, 1 solo trade.
 Rischio max 150, giornata max -200, max 2 trade.
+
+## 09/11 (lun) – piano
+NB: diario fermo al 28/10, saldo invariato 49770.21 dal 27/10 (nessun trade registrato 28/10-06/11). Fase 2 ufficiale -232.65. Margine 1479.77.
+Contesto: settimana di crollo (QQQ 725->648, 05/11 -6.3%), ven 656.31 rimbalzo debole. PM 661.5 = gap +0.79%. NVDA giù (scandalo Huang), SPX/Dow fut su, SMH piatto PM. Volatilità alta: barre 15m 3-6 $.
+Livelli: 664.28 (max ven), 663.10 (PM max), 660.8 (PM min), 658.4-657.7, 656.31 (close ven/gap fill), 655.25-654.0 (min ven), 648 (close 05/11).
+S1 C long: discesa su 660.8/658.4 -> sweep + 1-2 chiusure 5m sopra, SPY non fa nuovi min -> long 1 MNQ, stop sweep -0.30, target 663-664.
+S2 C short: spinta sopra 663.1/664.28 fallita + chiusura 5m sotto, SPY non conferma -> short 1, stop sweep +0.30, target VWAP/660.8.
+S3: dopo 10:15 rottura range con SPY a nuovi estremi, entro 0.5 dal bordo, target fisso min(1.8R, livello-0.15).
+Rischio 1 MNQ, max 150/trade (stop ≤1.8 $), giorno max -200, max 2 trade.
+09/11 T1 long 1 MNQ 672.72 (9:52) trend open-drive +10 $, SPY/SMH nuovi max, bandiera 671.3-672.0. Stop 670.95 (145 $). +2R = chiusura 5m >676.3. Prob 45%.
+09/11 T1 esito: chiuso 675.65 alle 11:25 (manuale, 5' prima della chiusura forzata), +239.18. Trail 674.12 (10:55, dopo chiusura 5m 677.00 >+2R) -> 675.25 (11:00). Max 678.83 alle 11:03.
+09/11 esito: +239.18, 1 trade. Fase 2 +6.53, saldo 50009.39. Gli scenari del piano (C su livelli) non sono mai scattati: open-drive senza ritracciamenti. Per domani: livelli 678.83 (max), 675-676 (base), 673.6-671.1, VWAP; se gap nel verso del trend di oggi e open-drive -> regola nuova (bandiera entro 9:45).
+
+## 09/11 (+239.18) – saldo 50009.39, fase 2 +6.53 (26 trade, 10W/16L, PF 0.97)
+Trend day open-drive dopo settimana di crollo. Long 1 MNQ 672.72 (9:52) in bandiera, stop 670.95 mai minacciato, trail da +2R, chiuso a mano 675.65 alle 11:25. MFE +6.11 / incassato +2.93. Errori: ingresso 14' tardi; restituito 50% MFE nell'ultima mezz'ora. Domani: setup 0 alla prima bandiera; regola protezione post-11:00 (estremo -1R se MFE ≥3R).
