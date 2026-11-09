@@ -1,12 +1,33 @@
 {
  "day": "2026-11-09",
- "pos": 1,
+ "pos": 0,
  "entry": 672.638536,
- "stop_id": "11c15d5f-d810-4f84-a48e-b9bf4cf7556c",
- "stop_px": 671.43,
- "last_min": 630,
+ "stop_id": null,
+ "stop_px": null,
+ "last_min": 634,
  "done": false,
- "trades": [],
+ "trades": [
+  {
+   "side": 1,
+   "t_in": 600,
+   "px_in": 672.638536,
+   "t_out": 634,
+   "px_out": 675.08,
+   "qty": 39,
+   "why": "chiusura manuale parziale",
+   "pnl_usd": 95.22
+  },
+  {
+   "side": 1,
+   "t_in": 600,
+   "px_in": 672.638536,
+   "t_out": 634,
+   "px_out": 672.638536,
+   "qty": 43,
+   "why": "stop sul server",
+   "pnl_usd": 0.0
+  }
+ ],
  "checks": [
   {
    "m": 600,
@@ -28,11 +49,11 @@
   }
  ],
  "n_entry": 1,
- "day_peak": 0.0,
+ "day_peak": 95.22,
  "t_in": 600,
- "qty": 82,
+ "qty": null,
  "ext_cancel_at": null,
- "best": 674.85,
- "trail_on": false,
+ "best": 675.35,
+ "trail_on": true,
  "_n_pushed": 0
 }
