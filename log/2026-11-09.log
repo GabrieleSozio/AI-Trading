@@ -26,3 +26,7 @@
 2026-11-09 15:56:07 ET | ERRORE: RuntimeError('HTTP 403 POST /v2/orders: {"available":"0","code":40310000,"existing_qty":"82","held_for_orders":"82","message":"insufficient qty available for order (requested: 82, available: 0)","related_orders":["2e6a8a2a-4987-4551-a3d1-5544c2773612"],"symbol":"QQQ"}')
 2026-11-09 16:00:02 ET | avvio; scarto orologio rispetto ad Alpaca +0.1s
 2026-11-09 16:00:05 ET | banda da 14 sedute; chiusura precedente (2026-11-06) 656.19; azioni 82
+2026-11-09 16:00:07 ET | stop del bot cancellato dall'esterno: aspetto 3 minuti la chiusura manuale, poi lo rimetto
+2026-11-09 16:01:04 ET | ERRORE: RuntimeError('ordine c7c53411-a295-4791-ad31-e811b85a9fad non eseguito in 40s')
+2026-11-09 16:05:02 ET | avvio; scarto orologio rispetto ad Alpaca +0.1s
+2026-11-09 16:05:05 ET | banda da 14 sedute; chiusura precedente (2026-11-06) 656.19; azioni 82
