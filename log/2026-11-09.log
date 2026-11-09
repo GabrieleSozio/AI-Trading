@@ -17,3 +17,6 @@
 2026-11-09 13:31:05 ET | controllo 13:30: prezzo 677.06 banda 650.05-668.84 VWAP 674.28 posizione 1 segnale 0
 2026-11-09 14:01:06 ET | controllo 14:00: prezzo 677.81 banda 649.80-669.10 VWAP 674.46 posizione 1 segnale 0
 2026-11-09 14:31:06 ET | controllo 14:30: prezzo 676.90 banda 649.59-669.31 VWAP 674.58 posizione 1 segnale 0
+2026-11-09 14:41:06 ET | trailing attivo: guadagno massimo +223 $, stop portato a 680.02 (75% del guadagno)
+2026-11-09 14:44:05 ET | USCITA (stop sul server) long 82 a 680.2: +182.08 $
+2026-11-09 14:44:05 ET | protezione giornata attiva: guadagno massimo della giornata +277 $, da qui non si scende sotto +208 $ (75%)
