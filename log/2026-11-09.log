@@ -8,3 +8,5 @@
 2026-11-09 10:35:07 ET | cancellazione stop: HTTP 422 DELETE /v2/orders/f0b32155-b771-4aee-9187-cd996181fbab: {"code":42210000,"message":"order is already in \"filled\" state"}
 2026-11-09 10:35:07 ET | stop rifiutato dopo chiusura parziale (HTTP 422 POST /v2/orders: {"code":42210000,"market_price":"674.51","message":"stop price must be less than current price","stop_price":"674.67"}): chiudo a mercato
 2026-11-09 10:35:08 ET | USCITA (stop sul server) long 43 a 672.64: +0.00 $
+2026-11-09 11:01:05 ET | controllo 11:00: prezzo 677.77 banda 651.09-667.79 VWAP 672.43 posizione 0 segnale 1
+2026-11-09 11:01:11 ET | INGRESSO long 82 QQQ a 677.98, stop 672.43
