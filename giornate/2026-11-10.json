@@ -1,10 +1,10 @@
 {
  "day": "2026-11-10",
- "pos": 1,
+ "pos": 0,
  "entry": null,
  "stop_id": null,
  "stop_px": null,
- "last_min": 571,
+ "last_min": 574,
  "done": false,
  "trades": [
   {
@@ -16,10 +16,22 @@
    "qty": 27,
    "why": "chiusura manuale parziale",
    "pnl_usd": 0.0
+  },
+  {
+   "side": 1,
+   "t_in": null,
+   "px_in": null,
+   "t_out": 574,
+   "px_out": 672.010366,
+   "qty": 55,
+   "why": "chiusura manuale",
+   "pnl_usd": 0.0
   }
  ],
  "checks": [],
  "n_entry": 0,
- "qty": 55,
- "day_peak": 0.0
+ "qty": null,
+ "day_peak": 0.0,
+ "_n_pushed": 1,
+ "ext_cancel_at": null
 }
