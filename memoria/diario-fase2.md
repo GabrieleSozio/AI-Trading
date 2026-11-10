@@ -145,3 +145,19 @@ Rischio 1 MNQ, max 150/trade (stop ≤1.8 $), giorno max -200, max 2 trade.
 
 ## 09/11 (+239.18) – saldo 50009.39, fase 2 +6.53 (26 trade, 10W/16L, PF 0.97)
 Trend day open-drive dopo settimana di crollo. Long 1 MNQ 672.72 (9:52) in bandiera, stop 670.95 mai minacciato, trail da +2R, chiuso a mano 675.65 alle 11:25. MFE +6.11 / incassato +2.93. Errori: ingresso 14' tardi; restituito 50% MFE nell'ultima mezz'ora. Domani: setup 0 alla prima bandiera; regola protezione post-11:00 (estremo -1R se MFE ≥3R).
+
+## 10/11 piano
+CPI caldo (0.4 vs 0.3, core 0.3 vs 0.2). QQQ PM 671.0 vs close 678.77 = gap -1.14%. Ieri trend day +3.2% (662.2->681.7). Houthi/petrolio.
+Livelli: 681.69 max ieri | 678.77 close | 676.30 max PM | 673.6-674 base ieri | 670.5 min PM / 670.0 | 667.5 | 662.2-662.6 min/open ieri.
+Filtri: gap >0.8% -> solo short prima 10:30. CPI day -> frusta 9:30-9:50, niente rotture rialziste contro gap.
+A) Gap&go short dopo 9:45-9:50: chiusura 5m sotto OR low + VWAP, SPY ai min -> short al retest/bandiera, stop oltre swing +0.30 (≤150 $), trail da +2R. Target strutturale 667.5 / 662.6.
+B) C short: spinta 673.6-676.3 che fallisce (chiusura 5m di nuovo sotto) con SPY senza nuovi max -> short, stop 0.30 sopra sweep.
+C) Dopo 10:15: rottura range 30-60' con SPY a nuovi estremi (setup 2), target fisso 1.8R. Long solo dopo 10:30 e con SPY a nuovi max.
+Rischio max 150/trade, 200/giorno, max 2 trade.
+
+10/11 T1 long 678.12 (10:22) stop 677.0 -> stop 10:23 676.99, -93.98. Stop sopra il VWAP/676.3 = dentro il ritracciamento normale (stesso errore 19/10). Lo stop strutturale era sotto VWAP 675.85 (rischio 190 -> saltare) oppure aspettare il retest VWAP.
+10/11 T2 long 677.11 (10:27) dopo retest VWAP 676.11, stop 675.80 -> stop 10:37 675.78, -110.06. Doppio test VWAP (675.84) poi terzo test lo rompe. 2 perdite = STOP giornata (-204.04). Flat dalle 10:38.
+
+10/11 esito: -204.04 (2 long prima delle 10:30 contro gap -1.14% e con SPY a LH, entrambi contro i filtri del piano). Fase 2 -197.51, saldo 49805.35, margine 1514.91.
+Seduta: range 670-675.4 fino 9:50, squeeze a 680.87 (10:00) riempiendo il gap sotto il max di ieri, LH 10:05-10:30, rottura VWAP 10:35, giù fino 671.66 (10:55), range 672-675 fino 11:30.
+Per 11/11: (Veterans Day: borsa aperta, bond chiusi -> volumi possibili bassi). Livelli: 681.69/680.87 resistenza, 678.8, 676-676.3 (VWAP/PM max di oggi), 673.6-674, 671.7-670.0 supporto, 667.5. Riga "FILTRI DEL PIANO: SÌ/NO" obbligatoria in ogni tesi. Obiettivo ≥ +50, max 2 trade, -200.

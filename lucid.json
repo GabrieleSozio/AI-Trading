@@ -1,7 +1,7 @@
 {
  "phase": "valutazione",
  "attempt": 1,
- "balance": 50009.39,
+ "balance": 49805.35,
  "hwm": 50290.44,
  "floor": 48290.44,
  "locked": false,
@@ -117,6 +117,10 @@
   {
    "day": "2026-11-09",
    "pnl": 239.18
+  },
+  {
+   "day": "2026-11-10",
+   "pnl": -204.04
   }
  ],
  "payout_days": 0,

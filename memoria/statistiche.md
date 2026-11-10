@@ -128,3 +128,13 @@ Giornata 09/11: +239.18. Saldo 50009.39. (28/10-06/11: nessun trade registrato, 
 Cumulato fase 2: +6.53 | Trade 26 | W/L 10/16 (38%) | media W +158.40 (tot +1584.01) | media L -102.15 (tot -1634.47) | PF 0.97 | Saldo 50009.39 | min 48290.44 | margine ~1719.
 Per setup: trend open-drive/bandiera 1W (+239) | rottura range/compressione dopo 10:15 6W/4L (+178) | sweep&reclaim/V 2W/3L (+326) | gap&go A 0W/2L (-137) | bandiera short 1W (+29) | trappola->reverse 0W/5L (-346) | pullback VWAP 0W/1L (-118) | gap fade B 0W/1L (-164).
 Contesto 09/11: dopo settimana di crollo (725->648), gap +0.79% con NVDA debole PM. Open-drive senza pullback >1.3 $ fino 673.6 (9:57), base 671.1-673.6 fino 10:10, poi trend lento fino 678.83 (11:03), ritracciamento a 675.5 a 11:25. SPY/SMH sempre a nuovi max.
+
+10/11 | bandiera/pullback in trend long (prima 10:30, gap -1.14% CPI) | long 1 | 678.12 10:22 | 677.00 (95) | 676.99 10:24 stop | -93.98 | ~0/-1.85 | FILTRI VIOLATI: long contro gap >0.8% prima 10:30; SPY con LH (752.08->750.79), non a nuovi max; stop sopra VWAP = dentro il ritracciamento
+10/11 | long VWAP retest | long 1 | 677.11 10:27 | 675.80 (110) | 675.78 10:37 stop | -110.06 | +0.96/-1.6 | SETUP SOSPESO (long VWAP con LH: max 680.87/680.62/680.04/679.14/678.57); re-ingresso 3' dopo lo stop nella stessa zona = non "nuova struttura"
+Giornata 10/11: -204.04. Saldo 49805.35. Poi QQQ 671.66 alle 10:55 (gap fill fallito -> direzione del gap ha ripreso).
+
+## STATO dopo 10/11 (sostituisce i precedenti)
+Cumulato fase 2: -197.51 | Trade 28 | W/L 10/18 (36%) | media W +158.40 (tot +1584.01) | media L -102.14 (tot -1838.51) | PF 0.86 | Saldo 49805.35 | min 48290.44 | margine 1514.91 | obiettivo 53000: mancano 3194.65.
+Per setup: trend open-drive 1W (+239) | rottura range/compressione dopo 10:15 6W/4L (+178) | sweep&reclaim/V 2W/3L (+326) | gap&go A 0W/2L (-137) | bandiera short 1W (+29) | trappola->reverse 0W/5L (-346) | pullback VWAP/bandiera in pullback 0W/3L (-322) | gap fade B 0W/1L (-164).
+Trade con un filtro del playbook violato: ~10 su 28, quasi tutti persi (stima ≥ -900 $). Trade conformi: positivi.
+Contesto 10/11: CPI caldo, gap -1.14%. 9:30-9:50 range 670-675.4, 9:55-10:00 squeeze +5 $ a 680.87 (gap riempito, sopra close 678.77, sotto max ieri 681.69) con SPY a nuovi max; poi LH su QQQ e SPY 10:05-10:30, rottura VWAP 10:35, -9 $ fino 671.66 (10:55). Gap riempito nella prima mezz'ora e respinto sotto il max di ieri = distribuzione.
