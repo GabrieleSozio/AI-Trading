@@ -138,3 +138,18 @@ Cumulato fase 2: -197.51 | Trade 28 | W/L 10/18 (36%) | media W +158.40 (tot +15
 Per setup: trend open-drive 1W (+239) | rottura range/compressione dopo 10:15 6W/4L (+178) | sweep&reclaim/V 2W/3L (+326) | gap&go A 0W/2L (-137) | bandiera short 1W (+29) | trappola->reverse 0W/5L (-346) | pullback VWAP/bandiera in pullback 0W/3L (-322) | gap fade B 0W/1L (-164).
 Trade con un filtro del playbook violato: ~10 su 28, quasi tutti persi (stima ≥ -900 $). Trade conformi: positivi.
 Contesto 10/11: CPI caldo, gap -1.14%. 9:30-9:50 range 670-675.4, 9:55-10:00 squeeze +5 $ a 680.87 (gap riempito, sopra close 678.77, sotto max ieri 681.69) con SPY a nuovi max; poi LH su QQQ e SPY 10:05-10:30, rottura VWAP 10:35, -9 $ fino 671.66 (10:55). Gap riempito nella prima mezz'ora e respinto sotto il max di ieri = distribuzione.
+
+11/11 | 2 bandiera 690.74-691.30 dopo rottura max seduta 688.87, SPY nuovi max (758.21) | long 2 | 691.09 10:55 | 690.44 (107) | 690.42 11:07 stop | -112.05 | +1.01/-0.67 | ingresso a fine gamba (+7.5 $ dal min 683.6, +2.2 oltre il bordo vero 688.87); stop bandiera dentro il ritracciamento normale; max 692.10 vicino al close 04/11 691.68 (livello "minore" ignorato). Il trade buono era il retest 688.83 alle 10:46 (bloccato dal filtro SPY a 0.3 dal max) -> 692.1.
+Giornata 11/11: -112.05. Saldo 49693.30.
+Contesto 11/11: gap +1.85% (US-China de-risk). Apertura 687.24, sweep 685.80 e reclaim (C scartato: SPY confermava e max a 1R — giusto, poi 683.60), fade del gap fino 683.60 (9:50), compressione 685-687 attorno al VWAP 9:55-10:25, rottura 10:26, retest 687.0 10:32, rottura max seduta 10:43, retest 688.83 10:46, SPY sopra il suo max 10:51, top 692.10 alle 11:00, ritracciamento a 689.9 entro 11:10. Gap >0.8%: direzione del gap ha vinto ancora (dopo 1h di fade).
+
+## STATO dopo 11/11 (sostituisce i precedenti)
+Cumulato fase 2: -309.56 | Trade 29 | W/L 10/19 (34%) | media W +158.40 (tot +1584.01) | media L -102.66 (tot -1950.56) | PF 0.81 | Saldo 49693.30 | min 48290.44 | margine 1402.86 | obiettivo 53000: mancano 3306.70.
+Per setup: trend open-drive 1W (+239) | rottura range/compressione dopo 10:15 6W/5L (+66) | sweep&reclaim/V 2W/3L (+326) | resto invariato.
+Setup 2: ingressi entro 0.5 dal bordo del range 30-60' = positivi; ingressi su bandiere successive/2a gamba (23/10 T2, 11/11) = 0W/2L.
+
+## Verifica 11/11 (seconda revisione): ROTTURE RANGE/ORB/COMPRESSIONE, conformi o no
+Conformi ai filtri (SPY a nuovi estremi, entrata ≤0.5 dal bordo, livello ≥1.5R, taglia da regola): 12/10 +71, 15/10 +164, 21/10 +62, 22/10 +13 (tardi ma nei filtri), 26/10 +216, 27/10 T2 +166 = 6W/0L, +692.
+Con UN filtro violato: 14/10 -229 (taglia), 16/10 -112 (SPY no), 23/10 T2 -65 (esteso 1.4), 27/10 T1 -109 (livello 0.6R), 11/11 -112 (esteso 2.2) = 0W/5L, -627.
+=> Il setup funziona; perdo solo quando lo forzo. Il filtro "≤0.5 dal bordo" è quello violato più spesso dopo le 10:45.
+Fase 2 dopo 11/11: -309.56 (29 trade). Scadenza 06/11 passata con P&L negativo e nessun trade registrato 28/10-06/11: ogni seduta va registrata.

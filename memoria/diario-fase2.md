@@ -161,3 +161,13 @@ Rischio max 150/trade, 200/giorno, max 2 trade.
 10/11 esito: -204.04 (2 long prima delle 10:30 contro gap -1.14% e con SPY a LH, entrambi contro i filtri del piano). Fase 2 -197.51, saldo 49805.35, margine 1514.91.
 Seduta: range 670-675.4 fino 9:50, squeeze a 680.87 (10:00) riempiendo il gap sotto il max di ieri, LH 10:05-10:30, rottura VWAP 10:35, giù fino 671.66 (10:55), range 672-675 fino 11:30.
 Per 11/11: (Veterans Day: borsa aperta, bond chiusi -> volumi possibili bassi). Livelli: 681.69/680.87 resistenza, 678.8, 676-676.3 (VWAP/PM max di oggi), 673.6-674, 671.7-670.0 supporto, 667.5. Riga "FILTRI DEL PIANO: SÌ/NO" obbligatoria in ogni tesi. Obiettivo ≥ +50, max 2 trade, -200.
+
+## 11/11 piano
+Gap +1.85% su (PM 687.3 vs close 674.82; sopra max ieri 680.87 e max lun 681.69). News: Bessent US-China de-risk, NVDA misto (Baird downgrade/MS OW). Saldo 49805, margine 1515. Rischio max 150/trade, 200/giorno, max 2 trade.
+FILTRI DEL PIANO DI OGGI: gap >0.8% -> solo LONG prima 10:30; short solo dopo 10:30 con setup 2 + SPY a nuovi min di seduta; niente long VWAP con LH; stop strutturale ≤150 $ o salto.
+A) Setup 0 open-drive long: entro 9:45 3 barre 5m min crescenti + SPY/SMH nuovi max -> long prima bandiera 1m, stop sotto bandiera -0.30 (≤1.8), niente target, trail da +2R.
+B) Setup C long: sweep del min iniziale/PM low con 1-2 chiusure 5m dentro, SPY senza nuovi min, 9:35-9:55 -> long, stop 0.30 sotto sweep IEX.
+C) Gap fill: dopo 10:15/10:30 rottura range 30-60' (setup 2) nel verso di SPY, target fisso min(1.8R, livello-0.15). Livelli: 681.69/680.87 (supporto se gap si riempie), 687.3-687.9 PM.
+11/11 esito: 1 trade, -112.05 (long 2 MNQ 691.09 bandiera di 2a gamba, stop 690.44). Scenari A/B non scattati in modo valido (C scartato correttamente). Errore: bordo ridefinito per passare il filtro 5, ingresso a fine gamba. Saldo 49693.30. Fase 2 -309.56.
+
+Per 12/11: livelli 692.10 (max 11/11), 691.68 (close 04/11), 688.87-688.8 (bordo rotto/supporto), 687.0, VWAP, 683.6 (min 11/11), 681.69/680.87. Controllare gap e notizie (US-China). Piano: setup 0 se open-drive; C su 688.8/683.6 o sweep 692.1; setup 2 dopo 10:15 SOLO ≤0.5 dal bordo. 2 MNQ solo con ingresso al bordo e stop ≤0.9. Rischio max 150, giorno -200, max 2 trade. Obiettivo ≥ +50.

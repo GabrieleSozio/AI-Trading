@@ -141,3 +141,15 @@
 - REGOLA DI PROCESSO (non nuova regola di mercato): prima di place_trade copio nella tesi la riga "FILTRI DEL PIANO DI OGGI" e rispondo SÌ/NO a ciascuno. Un solo NO = niente trade. Questa riga deve essere scritta, non pensata.
 - Dopo 1 perdita: re-ingresso nella stessa direzione solo dopo almeno 15' e una chiusura 5m che crea un nuovo estremo nel verso del trade (nuovo max per long). Altrimenti non è nuova struttura.
 - Statistica che conta: i trade che violano un filtro scritto sono ~1/3 del totale e spiegano più dell'intera perdita della fase 2. Se avessi fatto solo trade conformi sarei positivo. Il lavoro è eseguire il playbook, non migliorarlo.
+
+## Revisione 11/11 (-112.05) onesta
+- Bene: 1h20 senza forzare. C delle 9:38 scartato per filtri (SPY confermava, max a 1R): stop 685.50 sarebbe stato preso (min 683.60). Fade del gap senza long VWAP con LH. Stop non toccato, nessun modify_stop.
+- ERRORE: ho "ridefinito il bordo". Il bordo del setup 2 era 688.87 (max seduta). Quando SPY ha confermato, QQQ era già 2.2 $ oltre: ho preso come "bordo" la micro-bandiera 691.3 per far passare il filtro 5. Ingresso a fine gamba (+7.5 $ dal min) alle 10:55 con stop bandiera 0.65 = dentro il ritracciamento normale (stessa diagnosi di 19/10, 23/10 T2). 2 MNQ perché lo stop era stretto: lo stop stretto qui era un difetto, non un pregio.
+- Ignorato 691.68 (close 04/11) come "minore": il top è stato 692.10. Livelli dei giorni precedenti nell'area = resistenze vere.
+- CONFLITTO DI FILTRI: SPY a 0.3 dal max (con HH da 30') ha bloccato il retest 688.83 (10:46, trade giusto: +3.3 $); quando SPY ha confermato (10:51) il trade era già esteso. Non cambio la regola ora; registro i casi "SPY entro 0.05% dal max + HH 30'" per verificare.
+- REGOLA DI ESECUZIONE: il bordo del setup 2 è UNO (estremo del range 30-60'). Se la conferma SPY arriva con QQQ >0.5 oltre quel bordo -> trade saltato, nessuna bandiera successiva. Dopo le 10:50, con la gamba già ≥2x l'ampiezza del range, niente nuovi ingressi.
+
+## 11/11 – seconda lettura
+- Setup 2: conformi 6W/0L (+692), forzati 0W/5L (-627). Non serve un metodo nuovo: serve non entrare quando un filtro dice NO.
+- Stop stretto su ingresso esteso ≠ buon R/R: è uno stop dentro il ritracciamento normale (50-60% della gamba). La regola "stop ≤0.9 -> 2 MNQ" vale SOLO se l'ingresso è ≤0.5 dal bordo del range. Esteso = 0 MNQ, non 2.
+- Dopo le 10:45, se il trade buono (retest del bordo) è passato, la giornata può finire flat con 1 trade o zero: meglio di -112.
