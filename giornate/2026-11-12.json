@@ -1,0 +1,23 @@
+{
+ "day": "2026-11-12",
+ "pos": 0,
+ "entry": null,
+ "stop_id": null,
+ "stop_px": null,
+ "last_min": 600,
+ "done": false,
+ "trades": [],
+ "checks": [
+  {
+   "m": 600,
+   "close": 686.305,
+   "up": 694.64,
+   "dn": 676.06,
+   "vwap": 685.68,
+   "pos": 0,
+   "segnale": 0
+  }
+ ],
+ "n_entry": 0,
+ "day_peak": 0.0
+}
