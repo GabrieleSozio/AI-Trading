@@ -171,3 +171,16 @@ C) Gap fill: dopo 10:15/10:30 rottura range 30-60' (setup 2) nel verso di SPY, t
 11/11 esito: 1 trade, -112.05 (long 2 MNQ 691.09 bandiera di 2a gamba, stop 690.44). Scenari A/B non scattati in modo valido (C scartato correttamente). Errore: bordo ridefinito per passare il filtro 5, ingresso a fine gamba. Saldo 49693.30. Fase 2 -309.56.
 
 Per 12/11: livelli 692.10 (max 11/11), 691.68 (close 04/11), 688.87-688.8 (bordo rotto/supporto), 687.0, VWAP, 683.6 (min 11/11), 681.69/680.87. Controllare gap e notizie (US-China). Piano: setup 0 se open-drive; C su 688.8/683.6 o sweep 692.1; setup 2 dopo 10:15 SOLO ≤0.5 dal bordo. 2 MNQ solo con ingresso al bordo e stop ≤0.9. Rischio max 150, giorno -200, max 2 trade. Obiettivo ≥ +50.
+
+## 12/11 piano
+Contesto: NVDA CEO Huang dimesso (PM NVDA -12.5%, 152). QQQ PM 681.16, gap -1.34% (close 690.40). SPY PM ~755 (-0.6%). Margine 1402.86.
+Livelli: max PM 682.12, max 09/11 681.69, close 02/11 681.22, min PM 680.26, close 09/11 678.77, close 10/11 674.82, min 10/11 667.11; sopra: min ieri 683.60, close ieri 690.40.
+FILTRI: gap >0.8% -> SOLO SHORT prima 10:30. 1 MNQ (volatilità alta). Rischio ≤150, giorno ≤200, max 2 trade.
+S1 (setup 0 short open-drive): entro 9:45 3 barre 5m con max decrescenti + SPY/SMH nuovi min + pullback ≤1.3 -> short prima bandiera 1m, stop sopra bandiera +0.30 (≤1.8). Nessun target, trail da +2R.
+S2 (C short): spinta su 681.7-682.1 (o 683.6) e 1-2 chiusure 5m di nuovo sotto, SPY non a nuovi max -> short, stop 0.30 sopra lo sweep IEX. Primo livello 678.77 deve essere ≥1.5R.
+S3 (setup 2 dopo 10:15): rottura range 30-60' con SPY a nuovi estremi, ingresso ≤0.5 dal bordo, target fisso min(1.8R, livello-0.15). Long ammesso solo dopo 10:30 e SPY nuovi max.
+
+12/11 esito: 0 trade, 0.00 $. Saldo 49693.30, margine 1402.86. Fase 2 -309.56 (29 trade).
+Seduta: apertura 680.26 = minimo del giorno (gap -1.34% da notizia NVDA), squeeze a 688.07 (9:41), range 683.6-688.4 attorno VWAP fino 10:50, rottura 10:51 con SPY nuovi max, gap riempito 10:57, retest 690.0-690.4 tenuto 11:01-11:04, max 694.52 (11:20), close 11:29 692.68.
+Mancato: setup 2 long al bordo 688.40 (10:51, ~+265 $) per un wait di 5' con setup armato. Filtri rispettati, esecuzione no. Giornata flat = giornata persa per il mandato.
+Per 13/11 (ven): livelli 694.52 (max oggi), 692.10/691.68, 690.40-690.0 (close 11/11 + retest = supporto), 688.4 (bordo rotto), VWAP ~688, 683.6, 680.0-680.26 (min). Setup armato -> wait 1'. Ordine mentale pronto con bordo, stop e target scritti PRIMA che il prezzo arrivi. Obiettivo ≥ +50, max 2 trade, giorno -200.

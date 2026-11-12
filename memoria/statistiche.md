@@ -153,3 +153,11 @@ Conformi ai filtri (SPY a nuovi estremi, entrata ≤0.5 dal bordo, livello ≥1.
 Con UN filtro violato: 14/10 -229 (taglia), 16/10 -112 (SPY no), 23/10 T2 -65 (esteso 1.4), 27/10 T1 -109 (livello 0.6R), 11/11 -112 (esteso 2.2) = 0W/5L, -627.
 => Il setup funziona; perdo solo quando lo forzo. Il filtro "≤0.5 dal bordo" è quello violato più spesso dopo le 10:45.
 Fase 2 dopo 11/11: -309.56 (29 trade). Scadenza 06/11 passata con P&L negativo e nessun trade registrato 28/10-06/11: ogni seduta va registrata.
+
+12/11 | nessun trade (flat) | - | - | - | - | 0.00 | - | setup 2 long scattato 10:51 (rottura 688.40, SPY nuovo max 759.01, QQQ 688.70 = 0.3 oltre bordo) MANCATO: ero in wait 5' (10:49-10:54); al risveglio 689.2-689.6 già >0.5 oltre. Trade teorico: long 688.6, stop 687.70 (0.9 -> 2 MNQ), target 690.22 preso 10:57 = ~+265 $.
+Contesto 12/11: NVDA CEO Huang dimesso (NVDA PM -12.5%). Gap -1.34%. Apertura 680.26 = minimo, squeeze contro gap fino 688.07 (9:41), range 683.63-688.40 9:40-10:50 attorno VWAP, volume calante, rottura 10:51 con SPY nuovi max, gap riempito 10:57, retest 690.01-690.40 (11:01-11:04, tenuto), top 693.87 (11:11). Gap >0.8%: direzione del gap ha PERSO (1a volta su 9: era notizia single-stock, SPY solo -0.6% e comprato da subito).
+Giornata 12/11: 0.00. Saldo 49693.30.
+
+## STATO dopo 12/11
+Cumulato fase 2: -309.56 | Trade 29 | W/L 10/19 (34%) | media W +158.40 | media L -102.66 | PF 0.81 | Saldo 49693.30 | min 48290.44 | margine 1402.86 | mancano 3306.70.
+Gap >0.8% direzione del gap: 8/9 (eccezione 12/11: gap da notizia single-stock, SPY verde dall'apertura).

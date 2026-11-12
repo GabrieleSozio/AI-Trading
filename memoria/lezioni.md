@@ -153,3 +153,10 @@
 - Setup 2: conformi 6W/0L (+692), forzati 0W/5L (-627). Non serve un metodo nuovo: serve non entrare quando un filtro dice NO.
 - Stop stretto su ingresso esteso ≠ buon R/R: è uno stop dentro il ritracciamento normale (50-60% della gamba). La regola "stop ≤0.9 -> 2 MNQ" vale SOLO se l'ingresso è ≤0.5 dal bordo del range. Esteso = 0 MNQ, non 2.
 - Dopo le 10:45, se il trade buono (retest del bordo) è passato, la giornata può finire flat con 1 trade o zero: meglio di -112.
+
+## Revisione 12/11 (0.00, flat) onesta
+- Filtri rispettati per tutta la mattina (nessun long contro gap prima 10:30, nessuno short con SPY che non confermava). Bene.
+- ERRORE DI ESECUZIONE (non di lettura): il setup 2 era pianificato con livelli esatti alle 10:43 (bordo 688.40, SPY 758.84, stop ≤1.17, target 690.25). Alle 10:49 ho fatto wait 5' con QQQ a 1.5 $ dal bordo e SPY a 0.25 dal max: la rottura è avvenuta alle 10:51 e il retest ≤0.5 è durato 2 minuti. Mancato ~+265 $.
+- REGOLA DI ESECUZIONE: quando il setup è "armato" (prezzo entro 1.5 $ dal bordo, SPY entro 0.1% dal suo estremo) -> wait 1 minuto, non 3-5. Le rotture valide durano 1-3 barre vicino al bordo.
+- Gap >0.8% causato da notizia su UN titolo (NVDA) con SPY quasi piatto e comprato dall'apertura: la regola "solo direzione del gap" è debole. Da osservare: se SPY fa nuovi max nei primi 10' contro il gap QQQ, il gap fade non è vietato dopo il primo range (ma resto sulla regola finché non ho altri casi).
+- Secondo trade perso: retest del livello rotto 690.40 (close ieri) alle 11:01-11:04 tenuto a 690.01 con SPY ai max -> +3.8 $ fino 693.87. Retest del livello chiave appena rotto = ingresso valido anche dopo 10:50 se SPY è ai max (ma bloccato dalla regola "≤0.5 dal bordo del range"). Registrare.

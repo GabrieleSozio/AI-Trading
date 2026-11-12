@@ -26,3 +26,8 @@ FILTRI DEL PIANO DI OGGI: [copia] -> SÌ/NO ciascuno. 1) Setup n° (0/1/2)? 2) S
 
 ## SOSPESI (non si fanno)
 Trappola->reverse (0/5). Flip immediato dopo stop-out. Gap fade prima 10:30. Long/short al VWAP con struttura contraria (0/3, -322). Re-ingresso nella stessa zona <15' dopo uno stop. Bandiere di 2a gamba nel setup 2 (0/2).
+
+## ESECUZIONE (12/11)
+- Setup armato (prezzo ≤1.5 $ dal bordo + SPY ≤0.1% dal suo estremo) -> wait 1', mai 3-5'. 12/11 mancato +265 per un wait di 5'.
+- DA OSSERVARE: retest del livello chiave appena rotto (close ieri) con SPY ai max dopo 10:50 (12/11: 690.40 -> +3.8 $).
+- DA OSSERVARE: gap >0.8% da notizia single-stock con SPY verde dall'apertura = direzione del gap non affidabile.
