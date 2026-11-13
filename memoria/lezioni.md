@@ -160,3 +160,18 @@
 - REGOLA DI ESECUZIONE: quando il setup è "armato" (prezzo entro 1.5 $ dal bordo, SPY entro 0.1% dal suo estremo) -> wait 1 minuto, non 3-5. Le rotture valide durano 1-3 barre vicino al bordo.
 - Gap >0.8% causato da notizia su UN titolo (NVDA) con SPY quasi piatto e comprato dall'apertura: la regola "solo direzione del gap" è debole. Da osservare: se SPY fa nuovi max nei primi 10' contro il gap QQQ, il gap fade non è vietato dopo il primo range (ma resto sulla regola finché non ho altri casi).
 - Secondo trade perso: retest del livello rotto 690.40 (close ieri) alle 11:01-11:04 tenuto a 690.01 con SPY ai max -> +3.8 $ fino 693.87. Retest del livello chiave appena rotto = ingresso valido anche dopo 10:50 se SPY è ai max (ma bloccato dalla regola "≤0.5 dal bordo del range"). Registrare.
+
+## Revisione 13/11 (+308.93) onesta
+- Trend day SENZA gap: il filtro "gap ≥0.6%" del setup 0 avrebbe bloccato il trade migliore del mese. Il gap serve a riconoscere il trend presto; quando il trend è già evidente (≥6 barre 5m con min decrescenti, 2 livelli chiave rotti, SPY nuovi estremi a ogni gamba, rimbalzi ≤2 $) il gap non conta. Nuova variante 0b (1W): dopo 9:50, trend evidente come sopra -> ingresso in bandiera 1m appena sotto/sopra un livello chiave rotto, stop oltre il livello rotto e il max della barra di rottura +0.20, ≤150 $.
+- Ho fatto bene ad ASPETTARE la chiusura 5m sul C long 683.60 (9:45): è stato rotto 4 minuti dopo. Il C richiede SPY che non conferma: SPY faceva nuovi min -> niente long. Giusto.
+- Stop sopra il livello rotto (680.20) ha retto al retest 679.80 (0.4 di distanza). Non stretto = trade vincente. Conferma la regola N.1.
+- Uscita manuale a 2.8R vicino al livello 674.82: poi il prezzo è sceso a 672.63 (+1.9 $ in più, ~+150) ma ha anche rimbalzato a 676.25 subito dopo. Uscita al livello strutturale = corretta per 1 MNQ. Con R ≤0.9 avrei potuto usare 2 MNQ e un runner.
+- Dopo +2.8R: niente secondo trade forzato (range 672.6-676.3 senza A+). La giornata è positiva perché ho smesso.
+- DA MIGLIORARE: entrato con 1 MNQ su rischio 101 $. Con margine 1400 e trend evidente, 2 MNQ (rischio ~200) era ammissibile? No per la regola max 150 $/trade: tengo. Ma se il conto sale sopra 50.500, alzo il max a 200 $ per i setup 0/0b.
+
+## 13/11 (+308.93, 1 trade, setup 0b)
+- I trade grandi della fase 2 (13/10 +475, 09/11 +239, 13/11 +309, 26/10 +216) hanno in comune: TREND chiaro + SPY che conferma a ogni gamba + stop strutturale mai minacciato. Le perdite arrivano da range/chop e filtri violati. => Il mio vantaggio è il giorno di trend: cercarlo attivamente, non i range.
+- Deviazione dichiarata (filtro gap ignorato) andata bene MA era motivata da struttura oggettiva (7 barre 5m min decrescenti, 2 livelli rotti, SPY nuovi min). Va codificata come setup 0b, non come "eccezione": le eccezioni vaghe sono quelle che mi hanno fatto perdere.
+- Uscita su livello strutturale (close di 3 giorni fa) a 2.8R: giusta, la gamba è finita lì e poi 75' di chop. In un trend day i livelli dei giorni precedenti sono i target naturali; trail su swing 5m dopo una gamba verticale restituisce troppo.
+- 1 MNQ con stop 1.24: la regola permetteva solo 1 (stop >0.9). Con 2 MNQ sarebbe stato +615. Quando il setup 0/0b è conforme al 100% e il margine ≥1.700, valutare 2 MNQ con rischio ≤200 $ (vedi playbook).
+- Dopo un vincente ≥2.5R entro le 10:15: fermarsi è stato giusto (chop successivo). Mantengo.

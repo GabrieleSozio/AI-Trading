@@ -1,0 +1,5 @@
+2026-11-13 07:00:02 ET | avvio (riavvii 0)
+2026-11-13 10:05:30 ET | INGRESSO short 1 MNQ-eq (82 QQQ) a 678.96, stop 680.2, target None — Trend day giù senza gap (variante setup 0, in prova, deviazione dichiarata dal filtro gap ≥0.6%): 7 barre 5m con minimi decrescenti, 683.6 e 680.00 (min ieri) r
+2026-11-13 10:13:28 ET | USCITA (chiusura decisa dal trader: +2.8R a 0.5 dal target pianificato (674.82 close 10/11), prezzo esteso 7$ sotto ) short 1 MNQ-eq a 675.18: +308.93 $
+2026-11-13 11:30:09 ET | LUCID: giornata 2026-11-13: +308.93 $, saldo 50002.23 $
+2026-11-13 11:30:45 ET | FINE: 1 trade, +308.93 $, chiamate API 63, costo 1.78 $

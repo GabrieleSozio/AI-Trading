@@ -31,3 +31,16 @@ Trappola->reverse (0/5). Flip immediato dopo stop-out. Gap fade prima 10:30. Lon
 - Setup armato (prezzo ≤1.5 $ dal bordo + SPY ≤0.1% dal suo estremo) -> wait 1', mai 3-5'. 12/11 mancato +265 per un wait di 5'.
 - DA OSSERVARE: retest del livello chiave appena rotto (close ieri) con SPY ai max dopo 10:50 (12/11: 690.40 -> +3.8 $).
 - DA OSSERVARE: gap >0.8% da notizia single-stock con SPY verde dall'apertura = direzione del gap non affidabile.
+
+## AGGIORNAMENTO 13/11
+Stato: fase 2 -0.63 dopo 30 trade (11W/19L, 37%, PF 0.97). Saldo ~50002.23.
+0b. TREND DAY SENZA GAP (1W +309, 13/11). Dopo 9:50: ≥6 barre 5m con min decrescenti (o max crescenti), ≥2 livelli chiave rotti, SPY a nuovo estremo a ogni gamba, rimbalzi ≤2 $. Ingresso in bandiera 1m appena oltre un livello chiave rotto (min/max ieri). Stop oltre il livello rotto e oltre il max/min della barra di rottura +0.20 (≤150 $). Uscita: livello strutturale successivo (close/min giorni precedenti) se ≥2R, oppure trail da +2R. 1 MNQ (2 se stop ≤0.9).
+Rischio max per setup 0/0b: 150 $ (200 $ se saldo ≥50.500).
+
+## AGGIORNAMENTO revisione 13/11
+Stato: fase 2 -0.63 (30 trade, 11W/19L, 37%, PF 0.97). Saldo 50002.23, margine 1711.79, mancano 2997.77 a 53000. Coerenza: giorno migliore 310 -> ok finché il totale cresce.
+PRIORITÀ: i giorni di trend (setup 0/0b) pagano 2W/0L +548; rottura range dopo 10:15 solo se 100% conforme.
+- Setup 0b confermato come setup (non eccezione). Checklist 0b: ≥6 barre 5m min decrescenti (max crescenti) | ≥2 livelli chiave rotti | SPY nuovo estremo a ogni gamba | rimbalzi ≤2 $ | ingresso bandiera 1m ≤0.5 oltre il livello rotto | stop oltre livello rotto/barra di rottura +0.20.
+- Target 0/0b: livello strutturale successivo (close/min/max ultimi 10 giorni) se ≥2R -> uscita lì (o 0.3 prima). Se nessun livello entro 4R: trail da +2R.
+- TAGLIA 0/0b (nuovo): se TUTTI i filtri SÌ e margine ≥1.600 -> 2 MNQ anche con stop fino a 1.25 $ (rischio ≤210 $). Altrimenti 1 MNQ. Setup 2 resta con le regole di taglia esistenti.
+- Dopo un vincente ≥2.5R: giornata chiusa salvo setup 0/0b nuovo nel verso opposto con checklist completa.

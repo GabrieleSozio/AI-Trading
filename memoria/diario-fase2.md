@@ -184,3 +184,11 @@ S3 (setup 2 dopo 10:15): rottura range 30-60' con SPY a nuovi estremi, ingresso 
 Seduta: apertura 680.26 = minimo del giorno (gap -1.34% da notizia NVDA), squeeze a 688.07 (9:41), range 683.6-688.4 attorno VWAP fino 10:50, rottura 10:51 con SPY nuovi max, gap riempito 10:57, retest 690.0-690.4 tenuto 11:01-11:04, max 694.52 (11:20), close 11:29 692.68.
 Mancato: setup 2 long al bordo 688.40 (10:51, ~+265 $) per un wait di 5' con setup armato. Filtri rispettati, esecuzione no. Giornata flat = giornata persa per il mandato.
 Per 13/11 (ven): livelli 694.52 (max oggi), 692.10/691.68, 690.40-690.0 (close 11/11 + retest = supporto), 688.4 (bordo rotto), VWAP ~688, 683.6, 680.0-680.26 (min). Setup armato -> wait 1'. Ordine mentale pronto con bordo, stop e target scritti PRIMA che il prezzo arrivi. Obiettivo ≥ +50, max 2 trade, giorno -200.
+
+## 13/11 piano
+Saldo 49693.30, margine 1402.86. PPI ott sotto stime (0.3 vs 0.4), Goolsbee hawkish. Notizia NVDA (CEO exit). Pre 690.36 vs close 688.20 = gap +0.31% -> NESSUNA direzione.
+Livelli: 694.52 max ieri / 695.57 max 11/11 | 692.97 max pre | 691.68 close 04/11 | 690.40-690.54 close 11/11-30/10 | 688.51 min pre / 688.20 close ieri | 683.60 | 680.00 min ieri.
+Scenari: (A) C long: sweep 688.5/688.2 9:35-9:55 + 1-2 chiusure 5m sopra, SPY no nuovi min -> long, stop sweep IEX -0.30, 1 MNQ, se 690.4 non a <1.5R... (attenzione 690.4 vicino: serve stop ≤1.1). (B) C short: sweep 692.97 + rientro, SPY no nuovi max -> short, stop +0.30, target 690.5. (C) Setup 2 dopo 10:15: rottura range 30-60' con SPY a nuovi estremi, ingresso ≤0.5 dal bordo, target fisso min(1.8R, livello-0.15). Armato -> wait 1'.
+Filtri: rischio ≤150, max 2 trade, -200 giorno.
+
+13/11 T1 SHORT 1 MNQ 678.96 (10:05) stop 680.20 -> chiuso 675.18 (10:13) +308.93. Trend day giù SENZA gap (open 688.33 = close ieri): 8 barre 5m min decrescenti, 683.6 e 680.00 rotti, SPY nuovi min ogni gamba. Ingresso in bandiera 1m sotto 680 rotto, stop sopra livello rotto. Retest 679.80 tenuto (0.4 dallo stop) senza toccare. Uscita manuale vicino al target strutturale 674.82. Deviazione dichiarata: filtro gap del setup 0 ignorato.

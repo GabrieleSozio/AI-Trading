@@ -161,3 +161,18 @@ Giornata 12/11: 0.00. Saldo 49693.30.
 ## STATO dopo 12/11
 Cumulato fase 2: -309.56 | Trade 29 | W/L 10/19 (34%) | media W +158.40 | media L -102.66 | PF 0.81 | Saldo 49693.30 | min 48290.44 | margine 1402.86 | mancano 3306.70.
 Gap >0.8% direzione del gap: 8/9 (eccezione 12/11: gap da notizia single-stock, SPY verde dall'apertura).
+
+13/11 | 0b trend day SENZA gap (variante setup 0, filtro gap ignorato consapevolmente), bandiera 1m sotto 680.00 (min ieri) rotto, SPY nuovi min | short 1 | 678.96 10:05 | 680.20 (101) | 675.18 10:13 man | +308.93 | +3.8/-0.84 | retest 679.80 (0.4 dallo stop) tenuto senza toccare; uscita manuale a 0.36 dal livello 674.82 (close 10/11), 2.8R. Dopo: min 672.63 (10:21), poi range 672.6-676.3 fino 11:00.
+Contesto 13/11: PPI sotto stime, Goolsbee hawkish. Gap +0.02% (open 688.33 = close ieri). Gap riempito 9:30, poi trend giù lineare: 8 barre 5m con min decrescenti, rimbalzi max 1.9 $, SPY nuovi min a ogni gamba. -16 $ in 50'. C long su 683.60 scartato (aspettata chiusura 5m: giusto, 683.60 rotto 9:49).
+Giornata 13/11: +308.93. Saldo ~50002.23.
+
+## STATO dopo 13/11
+Cumulato fase 2: -0.63 | Trade 30 | W/L 11/19 (37%) | media W +172.09 (tot +1892.94) | media L -102.66 (tot -1950.56) | PF 0.97 | Saldo ~50002.23 | min 48290.44 | margine ~1712 | mancano ~2998 a 53000.
+Per setup: trend day/open-drive (0 e 0b) 2W (+548) | rottura range dopo 10:15 6W/5L (+66) | sweep&reclaim/V 2W/3L (+326) | resto invariato.
+Coerenza: giorni migliori 310.19 (13/10) e 308.93 (13/11).
+
+## Revisione 13/11 (verifica a posteriori)
+Dopo l'uscita (675.18, 10:13): min 671.74 (11:20), range 671.7-676.3 dalle 10:15 alle 11:30, close 11:25 bar 675.44. Trail da +2R (swing 5m: max 10:15 676.25 +0.5) avrebbe chiuso ~675.4-676.7 = stesso risultato o peggio. Uscita sul livello strutturale = CORRETTA (la gamba è finita esattamente a 674.82 ±2 $). Nessun 2° trade dopo +2.8R: corretto (range choppy 4 $ attorno a 674, nessun A+).
+Slittamento ingresso: bandiera 678.08-678.55, fill 678.96 (~0.4 oltre il top bandiera): accettabile, R ricalcolato 1.24 $ = 101 $.
+Settimana 13/11 (09-13/11): 09/11 +239.18, 10/11 -204.04, 11/11 -112.05, 12/11 0, 13/11 +308.93 = +232.02.
+Fase 2 cumulato: -0.63 (saldo 50002.23; inizio fase 2 = 50002.86). Mancano 2997.77 a 53000. Margine 1711.79.
