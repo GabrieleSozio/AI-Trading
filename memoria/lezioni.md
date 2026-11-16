@@ -175,3 +175,8 @@
 - Uscita su livello strutturale (close di 3 giorni fa) a 2.8R: giusta, la gamba è finita lì e poi 75' di chop. In un trend day i livelli dei giorni precedenti sono i target naturali; trail su swing 5m dopo una gamba verticale restituisce troppo.
 - 1 MNQ con stop 1.24: la regola permetteva solo 1 (stop >0.9). Con 2 MNQ sarebbe stato +615. Quando il setup 0/0b è conforme al 100% e il margine ≥1.700, valutare 2 MNQ con rischio ≤200 $ (vedi playbook).
 - Dopo un vincente ≥2.5R entro le 10:15: fermarsi è stato giusto (chop successivo). Mantengo.
+
+## 16/11 – flat con il setup del piano scattato
+- Il piano diceva: "S2 C short: spinta a 671.7-674.8 che fallisce (1-2 chiusure 5m sotto), SPY senza nuovi max -> short, stop sweep +0.30, target 669.8/667.1". È successo esattamente (sweep 672.02, chiusura 670.57, SPY sotto il max) e non ho eseguito: ~+280 $ persi.
+- Secondo flat in 3 sedute per esecuzione (12/11, 16/11). Analisi e livelli sono giusti; il collo di bottiglia è premere il bottone. Regola: condizione del piano vera = ordine, senza riaprire la discussione.
+- Gap >0.8% con frusta iniziale: la frusta finisce spesso con uno sweep del livello sopra (min ieri/PM max) e poi la direzione del gap riprende (16/11, 11/11 al contrario). È il punto d'ingresso, non un motivo per stare fuori.

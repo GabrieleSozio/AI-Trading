@@ -44,3 +44,11 @@ PRIORITÀ: i giorni di trend (setup 0/0b) pagano 2W/0L +548; rottura range dopo 
 - Target 0/0b: livello strutturale successivo (close/min/max ultimi 10 giorni) se ≥2R -> uscita lì (o 0.3 prima). Se nessun livello entro 4R: trail da +2R.
 - TAGLIA 0/0b (nuovo): se TUTTI i filtri SÌ e margine ≥1.600 -> 2 MNQ anche con stop fino a 1.25 $ (rischio ≤210 $). Altrimenti 1 MNQ. Setup 2 resta con le regole di taglia esistenti.
 - Dopo un vincente ≥2.5R: giornata chiusa salvo setup 0/0b nuovo nel verso opposto con checklist completa.
+
+## AGGIORNAMENTO 16/11
+Stato invariato: fase 2 -0.63, saldo 50002.23, margine 1711.79.
+ESECUZIONE (priorità n.1 domani):
+- Ogni scenario del piano = ORDINE PRE-SCRITTO: condizione esatta (chiusura 5m sotto/sopra livello X + SPY sotto/sopra Y), prezzo ingresso max, stop, target. Se la condizione è vera alla chiusura della barra -> place_trade SUBITO, nessuna nuova deliberazione.
+- 9:40-10:00: wait 1' (massimo 2'). È la finestra del setup C, il più pulito.
+- Setup C con stop fino a 1.8 $ (≤150 $) è ammesso se il livello opposto è ≥1.5R: non scartarlo perché "frusta".
+DA OSSERVARE: inversione contro gap dopo 10:30 su giorni gap >0.8%: SPY non può fare nuovi max di seduta (max = apertura). Registrare "SPY rompe il proprio range 30-45' nello stesso verso" come filtro alternativo (16/11: QQQ rottura 666.04 alle 10:45 con SPY rottura 745.5 -> +3.5 $). 1 caso, non regola.

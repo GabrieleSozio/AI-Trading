@@ -176,3 +176,12 @@ Dopo l'uscita (675.18, 10:13): min 671.74 (11:20), range 671.7-676.3 dalle 10:15
 Slittamento ingresso: bandiera 678.08-678.55, fill 678.96 (~0.4 oltre il top bandiera): accettabile, R ricalcolato 1.24 $ = 101 $.
 Settimana 13/11 (09-13/11): 09/11 +239.18, 10/11 -204.04, 11/11 -112.05, 12/11 0, 13/11 +308.93 = +232.02.
 Fase 2 cumulato: -0.63 (saldo 50002.23; inizio fase 2 = 50002.86). Mancano 2997.77 a 53000. Margine 1711.79.
+
+16/11 | nessun trade (flat) | - | - | - | - | 0.00 | - | S2 C short scattato 9:50 (sweep 672.02 su min ven 671.74, chiusura 5m 670.57, SPY no nuovo max): teorico short 670.5 stop 672.32 -> 667.11 alle 10:00 = ~+280 $. MANCATO.
+Contesto 16/11: gap -1.29% (NVDA downgrade, Bessent/chip Cina). Frusta 20' poi direzione del gap: -9 $ fino 663.08 (10:26), poi rimbalzo +6.5 $ a 669.7 (SPY ripreso il proprio range ma mai nuovi max). Gap >0.8% direzione del gap: 9/10 nella prima ora.
+Giornata 16/11: 0.00. Saldo 50002.23.
+
+## STATO dopo 16/11
+Cumulato fase 2: -0.63 | Trade 30 | W/L 11/19 (37%) | media W +172.09 | media L -102.66 | PF 0.97 | Saldo 50002.23 | min 48290.44 | margine 1711.79 | mancano 2997.77 a 53000.
+Giornate flat con setup del piano scattato e mancato: 12/11 (~+265), 16/11 (~+280). Costo dell'esitazione in 3 sedute: ~545 $.
+Setup C (sweep di livello + rientro, SPY non conferma) all'apertura: mancati 20/10, 23/10, 16/11 = i trade più puliti.

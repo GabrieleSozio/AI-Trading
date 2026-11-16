@@ -192,3 +192,18 @@ Scenari: (A) C long: sweep 688.5/688.2 9:35-9:55 + 1-2 chiusure 5m sopra, SPY no
 Filtri: rischio ≤150, max 2 trade, -200 giorno.
 
 13/11 T1 SHORT 1 MNQ 678.96 (10:05) stop 680.20 -> chiuso 675.18 (10:13) +308.93. Trend day giù SENZA gap (open 688.33 = close ieri): 8 barre 5m min decrescenti, 683.6 e 680.00 rotti, SPY nuovi min ogni gamba. Ingresso in bandiera 1m sotto 680 rotto, stop sopra livello rotto. Retest 679.80 tenuto (0.4 dallo stop) senza toccare. Uscita manuale vicino al target strutturale 674.82. Deviazione dichiarata: filtro gap del setup 0 ignorato.
+
+
+## 16/11 piano (lun)
+Saldo 50002.23, margine 1711.79, fase 2 -0.63. PM 671.25 vs close 680.01 = gap -1.29%. News: NVDA 10 downgrade dopo uscita Huang, Bessent preme NVDA su chip Cina, AMD giù, futures giù. SPY PM ~749.7 (-0.6%).
+Livelli: sopra 671.74 (min ven) | 672.63 | 674.82 (close 10/11) | 676.3 | 678.77 | 680.0. Sotto PM min 669.77 / 670 | 667.11 (min 10/11) | 664.28 | 662.2.
+FILTRI: gap >0.8% -> solo SHORT prima 10:30, MA se SPY verde/compra da subito (come 12/11) -> nessuna direzione. 1 MNQ (vol alta) salvo 0/0b con stop ≤1.25. Rischio ≤150, giorno -200, max 2 trade.
+S1 setup 0 short: entro 9:45 3 barre 5m max decrescenti + SPY/SMH nuovi min + pullback ≤1.3 -> short prima bandiera 1m, stop bandiera +0.30. Target 667.11 se ≥2R, altrimenti trail +2R.
+S2 C short: spinta a 671.7-674.8 che fallisce (1-2 chiusure 5m sotto), SPY senza nuovi max -> short, stop sweep +0.30, target 669.8/667.1 (≥1.5R).
+S3 setup 2 dopo 10:15 (o 0b): rottura range 30-60' con SPY a nuovi estremi, ≤0.5 dal bordo, target min(1.8R, livello-0.15). Long solo dopo 10:30 con SPY nuovi max.
+
+16/11 esito: 0 trade, 0.00 $. Saldo 50002.23, fase 2 -0.63, margine 1711.79.
+Seduta: gap -1.29% (NVDA downgrade). 9:30-9:50 frusta 666.64-672.02. 9:43-9:45 spinta a 672.02 = sweep min ven 671.74/PM max 671.76, barra 5m 9:45 chiusa 670.57 SOTTO, SPY 749.62 < suo max 749.79 (non conferma) -> S2 del piano SCATTATO alle 9:50. Short ~670.5, stop 672.32 (1.8 $, ~148 $), 667.11 a 1.9R: preso alle 10:00 (~+280 $), min 663.08 alle 10:26. MANCATO.
+Poi: rottura 669.77 e 667.11 alle 10:00 (SPY nuovi min), range 663.1-666.0 10:05-10:45, falsa rottura giù 10:25 (663.08, 0.9 sotto), rottura su 10:45 -> 669.68 (11:28). Long 10:45 bloccato dal filtro "SPY nuovi max di seduta" (SPY 747 vs max 749.79): corretto per le regole, ma +3.5 $.
+Giudizio: giornata flat = giornata persa. Il setup del piano c'era, scritto con livello esatto, e non l'ho eseguito. Stesso errore del 12/11 (esecuzione, non analisi).
+Per 17/11: livelli 672.02 (max oggi) / 671.74, 669.6-669.8 (max fine seduta/PM min), 667.5 VWAP, 667.11, 666.04, 664.3-663.08 (min oggi), 662.2. Ogni scenario del piano scritto come ORDINE: "se chiusura 5m X sotto/sopra Y -> place_trade side, stop Z". Dalle 9:40 alle 10:00 wait max 1-2'.
