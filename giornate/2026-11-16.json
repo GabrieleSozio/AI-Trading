@@ -5,7 +5,7 @@
  "stop_id": null,
  "stop_px": null,
  "last_min": 955,
- "done": false,
+ "done": true,
  "trades": [
   {
    "side": -1,
@@ -146,5 +146,27 @@
  "ext_cancel_at": null,
  "best": 660.54,
  "trail_on": false,
- "_n_pushed": 2
+ "_n_pushed": 3,
+ "sip_sim": {
+  "pnl_per_azione": -1.0141,
+  "pnl_usd": -83.15,
+  "trades": [
+   {
+    "side": -1,
+    "t_in": 630,
+    "px_in": 665.22,
+    "t_out": 650,
+    "px_out": 667.1940568047288,
+    "why": "stop"
+   },
+   {
+    "side": -1,
+    "t_in": 810,
+    "px_in": 662.21,
+    "t_out": 955,
+    "px_out": 661.25,
+    "why": "fine"
+   }
+  ]
+ }
 }
