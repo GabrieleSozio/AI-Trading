@@ -12,3 +12,5 @@
 2026-11-17 12:31:05 ET | controllo 12:30: prezzo 656.09 banda 654.73-670.26 VWAP 654.32 posizione 0 segnale 0
 2026-11-17 13:01:04 ET | controllo 13:00: barra mancante
 2026-11-17 13:31:04 ET | controllo 13:30: prezzo 656.76 banda 653.88-671.10 VWAP 654.37 posizione 0 segnale 0
+2026-11-17 14:01:04 ET | controllo 14:00: prezzo 654.02 banda 654.16-670.82 VWAP 654.42 posizione 0 segnale -1
+2026-11-17 14:01:07 ET | INGRESSO short 82 QQQ a 654.03, stop 654.42
