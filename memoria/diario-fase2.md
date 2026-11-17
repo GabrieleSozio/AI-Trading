@@ -207,3 +207,17 @@ Seduta: gap -1.29% (NVDA downgrade). 9:30-9:50 frusta 666.64-672.02. 9:43-9:45 s
 Poi: rottura 669.77 e 667.11 alle 10:00 (SPY nuovi min), range 663.1-666.0 10:05-10:45, falsa rottura giù 10:25 (663.08, 0.9 sotto), rottura su 10:45 -> 669.68 (11:28). Long 10:45 bloccato dal filtro "SPY nuovi max di seduta" (SPY 747 vs max 749.79): corretto per le regole, ma +3.5 $.
 Giudizio: giornata flat = giornata persa. Il setup del piano c'era, scritto con livello esatto, e non l'ho eseguito. Stesso errore del 12/11 (esecuzione, non analisi).
 Per 17/11: livelli 672.02 (max oggi) / 671.74, 669.6-669.8 (max fine seduta/PM min), 667.5 VWAP, 667.11, 666.04, 664.3-663.08 (min oggi), 662.2. Ogni scenario del piano scritto come ORDINE: "se chiusura 5m X sotto/sopra Y -> place_trade side, stop Z". Dalle 9:40 alle 10:00 wait max 1-2'.
+
+## 17/11 piano
+Saldo 50002.23, margine 1711.79, fase 2 -0.63. PM QQQ 663.9 (gap +0.32% = nessuna direzione), SPY PM -0.2% (divergenza). News: NVDA export compliance, niente macro rilevante prima 10:00.
+Livelli: 672.02 max ieri | 671.74 min 13/11 | 667.1-667.8 | 664.28 max 06/11 | 662.2-662.6 | 661.80 close ieri | 660.50 min ieri | 656.31 close 06/11 | 654.01.
+ORDINI PRE-SCRITTI:
+S1 C long (9:35-9:55): sweep sotto 660.50/661.80 + chiusura 5m di nuovo sopra 661.80, SPY NON a nuovi min -> long a mercato, stop min IEX -0.30, 1 MNQ (2 se stop ≤0.9), target 664.1 (se ≥1.5R) o gestione.
+S2 C short (9:35-9:55): sweep sopra 664.28/max 5m iniziale + chiusura 5m di nuovo sotto, SPY NON a nuovi max -> short, stop max IEX +0.30, target 661.9.
+S3 setup 0b/2: dopo 9:50 trend evidente o rottura range 30-60' dopo 10:15 con SPY a nuovi estremi, ingresso ≤0.5 dal bordo, target min(1.8R, livello -0.15).
+Esecuzione: 9:35-10:00 wait 1'. Condizione vera -> place_trade subito.
+
+17/11 T1 short 2 MNQ setup 2 (rottura min 658.43, SPY nuovi min) segnale 658.70, FILL 659.09 (slip 0.39) con stop bandiera 659.44 -> R reale 0.35, preso a 659.54 in 1' = -77.26. Errore: bandiera micro (1m) in range chop di 5 $, rottura di soli 0.07; con slip lo stop è finito dentro il rumore. Prossimo: max 1 trade, rischio ≤100, non prima 10:35, nuova struttura.
+
+17/11 esito: 1 trade, -77.26. Short 2 MNQ 659.09 (10:19) rottura range 658.43 con LH e SPY nuovi min; stop 659.44 su micro-bandiera 1m, preso 10:20 (659.54). Fill già dentro il range; nessuna chiusura 5m oltre il bordo. Poi rottura vera 10:30 -> 646.92 (10:50), V a 656.2, chiusura ~653.8. Re-ingresso mancato. Saldo 49924.97, fase 2 -77.89.
+Per 18/11: livelli 663.3 (max/apertura 17/11), 660.0-660.6 (LH), 658.4 (bordo rotto), 656.3 (close 06/11), 654.9 VWAP, 654.0, 652.6-653, 648.5, 646.9 (min 17/11). Stop strutturale prima, taglia dopo. Setup 2 solo su chiusura 5m con volume. Re-ingresso obbligatorio sulla rottura vera dopo uno stop. Obiettivo ≥ +80 (serve tornare positivi entro venerdì 20/11).

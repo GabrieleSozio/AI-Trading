@@ -180,3 +180,11 @@
 - Il piano diceva: "S2 C short: spinta a 671.7-674.8 che fallisce (1-2 chiusure 5m sotto), SPY senza nuovi max -> short, stop sweep +0.30, target 669.8/667.1". È successo esattamente (sweep 672.02, chiusura 670.57, SPY sotto il max) e non ho eseguito: ~+280 $ persi.
 - Secondo flat in 3 sedute per esecuzione (12/11, 16/11). Analisi e livelli sono giusti; il collo di bottiglia è premere il bottone. Regola: condizione del piano vera = ordine, senza riaprire la discussione.
 - Gap >0.8% con frusta iniziale: la frusta finisce spesso con uno sweep del livello sopra (min ieri/PM max) e poi la direzione del gap riprende (16/11, 11/11 al contrario). È il punto d'ingresso, non un motivo per stare fuori.
+
+## Revisione 17/11 (-77.26) onesta
+- Lettura GIUSTA: range con 5 massimi decrescenti, SPY a nuovi min, short. Il mercato ha fatto -12 $ dopo il mio stop.
+- ERRORE N.1 PER L'8a VOLTA: ho scelto lo stop (micro-bandiera 1m 659.14 +0.30) per poter usare 2 MNQ (regola "stop ≤0.9 -> 2"). La struttura vera era l'ultimo LH 660.04/660.60. Ho invertito l'ordine: prima la taglia, poi lo stop. La regola "stop ≤0.9 -> 2 MNQ" mi spinge a stringere: da oggi lo stop si scrive PRIMA di guardare la taglia.
+- ERRORE 2: entrato su rottura 1m senza chiusura 5m oltre il bordo (barra 10:15 chiusa 659.00, dentro). Fill 659.09 = già DENTRO il range (0.66 sopra il bordo 658.43): il trade era invalido al fill; la regola "fill >0.3 peggio -> ricalcola" andava applicata = chiudere o non entrare.
+- ERRORE 3 (il più caro): dopo lo stop non ho rientrato sulla rottura vera (10:30 chiusura 5m 655.72 con volume 3x e SPY nuovi min). La regola dopo-perdita (15' + chiusura 5m a nuovo estremo) lo permetteva dalle 10:35. Poi 0b evidente alle 10:40 (656.31 e 654.01 rotti). Mancati ~+300/500 $.
+- Pattern: le false rotture di 0.1 su 1m al bordo di un range (10:15) sono frequenti; la rottura vera arriva con barra 5m larga + volume (10:30: 13.9k vs 2.7-4.6k).
+- REGOLA: setup 2 = chiusura 5m oltre il bordo (o retest dopo chiusura). Stop = oltre l'ultimo swing del RANGE (LH/HL), mai sulla bandiera 1m. Se lo stop strutturale >1.8 $ -> aspetta il retest o salta. Dopo uno stop con direzione confermata dalla rottura vera -> rientro obbligatorio se le condizioni della regola dopo-perdita sono vere.

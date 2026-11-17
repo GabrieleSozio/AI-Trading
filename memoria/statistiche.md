@@ -185,3 +185,13 @@ Giornata 16/11: 0.00. Saldo 50002.23.
 Cumulato fase 2: -0.63 | Trade 30 | W/L 11/19 (37%) | media W +172.09 | media L -102.66 | PF 0.97 | Saldo 50002.23 | min 48290.44 | margine 1711.79 | mancano 2997.77 a 53000.
 Giornate flat con setup del piano scattato e mancato: 12/11 (~+265), 16/11 (~+280). Costo dell'esitazione in 3 sedute: ~545 $.
 Setup C (sweep di livello + rientro, SPY non conferma) all'apertura: mancati 20/10, 23/10, 16/11 = i trade più puliti.
+
+17/11 | 2 rottura range 9:30-10:15 (658.43) con LH, SPY nuovi min | short 2 | 659.09 10:19 (segnale 658.70, slip 0.39 -> fill DENTRO il range, 0.66 sopra il bordo) | 659.44 (~125 da tesi; reale 0.35 dal fill) | 659.54 10:20 stop | -77.26 | ~0/-0.45 | stop su micro-bandiera 1m per far stare 2 MNQ (ERRORE N.1); barra 5m 10:15 chiusa 659.00 = NESSUNA chiusura oltre il bordo; max successivo 660.05 (10:25). Rottura vera 10:30 (chiusura 5m 655.72, SPY nuovi min) -> 646.92 alle 10:50 (-12 $). Re-ingresso consentito dalle 10:35 (15' + chiusura 5m a nuovo min) NON preso. Stop strutturale corretto: sopra LH 660.04/660.60 +0.30 = ~660.4-660.9 -> 1 MNQ ~150 $, target 656.31 preso 10:35 (~+220) o 0b trail fino ~650.
+Contesto 17/11: gap +0.32% (nessuna direzione), apertura 663.15 = max di seduta, range 658.4-663.3 con 5 max decrescenti fino 10:30, rottura 10:30 con volume (13.9k) e SPY nuovi min, trend -16 $ in 50' (656.31 e 654.01 rotti), V-rimbalzo 646.92 -> 656.18 (10:55-11:09), poi 653-655.
+Giornata 17/11: -77.26. Saldo 49924.97.
+
+## STATO dopo 17/11
+Cumulato fase 2: -77.89 | Trade 31 | W/L 11/20 (35%) | media W +172.09 (tot +1892.94) | media L -101.39 (tot -2027.82) | PF 0.93 | Saldo 49924.97 | min 48290.44 | margine 1634.53 | mancano 3075.03 a 53000.
+Per setup: trend day 0/0b 2W (+548) | rottura range dopo 10:15 6W/6L (-11) | sweep&reclaim/V 2W/3L (+326) | resto invariato.
+Stop "stretti per far stare la taglia" in fase 2: 13/10, 14/10 x2, 15/10, 19/10, 10/11, 11/11, 17/11 = 8 casi, quasi tutti con direzione GIUSTA. È la perdita singola più costosa del mio trading.
+Ultime 4 sedute: 2 flat con setup mancato (~+545), 1 stop micro-bandiera con trend -12 $ dopo. Problema = esecuzione/stop, non lettura.

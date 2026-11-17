@@ -52,3 +52,10 @@ ESECUZIONE (priorità n.1 domani):
 - 9:40-10:00: wait 1' (massimo 2'). È la finestra del setup C, il più pulito.
 - Setup C con stop fino a 1.8 $ (≤150 $) è ammesso se il livello opposto è ≥1.5R: non scartarlo perché "frusta".
 DA OSSERVARE: inversione contro gap dopo 10:30 su giorni gap >0.8%: SPY non può fare nuovi max di seduta (max = apertura). Registrare "SPY rompe il proprio range 30-45' nello stesso verso" come filtro alternativo (16/11: QQQ rottura 666.04 alle 10:45 con SPY rottura 745.5 -> +3.5 $). 1 caso, non regola.
+
+## AGGIORNAMENTO 17/11
+Stato: fase 2 -77.89 (31 trade, 11W/20L, 35%, PF 0.93). Saldo 49924.97, margine 1634.53.
+ORDINE OBBLIGATORIO (scritto nella tesi): 1) stop strutturale = oltre l'ultimo swing del range/struttura (LH per short, HL per long) +0.30; 2) SOLO DOPO, taglia: ≤0.9 -> 2 MNQ; 0.9-1.8 -> 1; >1.8 -> retest o salto. Vietato scegliere una micro-bandiera 1m come stop nel setup 2.
+SETUP 2 ingresso: serve CHIUSURA 5m oltre il bordo (barra di rottura con volume ≥2x la media delle ultime 6). Rottura solo su 1m = non valida. Se il fill è tornato dentro il range -> chiudo subito.
+RE-INGRESSO DOPO STOP: se entro 30' arriva la rottura vera nel verso della mia tesi (chiusura 5m a nuovo estremo + SPY conferma), il re-ingresso è OBBLIGATORIO con stop strutturale (1 MNQ, ≤100 $). Non è vendetta: è lo stesso setup confermato.
+0b dopo rottura range: se dopo la rottura 2 livelli chiave cadono e SPY fa nuovi estremi -> 0b attivo anche se avevo già perso un trade (rispettando max 2 trade).
