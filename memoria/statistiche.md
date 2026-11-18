@@ -195,3 +195,10 @@ Cumulato fase 2: -77.89 | Trade 31 | W/L 11/20 (35%) | media W +172.09 (tot +189
 Per setup: trend day 0/0b 2W (+548) | rottura range dopo 10:15 6W/6L (-11) | sweep&reclaim/V 2W/3L (+326) | resto invariato.
 Stop "stretti per far stare la taglia" in fase 2: 13/10, 14/10 x2, 15/10, 19/10, 10/11, 11/11, 17/11 = 8 casi, quasi tutti con direzione GIUSTA. È la perdita singola più costosa del mio trading.
 Ultime 4 sedute: 2 flat con setup mancato (~+545), 1 stop micro-bandiera con trend -12 $ dopo. Problema = esecuzione/stop, non lettura.
+
+18/11 | nessun trade (flat) | - | - | - | - | 0.00 | - | range day 654.00-662.28 (gap +0.49% riempito in 8'). Tutti gli scenari scartati per filtri scritti (SPY conferma, stop >1.8, livello <1.5R). Mancato fuori playbook: fade 3° test max 661.91 alle 10:20 (SPY sotto il max) -> 655.2 (+6.5 $, stop 0.9).
+Giornata 18/11: 0.00. Saldo 49924.97.
+
+## STATO dopo 18/11
+Cumulato fase 2: -77.89 | Trade 31 | W/L 11/20 (35%) | media W +172.09 | media L -101.39 | PF 0.93 | Saldo 49924.97 | min 48290.44 | margine 1634.53 | mancano 3075.03 a 53000.
+Giornate flat ultime 6 sedute: 12/11, 16/11, 18/11 (3 su 6). Range day senza trend = i miei setup (C con SPY divergente, 0b, rottura range) non scattano.

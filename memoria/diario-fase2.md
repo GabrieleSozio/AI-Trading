@@ -221,3 +221,18 @@ Esecuzione: 9:35-10:00 wait 1'. Condizione vera -> place_trade subito.
 
 17/11 esito: 1 trade, -77.26. Short 2 MNQ 659.09 (10:19) rottura range 658.43 con LH e SPY nuovi min; stop 659.44 su micro-bandiera 1m, preso 10:20 (659.54). Fill già dentro il range; nessuna chiusura 5m oltre il bordo. Poi rottura vera 10:30 -> 646.92 (10:50), V a 656.2, chiusura ~653.8. Re-ingresso mancato. Saldo 49924.97, fase 2 -77.89.
 Per 18/11: livelli 663.3 (max/apertura 17/11), 660.0-660.6 (LH), 658.4 (bordo rotto), 656.3 (close 06/11), 654.9 VWAP, 654.0, 652.6-653, 648.5, 646.9 (min 17/11). Stop strutturale prima, taglia dopo. Setup 2 solo su chiusura 5m con volume. Re-ingresso obbligatorio sulla rottura vera dopo uno stop. Obiettivo ≥ +80 (serve tornare positivi entro venerdì 20/11).
+
+
+## 18/11 piano (mer)
+Saldo 49924.97, margine 1634.53, fase 2 -77.89. NVDA trimestrale ieri sera (PM ~+2.5%, 158.6) ma SEC investigation + 10-Q ritardato. QQQ PM 660.30 (max 662.35 in calo) vs close 657.06 = gap +0.49% -> NESSUNA direzione. 3 giorni di calo (688->647), ieri V da 646.92 e chiusura forte.
+Livelli: 664.28 | 663.32 max ieri | 662.35 PM max / 662.2 | 661.80 close 16/11 | 660.50 min 16/11 / 660.3 PM | 657.06 close ieri (gap fill) | 656.31 | 654.01 | 651.6 | 646.92 min ieri.
+ORDINI PRE-SCRITTI:
+S1 C long (9:35-9:55): sweep sotto 657.06/656.31 + chiusura 5m di nuovo sopra 657.06, SPY NON a nuovi min -> long, stop min IEX -0.30, 1 MNQ (2 se stop ≤0.9), target 660.3 (≥1.5R) poi gestione.
+S2 C short (9:35-9:55): spinta sopra 662.35/663.32 + chiusura 5m di nuovo sotto 662.2, SPY NON a nuovi max -> short, stop max IEX +0.30, target 660.5/VWAP (≥1.5R).
+S3 0/0b: trend evidente (3+ barre 5m estremi progressivi, SPY nuovi estremi, livelli rotti) -> bandiera 1m oltre livello rotto, stop strutturale. Setup 2 dopo 10:15: chiusura 5m oltre bordo range 30-60' + volume, SPY nuovi estremi, ≤0.5 dal bordo, target min(1.8R, livello-0.15).
+Rischio max 150/trade, giorno -200, max 2 trade. Stop strutturale PRIMA, poi taglia. 9:35-10:00 wait 1-2'.
+
+18/11 esito: 0 trade, 0.00 $ (flat). Saldo 49924.97, fase 2 -77.89.
+Seduta: gap +0.49% riempito in 8' (657.06 rotto 9:38). Sweep 656.31->656.00 e rientro 9:39 con SPY che CONFERMAVA il minimo e stop 2.2 $ -> S1 scartato (poi 655.22, giusto). Min 654.00 esatto sul livello 654.01 (9:50, doppio minimo 654.23/654.00, SPY nuovi min) -> V +8 $ fino 662.28 alle 10:00 (doppio max con l'apertura). Range 654-662.3 tutta la mattina, volume IEX bassissimo dopo 10:05: 3° test alto 661.91 (10:20) -> discesa a 655.20 (10:42), minimi crescenti 655.2/655.9/656.6, chop 657-658.7 sotto VWAP fino 11:10.
+Scartati per filtri: S1 (SPY conferma, stop 2.2), short 657.04 10:40 (volume ok ma 656.3/656.0 a <1R, SPY non a nuovi min), 0b short (654 mai rotto), long rimbalzi (VWAP a ~1R).
+Mancato (non era nel playbook): range day fade del 3° test del massimo 661.91-662.28 alle 10:20 con SPY sotto il suo max (733.3 vs 735.01): short ~661.7 stop 662.6 (0.9) -> 655.2 (+6.5 $). E long al doppio minimo 654.0 sul livello (SPY però faceva nuovi min).

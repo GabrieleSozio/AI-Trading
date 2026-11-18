@@ -59,3 +59,8 @@ ORDINE OBBLIGATORIO (scritto nella tesi): 1) stop strutturale = oltre l'ultimo s
 SETUP 2 ingresso: serve CHIUSURA 5m oltre il bordo (barra di rottura con volume ≥2x la media delle ultime 6). Rottura solo su 1m = non valida. Se il fill è tornato dentro il range -> chiudo subito.
 RE-INGRESSO DOPO STOP: se entro 30' arriva la rottura vera nel verso della mia tesi (chiusura 5m a nuovo estremo + SPY conferma), il re-ingresso è OBBLIGATORIO con stop strutturale (1 MNQ, ≤100 $). Non è vendetta: è lo stesso setup confermato.
 0b dopo rottura range: se dopo la rottura 2 livelli chiave cadono e SPY fa nuovi estremi -> 0b attivo anche se avevo già perso un trade (rispettando max 2 trade).
+
+## AGGIORNAMENTO 18/11 (flat, range day)
+Stato: fase 2 -77.89, saldo 49924.97, margine 1634.53.
+SETUP 4 NUOVO (in prova, 1 MNQ, rischio ≤100): FADE DEL 3° TEST IN RANGE DAY. Condizioni: dopo 10:00 il range di seduta ha ENTRAMBI gli estremi testati ≥2 volte o una V completa (es. 18/11: 654-662.3; 21/10: 720.1-723.5); prezzo torna al 3° test dell'estremo (entro 0.4) con barra 1m di rifiuto; SPY NON a nuovi estremi di seduta in quel verso (≥0.15% lontano). Ingresso al rifiuto, stop 0.5 oltre l'estremo di seduta (≤1.0 $ -> 1 MNQ, ≤0.9 e margine ok -> 2). Target fisso = VWAP se ≥1.5R, altrimenti metà range. Max 1 volta al giorno. Casi a posteriori: 21/10 long 720.3 (+2.5 $), 18/11 short 661.7 (+4 $ al VWAP... VWAP 659 = 2.7 $ = 3R).
+Motivo: 3 flat su 6 sedute sono giorni di range in cui nessun mio setup di trend/rottura scatta. Questo è il setup per QUEL tipo di giornata, non un'eccezione da inventare in diretta.

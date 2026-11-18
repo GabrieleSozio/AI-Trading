@@ -1,0 +1,4 @@
+2026-11-18 07:00:02 ET | avvio (riavvii 0)
+2026-11-18 11:30:03 ET | LUCID: giornata 2026-11-18: +0.00 $, saldo 49924.97 $
+2026-11-18 11:30:04 ET | ERRORE nella revisione: RuntimeError('API Claude HTTP 400: {"type":"error","error":{"type":"invalid_request_error","message":"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."},"request_id":"req_011ChAiD1LYg9bdyGAs5QxMa"}')
+2026-11-18 11:30:04 ET | FINE: 0 trade, +0.00 $, chiamate API 96, costo 3.34 $
